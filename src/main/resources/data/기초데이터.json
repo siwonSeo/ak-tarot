@@ -2,1038 +2,3048 @@
     {
         "cardId": 0,
         "cardNumber": 0,
-        "cardNumberName": 0,
-        "cardType" : "Major",
+        "cardNumberName": "0",
+        "cardType": "Major",
         "cardName": "광대 (The Fool)",
         "keywords": [
-            {"isReversed": false, "keyword": "새로운 시작"},
-            {"isReversed": false, "keyword": "순수함"},
-            {"isReversed": false, "keyword": "모험"},
-            {"isReversed": false, "keyword": "자유"},
-            {"isReversed": true, "keyword": "무모함"},
-            {"isReversed": true, "keyword": "위험한 행동"},
-            {"isReversed": true, "keyword": "부주의"}
+            {
+                "keywordId": 3,
+                "isReversed": false,
+                "keyword": "모험"
+            },
+            {
+                "keywordId": 1,
+                "isReversed": false,
+                "keyword": "새로운 시작"
+            },
+            {
+                "keywordId": 2,
+                "isReversed": false,
+                "keyword": "순수함"
+            },
+            {
+                "keywordId": 4,
+                "isReversed": false,
+                "keyword": "자유"
+            },
+            {
+                "keywordId": 5,
+                "isReversed": true,
+                "keyword": "무모함"
+            },
+            {
+                "keywordId": 7,
+                "isReversed": true,
+                "keyword": "부주의"
+            },
+            {
+                "keywordId": 6,
+                "isReversed": true,
+                "keyword": "위험한 행동"
+            }
         ]
     },
     {
         "cardId": 1,
         "cardNumber": 1,
-        "cardNumberName": 1,
-        "cardType" : "Major",
+        "cardNumberName": "1",
+        "cardType": "Major",
         "cardName": "마법사 (The Magician)",
         "keywords": [
-            {"isReversed": false, "keyword": "능력"},
-            {"isReversed": false, "keyword": "자신감"},
-            {"isReversed": false, "keyword": "창의력"},
-            {"isReversed": false, "keyword": "의사소통"},
-            {"isReversed": true, "keyword": "사기"},
-            {"isReversed": true, "keyword": "기만"}
+            {
+                "keywordId": 8,
+                "isReversed": false,
+                "keyword": "능력"
+            },
+            {
+                "keywordId": 11,
+                "isReversed": false,
+                "keyword": "의사소통"
+            },
+            {
+                "keywordId": 9,
+                "isReversed": false,
+                "keyword": "자신감"
+            },
+            {
+                "keywordId": 10,
+                "isReversed": false,
+                "keyword": "창의력"
+            },
+            {
+                "keywordId": 13,
+                "isReversed": true,
+                "keyword": "기만"
+            },
+            {
+                "keywordId": 12,
+                "isReversed": true,
+                "keyword": "사기"
+            }
         ]
     },
     {
         "cardId": 2,
         "cardNumber": 2,
-        "cardNumberName": 2,
-        "cardType" : "Major",
+        "cardNumberName": "2",
+        "cardType": "Major",
         "cardName": "여사제 (The High Priestess)",
         "keywords": [
-            {"isReversed": false, "keyword": "직관"},
-            {"isReversed": false, "keyword": "내면의 지혜"},
-            {"isReversed": false, "keyword": "신비"},
-            {"isReversed": false, "keyword": "이해"},
-            {"isReversed": true, "keyword": "시큰둥함"},
-            {"isReversed": true, "keyword": "부정확성"}
+            {
+                "keywordId": 15,
+                "isReversed": false,
+                "keyword": "내면의 지혜"
+            },
+            {
+                "keywordId": 16,
+                "isReversed": false,
+                "keyword": "신비"
+            },
+            {
+                "keywordId": 17,
+                "isReversed": false,
+                "keyword": "이해"
+            },
+            {
+                "keywordId": 14,
+                "isReversed": false,
+                "keyword": "직관"
+            },
+            {
+                "keywordId": 19,
+                "isReversed": true,
+                "keyword": "부정확성"
+            },
+            {
+                "keywordId": 18,
+                "isReversed": true,
+                "keyword": "시큰둥함"
+            }
         ]
     },
     {
         "cardId": 3,
         "cardNumber": 3,
-        "cardNumberName": 3,
-        "cardType" : "Major",
+        "cardNumberName": "3",
+        "cardType": "Major",
         "cardName": "여황제 (The Empress)",
         "keywords": [
-            {"isReversed": false, "keyword": "풍요"},
-            {"isReversed": false, "keyword": "애정"},
-            {"isReversed": false, "keyword": "자연"},
-            {"isReversed": false, "keyword": "배려"},
-            {"isReversed": true, "keyword": "과잉"},
-            {"isReversed": true, "keyword": "폐쇄적"}
+            {
+                "keywordId": 23,
+                "isReversed": false,
+                "keyword": "배려"
+            },
+            {
+                "keywordId": 21,
+                "isReversed": false,
+                "keyword": "애정"
+            },
+            {
+                "keywordId": 22,
+                "isReversed": false,
+                "keyword": "자연"
+            },
+            {
+                "keywordId": 20,
+                "isReversed": false,
+                "keyword": "풍요"
+            },
+            {
+                "keywordId": 24,
+                "isReversed": true,
+                "keyword": "과잉"
+            },
+            {
+                "keywordId": 25,
+                "isReversed": true,
+                "keyword": "폐쇄적"
+            }
         ]
     },
     {
         "cardId": 4,
         "cardNumber": 4,
-        "cardNumberName": 4,
-        "cardType" : "Major",
+        "cardNumberName": "4",
+        "cardType": "Major",
         "cardName": "황제 (The Emperor)",
         "keywords": [
-            {"isReversed": false, "keyword": "통치"},
-            {"isReversed": false, "keyword": "권위"},
-            {"isReversed": false, "keyword": "안정"},
-            {"isReversed": false, "keyword": "조직"},
-            {"isReversed": true, "keyword": "통제력 상실"},
-            {"isReversed": true, "keyword": "독재적"}
+            {
+                "keywordId": 27,
+                "isReversed": false,
+                "keyword": "권위"
+            },
+            {
+                "keywordId": 28,
+                "isReversed": false,
+                "keyword": "안정"
+            },
+            {
+                "keywordId": 29,
+                "isReversed": false,
+                "keyword": "조직"
+            },
+            {
+                "keywordId": 26,
+                "isReversed": false,
+                "keyword": "통치"
+            },
+            {
+                "keywordId": 31,
+                "isReversed": true,
+                "keyword": "독재적"
+            },
+            {
+                "keywordId": 30,
+                "isReversed": true,
+                "keyword": "통제력 상실"
+            }
         ]
     },
     {
         "cardId": 5,
         "cardNumber": 5,
-        "cardNumberName": 5,
-        "cardType" : "Major",
+        "cardNumberName": "5",
+        "cardType": "Major",
         "cardName": "사제 (The Hierophant)",
         "keywords": [
-            {"isReversed": false, "keyword": "지혜"},
-            {"isReversed": false, "keyword": "전통"},
-            {"isReversed": false, "keyword": "교육"},
-            {"isReversed": false, "keyword": "윤리"},
-            {"isReversed": true, "keyword": "집착"},
-            {"isReversed": true, "keyword": "제한"}
+            {
+                "keywordId": 34,
+                "isReversed": false,
+                "keyword": "교육"
+            },
+            {
+                "keywordId": 35,
+                "isReversed": false,
+                "keyword": "윤리"
+            },
+            {
+                "keywordId": 33,
+                "isReversed": false,
+                "keyword": "전통"
+            },
+            {
+                "keywordId": 32,
+                "isReversed": false,
+                "keyword": "지혜"
+            },
+            {
+                "keywordId": 37,
+                "isReversed": true,
+                "keyword": "제한"
+            },
+            {
+                "keywordId": 36,
+                "isReversed": true,
+                "keyword": "집착"
+            }
         ]
     },
     {
         "cardId": 6,
         "cardNumber": 6,
-        "cardNumberName": 6,
-        "cardType" : "Major",
+        "cardNumberName": "6",
+        "cardType": "Major",
         "cardName": "연인들 (The Lovers)",
         "keywords": [
-            {"isReversed": false, "keyword": "사랑"},
-            {"isReversed": false, "keyword": "연애"},
-            {"isReversed": false, "keyword": "결합"},
-            {"isReversed": false, "keyword": "융합"},
-            {"isReversed": true, "keyword": "갈등"},
-            {"isReversed": true, "keyword": "이별"}
+            {
+                "keywordId": 40,
+                "isReversed": false,
+                "keyword": "결합"
+            },
+            {
+                "keywordId": 38,
+                "isReversed": false,
+                "keyword": "사랑"
+            },
+            {
+                "keywordId": 39,
+                "isReversed": false,
+                "keyword": "연애"
+            },
+            {
+                "keywordId": 41,
+                "isReversed": false,
+                "keyword": "융합"
+            },
+            {
+                "keywordId": 42,
+                "isReversed": true,
+                "keyword": "갈등"
+            },
+            {
+                "keywordId": 43,
+                "isReversed": true,
+                "keyword": "이별"
+            }
         ]
     },
     {
         "cardId": 7,
         "cardNumber": 7,
-        "cardNumberName": 7,
-        "cardType" : "Major",
+        "cardNumberName": "7",
+        "cardType": "Major",
         "cardName": "전차 (The Chariot)",
         "keywords": [
-            {"isReversed": false, "keyword": "승리"},
-            {"isReversed": false, "keyword": "행진"},
-            {"isReversed": false, "keyword": "자아신장"},
-            {"isReversed": false, "keyword": "의지"},
-            {"isReversed": true, "keyword": "폭주"},
-            {"isReversed": true, "keyword": "제어력 상실"}
+            {
+                "keywordId": 44,
+                "isReversed": false,
+                "keyword": "승리"
+            },
+            {
+                "keywordId": 47,
+                "isReversed": false,
+                "keyword": "의지"
+            },
+            {
+                "keywordId": 46,
+                "isReversed": false,
+                "keyword": "자아신장"
+            },
+            {
+                "keywordId": 45,
+                "isReversed": false,
+                "keyword": "행진"
+            },
+            {
+                "keywordId": 49,
+                "isReversed": true,
+                "keyword": "제어력 상실"
+            },
+            {
+                "keywordId": 48,
+                "isReversed": true,
+                "keyword": "폭주"
+            }
         ]
     },
     {
         "cardId": 8,
         "cardNumber": 8,
-        "cardNumberName": 8,
-        "cardType" : "Major",
+        "cardNumberName": "8",
+        "cardType": "Major",
         "cardName": "힘 (Strength)",
         "keywords": [
-            {"isReversed": false, "keyword": "용기"},
-            {"isReversed": false, "keyword": "힘"},
-            {"isReversed": false, "keyword": "극복"},
-            {"isReversed": false, "keyword": "자기통제"},
-            {"isReversed": true, "keyword": "약점"},
-            {"isReversed": true, "keyword": "자기제한"}
+            {
+                "keywordId": 52,
+                "isReversed": false,
+                "keyword": "극복"
+            },
+            {
+                "keywordId": 50,
+                "isReversed": false,
+                "keyword": "용기"
+            },
+            {
+                "keywordId": 53,
+                "isReversed": false,
+                "keyword": "자기통제"
+            },
+            {
+                "keywordId": 51,
+                "isReversed": false,
+                "keyword": "힘"
+            },
+            {
+                "keywordId": 54,
+                "isReversed": true,
+                "keyword": "약점"
+            },
+            {
+                "keywordId": 55,
+                "isReversed": true,
+                "keyword": "자기제한"
+            }
         ]
     },
     {
         "cardId": 9,
         "cardNumber": 9,
-        "cardNumberName": 9,
-        "cardType" : "Major",
+        "cardNumberName": "9",
+        "cardType": "Major",
         "cardName": "은둔자 (The Hermit)",
         "keywords": [
-            {"isReversed": false, "keyword": "고립"},
-            {"isReversed": false, "keyword": "지혜"},
-            {"isReversed": false, "keyword": "탐구"},
-            {"isReversed": false, "keyword": "내면적 진리"},
-            {"isReversed": true, "keyword": "불확실성"},
-            {"isReversed": true, "keyword": "사회적 불만"}
+            {
+                "keywordId": 56,
+                "isReversed": false,
+                "keyword": "고립"
+            },
+            {
+                "keywordId": 59,
+                "isReversed": false,
+                "keyword": "내면적 진리"
+            },
+            {
+                "keywordId": 57,
+                "isReversed": false,
+                "keyword": "지혜"
+            },
+            {
+                "keywordId": 58,
+                "isReversed": false,
+                "keyword": "탐구"
+            },
+            {
+                "keywordId": 60,
+                "isReversed": true,
+                "keyword": "불확실성"
+            },
+            {
+                "keywordId": 61,
+                "isReversed": true,
+                "keyword": "사회적 불만"
+            }
         ]
     },
     {
         "cardId": 10,
         "cardNumber": 10,
-        "cardNumberName": 10,
-        "cardType" : "Major",
+        "cardNumberName": "10",
+        "cardType": "Major",
         "cardName": "운명의 수레바퀴 (Wheel of Fortune)",
         "keywords": [
-            {"isReversed": false, "keyword": "운명"},
-            {"isReversed": false, "keyword": "변화"},
-            {"isReversed": false, "keyword": "행운"},
-            {"isReversed": false, "keyword": "기회"},
-            {"isReversed": true, "keyword": "불안정성"},
-            {"isReversed": true, "keyword": "오류"}
+            {
+                "keywordId": 65,
+                "isReversed": false,
+                "keyword": "기회"
+            },
+            {
+                "keywordId": 63,
+                "isReversed": false,
+                "keyword": "변화"
+            },
+            {
+                "keywordId": 62,
+                "isReversed": false,
+                "keyword": "운명"
+            },
+            {
+                "keywordId": 64,
+                "isReversed": false,
+                "keyword": "행운"
+            },
+            {
+                "keywordId": 66,
+                "isReversed": true,
+                "keyword": "불안정성"
+            },
+            {
+                "keywordId": 67,
+                "isReversed": true,
+                "keyword": "오류"
+            }
         ]
     },
     {
         "cardId": 11,
         "cardNumber": 11,
+        "cardNumberName": "11",
+        "cardType": "Major",
         "cardName": "정의 (Justice)",
         "keywords": [
-            {"isReversed": false, "keyword": "공정"},
-            {"isReversed": false, "keyword": "균형"},
-            {"isReversed": false, "keyword": "진실"},
-            {"isReversed": false, "keyword": "법률"},
-            {"isReversed": true, "keyword": "부당함"},
-            {"isReversed": true, "keyword": "편견"}
+            {
+                "keywordId": 68,
+                "isReversed": false,
+                "keyword": "공정"
+            },
+            {
+                "keywordId": 69,
+                "isReversed": false,
+                "keyword": "균형"
+            },
+            {
+                "keywordId": 71,
+                "isReversed": false,
+                "keyword": "법률"
+            },
+            {
+                "keywordId": 70,
+                "isReversed": false,
+                "keyword": "진실"
+            },
+            {
+                "keywordId": 72,
+                "isReversed": true,
+                "keyword": "부당함"
+            },
+            {
+                "keywordId": 73,
+                "isReversed": true,
+                "keyword": "편견"
+            }
         ]
     },
     {
         "cardId": 12,
         "cardNumber": 12,
+        "cardNumberName": "12",
+        "cardType": "Major",
         "cardName": "행드맨 (The Hanged Man)",
         "keywords": [
-            {"isReversed": false, "keyword": "희생"},
-            {"isReversed": false, "keyword": "자기반성"},
-            {"isReversed": false, "keyword": "자기희생"},
-            {"isReversed": false, "keyword": "휴식"},
-            {"isReversed": true, "keyword": "복수"},
-            {"isReversed": true, "keyword": "자기만족"}
+            {
+                "keywordId": 75,
+                "isReversed": false,
+                "keyword": "자기반성"
+            },
+            {
+                "keywordId": 76,
+                "isReversed": false,
+                "keyword": "자기희생"
+            },
+            {
+                "keywordId": 77,
+                "isReversed": false,
+                "keyword": "휴식"
+            },
+            {
+                "keywordId": 74,
+                "isReversed": false,
+                "keyword": "희생"
+            },
+            {
+                "keywordId": 78,
+                "isReversed": true,
+                "keyword": "복수"
+            },
+            {
+                "keywordId": 79,
+                "isReversed": true,
+                "keyword": "자기만족"
+            }
         ]
     },
     {
         "cardId": 13,
         "cardNumber": 13,
+        "cardNumberName": "13",
+        "cardType": "Major",
         "cardName": "죽음 (Death)",
         "keywords": [
-            {"isReversed": false, "keyword": "변혁"},
-            {"isReversed": false, "keyword": "말소"},
-            {"isReversed": false, "keyword": "재생"},
-            {"isReversed": false, "keyword": "종결"},
-            {"isReversed": true, "keyword": "고착"},
-            {"isReversed": true, "keyword": "손실"}
+            {
+                "keywordId": 81,
+                "isReversed": false,
+                "keyword": "말소"
+            },
+            {
+                "keywordId": 80,
+                "isReversed": false,
+                "keyword": "변혁"
+            },
+            {
+                "keywordId": 82,
+                "isReversed": false,
+                "keyword": "재생"
+            },
+            {
+                "keywordId": 83,
+                "isReversed": false,
+                "keyword": "종결"
+            },
+            {
+                "keywordId": 84,
+                "isReversed": true,
+                "keyword": "고착"
+            },
+            {
+                "keywordId": 85,
+                "isReversed": true,
+                "keyword": "손실"
+            }
         ]
     },
     {
         "cardId": 14,
         "cardNumber": 14,
+        "cardNumberName": "14",
+        "cardType": "Major",
         "cardName": "절제 (Temperance)",
         "keywords": [
-            {"isReversed": false, "keyword": "조화"},
-            {"isReversed": false, "keyword": "중재"},
-            {"isReversed": false, "keyword": "통합"},
-            {"isReversed": false, "keyword": "절제"},
-            {"isReversed": true, "keyword": "과잉"},
-            {"isReversed": true, "keyword": "불균형"}
+            {
+                "keywordId": 89,
+                "isReversed": false,
+                "keyword": "절제"
+            },
+            {
+                "keywordId": 86,
+                "isReversed": false,
+                "keyword": "조화"
+            },
+            {
+                "keywordId": 87,
+                "isReversed": false,
+                "keyword": "중재"
+            },
+            {
+                "keywordId": 88,
+                "isReversed": false,
+                "keyword": "통합"
+            },
+            {
+                "keywordId": 90,
+                "isReversed": true,
+                "keyword": "과잉"
+            },
+            {
+                "keywordId": 91,
+                "isReversed": true,
+                "keyword": "불균형"
+            }
         ]
     },
     {
         "cardId": 15,
         "cardNumber": 15,
+        "cardNumberName": "15",
+        "cardType": "Major",
         "cardName": "악마 (The Devil)",
         "keywords": [
-            {"isReversed": false, "keyword": "결핍"},
-            {"isReversed": false, "keyword": "중독"},
-            {"isReversed": false, "keyword": "강박"},
-            {"isReversed": false, "keyword": "종속"},
-            {"isReversed": true, "keyword": "해방"},
-            {"isReversed": true, "keyword": "자유"}
+            {
+                "keywordId": 94,
+                "isReversed": false,
+                "keyword": "강박"
+            },
+            {
+                "keywordId": 92,
+                "isReversed": false,
+                "keyword": "결핍"
+            },
+            {
+                "keywordId": 95,
+                "isReversed": false,
+                "keyword": "종속"
+            },
+            {
+                "keywordId": 93,
+                "isReversed": false,
+                "keyword": "중독"
+            },
+            {
+                "keywordId": 97,
+                "isReversed": true,
+                "keyword": "자유"
+            },
+            {
+                "keywordId": 96,
+                "isReversed": true,
+                "keyword": "해방"
+            }
         ]
     },
     {
         "cardId": 16,
         "cardNumber": 16,
+        "cardNumberName": "16",
+        "cardType": "Major",
         "cardName": "탑 (The Tower)",
         "keywords": [
-            {"isReversed": false, "keyword": "파괴"},
-            {"isReversed": false, "keyword": "충격"},
-            {"isReversed": false, "keyword": "개혁"},
-            {"isReversed": false, "keyword": "비상"},
-            {"isReversed": true, "keyword": "완화"},
-            {"isReversed": true, "keyword": "재건"}
+            {
+                "keywordId": 100,
+                "isReversed": false,
+                "keyword": "개혁"
+            },
+            {
+                "keywordId": 101,
+                "isReversed": false,
+                "keyword": "비상"
+            },
+            {
+                "keywordId": 99,
+                "isReversed": false,
+                "keyword": "충격"
+            },
+            {
+                "keywordId": 98,
+                "isReversed": false,
+                "keyword": "파괴"
+            },
+            {
+                "keywordId": 102,
+                "isReversed": true,
+                "keyword": "완화"
+            },
+            {
+                "keywordId": 103,
+                "isReversed": true,
+                "keyword": "재건"
+            }
         ]
     },
     {
         "cardId": 17,
         "cardNumber": 17,
+        "cardNumberName": "17",
+        "cardType": "Major",
         "cardName": "별 (The Star)",
         "keywords": [
-            {"isReversed": false, "keyword": "희망"},
-            {"isReversed": false, "keyword": "감정적 치유"},
-            {"isReversed": false, "keyword": "영감"},
-            {"isReversed": false, "keyword": "목표"},
-            {"isReversed": true, "keyword": "염세"},
-            {"isReversed": true, "keyword": "실망"}
+            {
+                "keywordId": 105,
+                "isReversed": false,
+                "keyword": "감정적 치유"
+            },
+            {
+                "keywordId": 107,
+                "isReversed": false,
+                "keyword": "목표"
+            },
+            {
+                "keywordId": 106,
+                "isReversed": false,
+                "keyword": "영감"
+            },
+            {
+                "keywordId": 104,
+                "isReversed": false,
+                "keyword": "희망"
+            },
+            {
+                "keywordId": 109,
+                "isReversed": true,
+                "keyword": "실망"
+            },
+            {
+                "keywordId": 108,
+                "isReversed": true,
+                "keyword": "염세"
+            }
         ]
     },
     {
         "cardId": 18,
         "cardNumber": 18,
+        "cardNumberName": "18",
+        "cardType": "Major",
         "cardName": "달 (The Moon)",
         "keywords": [
-            {"isReversed": false, "keyword": "불안"},
-            {"isReversed": false, "keyword": "감정"},
-            {"isReversed": false, "keyword": "풍부한 상상력"},
-            {"isReversed": false, "keyword": "비밀"},
-            {"isReversed": true, "keyword": "착각"},
-            {"isReversed": true, "keyword": "혼란"}
+            {
+                "keywordId": 111,
+                "isReversed": false,
+                "keyword": "감정"
+            },
+            {
+                "keywordId": 110,
+                "isReversed": false,
+                "keyword": "불안"
+            },
+            {
+                "keywordId": 113,
+                "isReversed": false,
+                "keyword": "비밀"
+            },
+            {
+                "keywordId": 112,
+                "isReversed": false,
+                "keyword": "풍부한 상상력"
+            },
+            {
+                "keywordId": 114,
+                "isReversed": true,
+                "keyword": "착각"
+            },
+            {
+                "keywordId": 115,
+                "isReversed": true,
+                "keyword": "혼란"
+            }
         ]
     },
     {
         "cardId": 19,
         "cardNumber": 19,
+        "cardNumberName": "19",
+        "cardType": "Major",
         "cardName": "태양 (The Sun)",
         "keywords": [
-            {"isReversed": false, "keyword": "해답"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "밝은 미래"},
-            {"isReversed": false, "keyword": "자신감"},
-            {"isReversed": true, "keyword": "오만"},
-            {"isReversed": true, "keyword": "허상"}
+            {
+                "keywordId": 118,
+                "isReversed": false,
+                "keyword": "밝은 미래"
+            },
+            {
+                "keywordId": 117,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 119,
+                "isReversed": false,
+                "keyword": "자신감"
+            },
+            {
+                "keywordId": 116,
+                "isReversed": false,
+                "keyword": "해답"
+            },
+            {
+                "keywordId": 120,
+                "isReversed": true,
+                "keyword": "오만"
+            },
+            {
+                "keywordId": 121,
+                "isReversed": true,
+                "keyword": "허상"
+            }
         ]
     },
     {
         "cardId": 20,
         "cardNumber": 20,
+        "cardNumberName": "20",
+        "cardType": "Major",
         "cardName": "판사 (Judgement)",
         "keywords": [
-            {"isReversed": false, "keyword": "결과"},
-            {"isReversed": false, "keyword": "개방"},
-            {"isReversed": false, "keyword": "자비"},
-            {"isReversed": false, "keyword": "리뉴얼"},
-            {"isReversed": true, "keyword": "자존심 상실"},
-            {"isReversed": true, "keyword": "자발적 속박"}
+            {
+                "keywordId": 123,
+                "isReversed": false,
+                "keyword": "개방"
+            },
+            {
+                "keywordId": 122,
+                "isReversed": false,
+                "keyword": "결과"
+            },
+            {
+                "keywordId": 125,
+                "isReversed": false,
+                "keyword": "리뉴얼"
+            },
+            {
+                "keywordId": 124,
+                "isReversed": false,
+                "keyword": "자비"
+            },
+            {
+                "keywordId": 127,
+                "isReversed": true,
+                "keyword": "자발적 속박"
+            },
+            {
+                "keywordId": 126,
+                "isReversed": true,
+                "keyword": "자존심 상실"
+            }
         ]
     },
     {
         "cardId": 21,
         "cardNumber": 21,
+        "cardNumberName": "21",
+        "cardType": "Major",
         "cardName": "세계 (The World)",
         "keywords": [
-            {"isReversed": false, "keyword": "완성"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "통합"},
-            {"isReversed": true, "keyword": "불완전"},
-            {"isReversed": true, "keyword": "실패"}
+            {
+                "keywordId": 130,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 129,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 128,
+                "isReversed": false,
+                "keyword": "완성"
+            },
+            {
+                "keywordId": 131,
+                "isReversed": false,
+                "keyword": "통합"
+            },
+            {
+                "keywordId": 132,
+                "isReversed": true,
+                "keyword": "불완전"
+            },
+            {
+                "keywordId": 133,
+                "isReversed": true,
+                "keyword": "실패"
+            }
         ]
     },
     {
         "cardId": 22,
         "cardNumber": 1,
+        "cardNumberName": "Ace",
+        "cardType": "Wand",
         "cardName": "에이스 오브 완드 (Ace of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "창조적인 기회"},
-            {"isReversed": false, "keyword": "새로운 아이디어"},
-            {"isReversed": false, "keyword": "행동"},
-            {"isReversed": false, "keyword": "에너지"},
-            {"isReversed": true, "keyword": "낭비"},
-            {"isReversed": true, "keyword": "좌절"}
+            {
+                "keywordId": 135,
+                "isReversed": false,
+                "keyword": "새로운 아이디어"
+            },
+            {
+                "keywordId": 137,
+                "isReversed": false,
+                "keyword": "에너지"
+            },
+            {
+                "keywordId": 134,
+                "isReversed": false,
+                "keyword": "창조적인 기회"
+            },
+            {
+                "keywordId": 136,
+                "isReversed": false,
+                "keyword": "행동"
+            },
+            {
+                "keywordId": 138,
+                "isReversed": true,
+                "keyword": "낭비"
+            },
+            {
+                "keywordId": 139,
+                "isReversed": true,
+                "keyword": "좌절"
+            }
         ]
     },
     {
         "cardId": 23,
         "cardNumber": 2,
+        "cardNumberName": "Two",
+        "cardType": "Wand",
         "cardName": "투 오브 완드 (Two of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "계획"},
-            {"isReversed": false, "keyword": "전망"},
-            {"isReversed": false, "keyword": "결정"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": true, "keyword": "망설임"},
-            {"isReversed": true, "keyword": "미숙한 결정"}
+            {
+                "keywordId": 142,
+                "isReversed": false,
+                "keyword": "결정"
+            },
+            {
+                "keywordId": 140,
+                "isReversed": false,
+                "keyword": "계획"
+            },
+            {
+                "keywordId": 143,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 141,
+                "isReversed": false,
+                "keyword": "전망"
+            },
+            {
+                "keywordId": 144,
+                "isReversed": true,
+                "keyword": "망설임"
+            },
+            {
+                "keywordId": 145,
+                "isReversed": true,
+                "keyword": "미숙한 결정"
+            }
         ]
     },
     {
         "cardId": 24,
         "cardNumber": 3,
+        "cardNumberName": "Three",
+        "cardType": "Wand",
         "cardName": "쓰리 오브 완드 (Three of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "계획"},
-            {"isReversed": false, "keyword": "무역"},
-            {"isReversed": false, "keyword": "성장"},
-            {"isReversed": false, "keyword": "확장"},
-            {"isReversed": true, "keyword": "허무"},
-            {"isReversed": true, "keyword": "실패한 기회"}
+            {
+                "keywordId": 146,
+                "isReversed": false,
+                "keyword": "계획"
+            },
+            {
+                "keywordId": 147,
+                "isReversed": false,
+                "keyword": "무역"
+            },
+            {
+                "keywordId": 148,
+                "isReversed": false,
+                "keyword": "성장"
+            },
+            {
+                "keywordId": 149,
+                "isReversed": false,
+                "keyword": "확장"
+            },
+            {
+                "keywordId": 151,
+                "isReversed": true,
+                "keyword": "실패한 기회"
+            },
+            {
+                "keywordId": 150,
+                "isReversed": true,
+                "keyword": "허무"
+            }
         ]
     },
     {
         "cardId": 25,
         "cardNumber": 4,
+        "cardNumberName": "Four",
+        "cardType": "Wand",
         "cardName": "포 오브 완드 (Four of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "확신"},
-            {"isReversed": false, "keyword": "축제"},
-            {"isReversed": true, "keyword": "불만"},
-            {"isReversed": true, "keyword": "부정적인 기념일"}
+            {
+                "keywordId": 153,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 152,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 155,
+                "isReversed": false,
+                "keyword": "축제"
+            },
+            {
+                "keywordId": 154,
+                "isReversed": false,
+                "keyword": "확신"
+            },
+            {
+                "keywordId": 157,
+                "isReversed": true,
+                "keyword": "부정적인 기념일"
+            },
+            {
+                "keywordId": 156,
+                "isReversed": true,
+                "keyword": "불만"
+            }
         ]
     },
     {
         "cardId": 26,
         "cardNumber": 5,
+        "cardNumberName": "Five",
+        "cardType": "Wand",
         "cardName": "파이브 오브 완드 (Five of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "경쟁"},
-            {"isReversed": false, "keyword": "갈등"},
-            {"isReversed": false, "keyword": "도전"},
-            {"isReversed": false, "keyword": "논쟁"},
-            {"isReversed": true, "keyword": "효율성의 결여"},
-            {"isReversed": true, "keyword": "배신"}
+            {
+                "keywordId": 159,
+                "isReversed": false,
+                "keyword": "갈등"
+            },
+            {
+                "keywordId": 158,
+                "isReversed": false,
+                "keyword": "경쟁"
+            },
+            {
+                "keywordId": 161,
+                "isReversed": false,
+                "keyword": "논쟁"
+            },
+            {
+                "keywordId": 160,
+                "isReversed": false,
+                "keyword": "도전"
+            },
+            {
+                "keywordId": 163,
+                "isReversed": true,
+                "keyword": "배신"
+            },
+            {
+                "keywordId": 162,
+                "isReversed": true,
+                "keyword": "효율성의 결여"
+            }
         ]
     },
     {
         "cardId": 27,
         "cardNumber": 6,
+        "cardNumberName": "Six",
+        "cardType": "Wand",
         "cardName": "식스 오브 완드 (Six of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "승리"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": false, "keyword": "영광"},
-            {"isReversed": false, "keyword": "완성"},
-            {"isReversed": true, "keyword": "자만심"},
-            {"isReversed": true, "keyword": "배신"}
+            {
+                "keywordId": 165,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 164,
+                "isReversed": false,
+                "keyword": "승리"
+            },
+            {
+                "keywordId": 166,
+                "isReversed": false,
+                "keyword": "영광"
+            },
+            {
+                "keywordId": 167,
+                "isReversed": false,
+                "keyword": "완성"
+            },
+            {
+                "keywordId": 169,
+                "isReversed": true,
+                "keyword": "배신"
+            },
+            {
+                "keywordId": 168,
+                "isReversed": true,
+                "keyword": "자만심"
+            }
         ]
     },
     {
         "cardId": 28,
         "cardNumber": 7,
+        "cardNumberName": "Seven",
+        "cardType": "Wand",
         "cardName": "세븐 오브 완드 (Seven of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "도전"},
-            {"isReversed": false, "keyword": "긴장"},
-            {"isReversed": false, "keyword": "자위"},
-            {"isReversed": false, "keyword": "경쟁"},
-            {"isReversed": true, "keyword": "자기 방어"},
-            {"isReversed": true, "keyword": "소극성"}
+            {
+                "keywordId": 173,
+                "isReversed": false,
+                "keyword": "경쟁"
+            },
+            {
+                "keywordId": 171,
+                "isReversed": false,
+                "keyword": "긴장"
+            },
+            {
+                "keywordId": 170,
+                "isReversed": false,
+                "keyword": "도전"
+            },
+            {
+                "keywordId": 172,
+                "isReversed": false,
+                "keyword": "자위"
+            },
+            {
+                "keywordId": 175,
+                "isReversed": true,
+                "keyword": "소극성"
+            },
+            {
+                "keywordId": 174,
+                "isReversed": true,
+                "keyword": "자기 방어"
+            }
         ]
     },
     {
         "cardId": 29,
         "cardNumber": 8,
+        "cardNumberName": "Eight",
+        "cardType": "Wand",
         "cardName": "에잇 오브 완드 (Eight of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "신속"},
-            {"isReversed": false, "keyword": "행동"},
-            {"isReversed": false, "keyword": "진행"},
-            {"isReversed": false, "keyword": "통신"},
-            {"isReversed": true, "keyword": "지연"},
-            {"isReversed": true, "keyword": "낭비"}
+            {
+                "keywordId": 176,
+                "isReversed": false,
+                "keyword": "신속"
+            },
+            {
+                "keywordId": 178,
+                "isReversed": false,
+                "keyword": "진행"
+            },
+            {
+                "keywordId": 179,
+                "isReversed": false,
+                "keyword": "통신"
+            },
+            {
+                "keywordId": 177,
+                "isReversed": false,
+                "keyword": "행동"
+            },
+            {
+                "keywordId": 181,
+                "isReversed": true,
+                "keyword": "낭비"
+            },
+            {
+                "keywordId": 180,
+                "isReversed": true,
+                "keyword": "지연"
+            }
         ]
     },
     {
         "cardId": 30,
         "cardNumber": 9,
+        "cardNumberName": "Nine",
+        "cardType": "Wand",
         "cardName": "나인 오브 완드 (Nine of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "방어"},
-            {"isReversed": false, "keyword": "인내"},
-            {"isReversed": false, "keyword": "도전"},
-            {"isReversed": false, "keyword": "지구력"},
-            {"isReversed": true, "keyword": "연약"},
-            {"isReversed": true, "keyword": "예기치 못한 결말"}
+            {
+                "keywordId": 184,
+                "isReversed": false,
+                "keyword": "도전"
+            },
+            {
+                "keywordId": 182,
+                "isReversed": false,
+                "keyword": "방어"
+            },
+            {
+                "keywordId": 183,
+                "isReversed": false,
+                "keyword": "인내"
+            },
+            {
+                "keywordId": 185,
+                "isReversed": false,
+                "keyword": "지구력"
+            },
+            {
+                "keywordId": 186,
+                "isReversed": true,
+                "keyword": "연약"
+            },
+            {
+                "keywordId": 187,
+                "isReversed": true,
+                "keyword": "예기치 못한 결말"
+            }
         ]
     },
     {
         "cardId": 31,
         "cardNumber": 10,
+        "cardNumberName": "Ten",
+        "cardType": "Wand",
         "cardName": "텐 오브 완드 (Ten of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "부담"},
-            {"isReversed": false, "keyword": "책임"},
-            {"isReversed": false, "keyword": "배가"},
-            {"isReversed": false, "keyword": "장애물"},
-            {"isReversed": true, "keyword": "과중한 부담"},
-            {"isReversed": true, "keyword": "변명"}
+            {
+                "keywordId": 190,
+                "isReversed": false,
+                "keyword": "배가"
+            },
+            {
+                "keywordId": 188,
+                "isReversed": false,
+                "keyword": "부담"
+            },
+            {
+                "keywordId": 191,
+                "isReversed": false,
+                "keyword": "장애물"
+            },
+            {
+                "keywordId": 189,
+                "isReversed": false,
+                "keyword": "책임"
+            },
+            {
+                "keywordId": 192,
+                "isReversed": true,
+                "keyword": "과중한 부담"
+            },
+            {
+                "keywordId": 193,
+                "isReversed": true,
+                "keyword": "변명"
+            }
         ]
     },
     {
         "cardId": 32,
         "cardNumber": 11,
+        "cardNumberName": "Page",
+        "cardType": "Wand",
         "cardName": "페이지 오브 완드 (Page of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "창의적인 기회"},
-            {"isReversed": false, "keyword": "흥분"},
-            {"isReversed": false, "keyword": "모험"},
-            {"isReversed": false, "keyword": "열정"},
-            {"isReversed": true, "keyword": "불안정"},
-            {"isReversed": true, "keyword": "감정적 변동"}
+            {
+                "keywordId": 196,
+                "isReversed": false,
+                "keyword": "모험"
+            },
+            {
+                "keywordId": 197,
+                "isReversed": false,
+                "keyword": "열정"
+            },
+            {
+                "keywordId": 194,
+                "isReversed": false,
+                "keyword": "창의적인 기회"
+            },
+            {
+                "keywordId": 195,
+                "isReversed": false,
+                "keyword": "흥분"
+            },
+            {
+                "keywordId": 199,
+                "isReversed": true,
+                "keyword": "감정적 변동"
+            },
+            {
+                "keywordId": 198,
+                "isReversed": true,
+                "keyword": "불안정"
+            }
         ]
     },
     {
         "cardId": 33,
         "cardNumber": 12,
+        "cardNumberName": "Knight",
+        "cardType": "Wand",
         "cardName": "나이트 오브 완드 (Knight of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "모험"},
-            {"isReversed": false, "keyword": "모험심"},
-            {"isReversed": false, "keyword": "활동적"},
-            {"isReversed": false, "keyword": "열정"},
-            {"isReversed": true, "keyword": "무모함"},
-            {"isReversed": true, "keyword": "배신"}
+            {
+                "keywordId": 200,
+                "isReversed": false,
+                "keyword": "모험"
+            },
+            {
+                "keywordId": 201,
+                "isReversed": false,
+                "keyword": "모험심"
+            },
+            {
+                "keywordId": 203,
+                "isReversed": false,
+                "keyword": "열정"
+            },
+            {
+                "keywordId": 202,
+                "isReversed": false,
+                "keyword": "활동적"
+            },
+            {
+                "keywordId": 204,
+                "isReversed": true,
+                "keyword": "무모함"
+            },
+            {
+                "keywordId": 205,
+                "isReversed": true,
+                "keyword": "배신"
+            }
         ]
     },
     {
         "cardId": 34,
         "cardNumber": 13,
+        "cardNumberName": "Queen",
+        "cardType": "Wand",
         "cardName": "퀸 오브 완드 (Queen of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "열정"},
-            {"isReversed": false, "keyword": "자신감"},
-            {"isReversed": false, "keyword": "열성"},
-            {"isReversed": false, "keyword": "리더십"},
-            {"isReversed": true, "keyword": "과도"},
-            {"isReversed": true, "keyword": "자만"}
+            {
+                "keywordId": 209,
+                "isReversed": false,
+                "keyword": "리더십"
+            },
+            {
+                "keywordId": 208,
+                "isReversed": false,
+                "keyword": "열성"
+            },
+            {
+                "keywordId": 206,
+                "isReversed": false,
+                "keyword": "열정"
+            },
+            {
+                "keywordId": 207,
+                "isReversed": false,
+                "keyword": "자신감"
+            },
+            {
+                "keywordId": 210,
+                "isReversed": true,
+                "keyword": "과도"
+            },
+            {
+                "keywordId": 211,
+                "isReversed": true,
+                "keyword": "자만"
+            }
         ]
     },
     {
         "cardId": 35,
         "cardNumber": 14,
+        "cardNumberName": "King",
+        "cardType": "Wand",
         "cardName": "킹 오브 완드 (King of Wands)",
         "keywords": [
-            {"isReversed": false, "keyword": "리더십"},
-            {"isReversed": false, "keyword": "자신감"},
-            {"isReversed": false, "keyword": "열정"},
-            {"isReversed": false, "keyword": "카리스마"},
-            {"isReversed": true, "keyword": "고집"},
-            {"isReversed": true, "keyword": "과도한 위험"}
+            {
+                "keywordId": 212,
+                "isReversed": false,
+                "keyword": "리더십"
+            },
+            {
+                "keywordId": 214,
+                "isReversed": false,
+                "keyword": "열정"
+            },
+            {
+                "keywordId": 213,
+                "isReversed": false,
+                "keyword": "자신감"
+            },
+            {
+                "keywordId": 215,
+                "isReversed": false,
+                "keyword": "카리스마"
+            },
+            {
+                "keywordId": 216,
+                "isReversed": true,
+                "keyword": "고집"
+            },
+            {
+                "keywordId": 217,
+                "isReversed": true,
+                "keyword": "과도한 위험"
+            }
         ]
     },
     {
         "cardId": 36,
         "cardNumber": 1,
+        "cardNumberName": "Ace",
+        "cardType": "Cup",
         "cardName": "에이스 오브 컵 (Ace of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "사랑"},
-            {"isReversed": false, "keyword": "감정적인 충족"},
-            {"isReversed": false, "keyword": "풍성함"},
-            {"isReversed": false, "keyword": "창조적인 기쁨"},
-            {"isReversed": true, "keyword": "감정적 소진"},
-            {"isReversed": true, "keyword": "연민"}
+            {
+                "keywordId": 219,
+                "isReversed": false,
+                "keyword": "감정적인 충족"
+            },
+            {
+                "keywordId": 218,
+                "isReversed": false,
+                "keyword": "사랑"
+            },
+            {
+                "keywordId": 221,
+                "isReversed": false,
+                "keyword": "창조적인 기쁨"
+            },
+            {
+                "keywordId": 220,
+                "isReversed": false,
+                "keyword": "풍성함"
+            },
+            {
+                "keywordId": 222,
+                "isReversed": true,
+                "keyword": "감정적 소진"
+            },
+            {
+                "keywordId": 223,
+                "isReversed": true,
+                "keyword": "연민"
+            }
         ]
     },
     {
         "cardId": 37,
         "cardNumber": 2,
+        "cardNumberName": "Two",
+        "cardType": "Cup",
         "cardName": "투 오브 컵 (Two of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "동반자"},
-            {"isReversed": false, "keyword": "조화"},
-            {"isReversed": false, "keyword": "애정"},
-            {"isReversed": false, "keyword": "동료애"},
-            {"isReversed": true, "keyword": "갈등"},
-            {"isReversed": true, "keyword": "감정적인 배신"}
+            {
+                "keywordId": 227,
+                "isReversed": false,
+                "keyword": "동료애"
+            },
+            {
+                "keywordId": 224,
+                "isReversed": false,
+                "keyword": "동반자"
+            },
+            {
+                "keywordId": 226,
+                "isReversed": false,
+                "keyword": "애정"
+            },
+            {
+                "keywordId": 225,
+                "isReversed": false,
+                "keyword": "조화"
+            },
+            {
+                "keywordId": 228,
+                "isReversed": true,
+                "keyword": "갈등"
+            },
+            {
+                "keywordId": 229,
+                "isReversed": true,
+                "keyword": "감정적인 배신"
+            }
         ]
     },
     {
         "cardId": 38,
         "cardNumber": 3,
+        "cardNumberName": "Three",
+        "cardType": "Cup",
         "cardName": "쓰리 컵 (Three of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "기쁨"},
-            {"isReversed": false, "keyword": "사교적인 모임"},
-            {"isReversed": false, "keyword": "축제"},
-            {"isReversed": true, "keyword": "과도한 기쁨"},
-            {"isReversed": true, "keyword": "자만심"}
+            {
+                "keywordId": 231,
+                "isReversed": false,
+                "keyword": "기쁨"
+            },
+            {
+                "keywordId": 230,
+                "isReversed": false,
+                "keyword": "만족"
+            },
+            {
+                "keywordId": 232,
+                "isReversed": false,
+                "keyword": "사교적인 모임"
+            },
+            {
+                "keywordId": 233,
+                "isReversed": false,
+                "keyword": "축제"
+            },
+            {
+                "keywordId": 234,
+                "isReversed": true,
+                "keyword": "과도한 기쁨"
+            },
+            {
+                "keywordId": 235,
+                "isReversed": true,
+                "keyword": "자만심"
+            }
         ]
     },
     {
         "cardId": 39,
         "cardNumber": 4,
+        "cardNumberName": "Four",
+        "cardType": "Cup",
         "cardName": "포 오브 컵 (Four of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "심사숙고"},
-            {"isReversed": false, "keyword": "감정적 불만"},
-            {"isReversed": false, "keyword": "불만"},
-            {"isReversed": true, "keyword": "무관심"},
-            {"isReversed": true, "keyword": "감정적인 고립"}
+            {
+                "keywordId": 238,
+                "isReversed": false,
+                "keyword": "감정적 불만"
+            },
+            {
+                "keywordId": 236,
+                "isReversed": false,
+                "keyword": "만족"
+            },
+            {
+                "keywordId": 239,
+                "isReversed": false,
+                "keyword": "불만"
+            },
+            {
+                "keywordId": 237,
+                "isReversed": false,
+                "keyword": "심사숙고"
+            },
+            {
+                "keywordId": 241,
+                "isReversed": true,
+                "keyword": "감정적인 고립"
+            },
+            {
+                "keywordId": 240,
+                "isReversed": true,
+                "keyword": "무관심"
+            }
         ]
     },
     {
         "cardId": 40,
         "cardNumber": 5,
+        "cardNumberName": "Five",
+        "cardType": "Cup",
         "cardName": "파이브 오브 컵 (Five of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "손실"},
-            {"isReversed": false, "keyword": "애도"},
-            {"isReversed": false, "keyword": "회한"},
-            {"isReversed": false, "keyword": "슬픔"},
-            {"isReversed": true, "keyword": "자애로운 눈물"},
-            {"isReversed": true, "keyword": "과거의 매몰"}
+            {
+                "keywordId": 242,
+                "isReversed": false,
+                "keyword": "손실"
+            },
+            {
+                "keywordId": 245,
+                "isReversed": false,
+                "keyword": "슬픔"
+            },
+            {
+                "keywordId": 243,
+                "isReversed": false,
+                "keyword": "애도"
+            },
+            {
+                "keywordId": 244,
+                "isReversed": false,
+                "keyword": "회한"
+            },
+            {
+                "keywordId": 247,
+                "isReversed": true,
+                "keyword": "과거의 매몰"
+            },
+            {
+                "keywordId": 246,
+                "isReversed": true,
+                "keyword": "자애로운 눈물"
+            }
         ]
     },
     {
         "cardId": 41,
         "cardNumber": 6,
+        "cardNumberName": "Six",
+        "cardType": "Cup",
         "cardName": "식스 오브 컵 (Six of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "회상"},
-            {"isReversed": false, "keyword": "추억"},
-            {"isReversed": false, "keyword": "유년 시절"},
-            {"isReversed": false, "keyword": "연민"},
-            {"isReversed": true, "keyword": "과거에 사로잡힘"},
-            {"isReversed": true, "keyword": "현실과의 연결 분리"}
+            {
+                "keywordId": 251,
+                "isReversed": false,
+                "keyword": "연민"
+            },
+            {
+                "keywordId": 250,
+                "isReversed": false,
+                "keyword": "유년 시절"
+            },
+            {
+                "keywordId": 249,
+                "isReversed": false,
+                "keyword": "추억"
+            },
+            {
+                "keywordId": 248,
+                "isReversed": false,
+                "keyword": "회상"
+            },
+            {
+                "keywordId": 252,
+                "isReversed": true,
+                "keyword": "과거에 사로잡힘"
+            },
+            {
+                "keywordId": 253,
+                "isReversed": true,
+                "keyword": "현실과의 연결 분리"
+            }
         ]
     },
     {
         "cardId": 42,
         "cardNumber": 7,
+        "cardNumberName": "Seven",
+        "cardType": "Cup",
         "cardName": "세븐 오브 컵 (Seven of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "상상"},
-            {"isReversed": false, "keyword": "환상"},
-            {"isReversed": false, "keyword": "선택"},
-            {"isReversed": false, "keyword": "망상"},
-            {"isReversed": true, "keyword": "현실에서의 도피"},
-            {"isReversed": true, "keyword": "혼란"}
+            {
+                "keywordId": 257,
+                "isReversed": false,
+                "keyword": "망상"
+            },
+            {
+                "keywordId": 254,
+                "isReversed": false,
+                "keyword": "상상"
+            },
+            {
+                "keywordId": 256,
+                "isReversed": false,
+                "keyword": "선택"
+            },
+            {
+                "keywordId": 255,
+                "isReversed": false,
+                "keyword": "환상"
+            },
+            {
+                "keywordId": 258,
+                "isReversed": true,
+                "keyword": "현실에서의 도피"
+            },
+            {
+                "keywordId": 259,
+                "isReversed": true,
+                "keyword": "혼란"
+            }
         ]
     },
     {
         "cardId": 43,
         "cardNumber": 8,
+        "cardNumberName": "Eight",
+        "cardType": "Cup",
         "cardName": "에잇 오브 컵 (Eight of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "포기"},
-            {"isReversed": false, "keyword": "여행"},
-            {"isReversed": false, "keyword": "내적 탐구"},
-            {"isReversed": false, "keyword": "자아 찾기"},
-            {"isReversed": true, "keyword": "미완성"},
-            {"isReversed": true, "keyword": "회피"}
+            {
+                "keywordId": 262,
+                "isReversed": false,
+                "keyword": "내적 탐구"
+            },
+            {
+                "keywordId": 261,
+                "isReversed": false,
+                "keyword": "여행"
+            },
+            {
+                "keywordId": 263,
+                "isReversed": false,
+                "keyword": "자아 찾기"
+            },
+            {
+                "keywordId": 260,
+                "isReversed": false,
+                "keyword": "포기"
+            },
+            {
+                "keywordId": 264,
+                "isReversed": true,
+                "keyword": "미완성"
+            },
+            {
+                "keywordId": 265,
+                "isReversed": true,
+                "keyword": "회피"
+            }
         ]
     },
     {
         "cardId": 44,
         "cardNumber": 9,
+        "cardNumberName": "Nine",
+        "cardType": "Cup",
         "cardName": "나인 오브 컵 (Nine of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "행복"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": true, "keyword": "과소평가된 만족"},
-            {"isReversed": true, "keyword": "과잉 자화상"}
+            {
+                "keywordId": 266,
+                "isReversed": false,
+                "keyword": "만족"
+            },
+            {
+                "keywordId": 267,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 269,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 268,
+                "isReversed": false,
+                "keyword": "행복"
+            },
+            {
+                "keywordId": 270,
+                "isReversed": true,
+                "keyword": "과소평가된 만족"
+            },
+            {
+                "keywordId": 271,
+                "isReversed": true,
+                "keyword": "과잉 자화상"
+            }
         ]
     },
     {
         "cardId": 45,
         "cardNumber": 10,
+        "cardNumberName": "Ten",
+        "cardType": "Cup",
         "cardName": "텐 오브 컵 (Ten of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "가정"},
-            {"isReversed": false, "keyword": "행복"},
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": true, "keyword": "가정의 불화"},
-            {"isReversed": true, "keyword": "과대 평가된 행복"}
+            {
+                "keywordId": 272,
+                "isReversed": false,
+                "keyword": "가정"
+            },
+            {
+                "keywordId": 274,
+                "isReversed": false,
+                "keyword": "만족"
+            },
+            {
+                "keywordId": 275,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 273,
+                "isReversed": false,
+                "keyword": "행복"
+            },
+            {
+                "keywordId": 276,
+                "isReversed": true,
+                "keyword": "가정의 불화"
+            },
+            {
+                "keywordId": 277,
+                "isReversed": true,
+                "keyword": "과대 평가된 행복"
+            }
         ]
     },
     {
         "cardId": 46,
         "cardNumber": 11,
+        "cardNumberName": "Page",
+        "cardType": "Cup",
         "cardName": "페이지 오브 컵 (Page of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "감수성"},
-            {"isReversed": false, "keyword": "예술성"},
-            {"isReversed": false, "keyword": "상상력"},
-            {"isReversed": false, "keyword": "애정"},
-            {"isReversed": true, "keyword": "비현실적"},
-            {"isReversed": true, "keyword": "과잉 감정"}
+            {
+                "keywordId": 278,
+                "isReversed": false,
+                "keyword": "감수성"
+            },
+            {
+                "keywordId": 280,
+                "isReversed": false,
+                "keyword": "상상력"
+            },
+            {
+                "keywordId": 281,
+                "isReversed": false,
+                "keyword": "애정"
+            },
+            {
+                "keywordId": 279,
+                "isReversed": false,
+                "keyword": "예술성"
+            },
+            {
+                "keywordId": 283,
+                "isReversed": true,
+                "keyword": "과잉 감정"
+            },
+            {
+                "keywordId": 282,
+                "isReversed": true,
+                "keyword": "비현실적"
+            }
         ]
     },
     {
         "cardId": 47,
         "cardNumber": 12,
+        "cardNumberName": "Knight",
+        "cardType": "Cup",
         "cardName": "나이트 오브 컵 (Knight of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "로맨틱"},
-            {"isReversed": false, "keyword": "감수성"},
-            {"isReversed": false, "keyword": "상상력"},
-            {"isReversed": false, "keyword": "순수함"},
-            {"isReversed": true, "keyword": "과대한 이상화"},
-            {"isReversed": true, "keyword": "현실과의 괴리"}
+            {
+                "keywordId": 285,
+                "isReversed": false,
+                "keyword": "감수성"
+            },
+            {
+                "keywordId": 284,
+                "isReversed": false,
+                "keyword": "로맨틱"
+            },
+            {
+                "keywordId": 286,
+                "isReversed": false,
+                "keyword": "상상력"
+            },
+            {
+                "keywordId": 287,
+                "isReversed": false,
+                "keyword": "순수함"
+            },
+            {
+                "keywordId": 288,
+                "isReversed": true,
+                "keyword": "과대한 이상화"
+            },
+            {
+                "keywordId": 289,
+                "isReversed": true,
+                "keyword": "현실과의 괴리"
+            }
         ]
     },
     {
         "cardId": 48,
         "cardNumber": 13,
+        "cardNumberName": "Queen",
+        "cardType": "Cup",
         "cardName": "퀸 오브 컵 (Queen of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "감정"},
-            {"isReversed": false, "keyword": "통찰력"},
-            {"isReversed": false, "keyword": "자비로움"},
-            {"isReversed": false, "keyword": "직관"},
-            {"isReversed": true, "keyword": "과도한 감정"},
-            {"isReversed": true, "keyword": "피해자 의식"}
+            {
+                "keywordId": 290,
+                "isReversed": false,
+                "keyword": "감정"
+            },
+            {
+                "keywordId": 292,
+                "isReversed": false,
+                "keyword": "자비로움"
+            },
+            {
+                "keywordId": 293,
+                "isReversed": false,
+                "keyword": "직관"
+            },
+            {
+                "keywordId": 291,
+                "isReversed": false,
+                "keyword": "통찰력"
+            },
+            {
+                "keywordId": 294,
+                "isReversed": true,
+                "keyword": "과도한 감정"
+            },
+            {
+                "keywordId": 295,
+                "isReversed": true,
+                "keyword": "피해자 의식"
+            }
         ]
     },
     {
         "cardId": 49,
         "cardNumber": 14,
+        "cardNumberName": "King",
+        "cardType": "Cup",
         "cardName": "킹 오브 컵 (King of Cups)",
         "keywords": [
-            {"isReversed": false, "keyword": "감정적인 성숙"},
-            {"isReversed": false, "keyword": "자제력"},
-            {"isReversed": false, "keyword": "냉정함"},
-            {"isReversed": false, "keyword": "통찰력"},
-            {"isReversed": true, "keyword": "감정의 억제"},
-            {"isReversed": true, "keyword": "무감동"}
+            {
+                "keywordId": 296,
+                "isReversed": false,
+                "keyword": "감정적인 성숙"
+            },
+            {
+                "keywordId": 298,
+                "isReversed": false,
+                "keyword": "냉정함"
+            },
+            {
+                "keywordId": 297,
+                "isReversed": false,
+                "keyword": "자제력"
+            },
+            {
+                "keywordId": 299,
+                "isReversed": false,
+                "keyword": "통찰력"
+            },
+            {
+                "keywordId": 300,
+                "isReversed": true,
+                "keyword": "감정의 억제"
+            },
+            {
+                "keywordId": 301,
+                "isReversed": true,
+                "keyword": "무감동"
+            }
         ]
     },
     {
         "cardId": 50,
         "cardNumber": 1,
-        "cardName": "에이스 오브 컵 (Ace of Cups)",
+        "cardNumberName": "Ace",
+        "cardType": "Sword",
+        "cardName": "에이스 오브 소드 (Ace of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "사랑"},
-            {"isReversed": false, "keyword": "감정적인 충족"},
-            {"isReversed": false, "keyword": "풍성함"},
-            {"isReversed": false, "keyword": "창조적인 기쁨"},
-            {"isReversed": true, "keyword": "감정적 소진"},
-            {"isReversed": true, "keyword": "연민"}
+            {
+                "keywordId": 303,
+                "isReversed": false,
+                "keyword": "명확함"
+            },
+            {
+                "keywordId": 302,
+                "isReversed": false,
+                "keyword": "새로운 시작"
+            },
+            {
+                "keywordId": 305,
+                "isReversed": false,
+                "keyword": "지성"
+            },
+            {
+                "keywordId": 304,
+                "isReversed": false,
+                "keyword": "진실"
+            },
+            {
+                "keywordId": 307,
+                "isReversed": true,
+                "keyword": "좌절"
+            },
+            {
+                "keywordId": 306,
+                "isReversed": true,
+                "keyword": "혼란"
+            }
         ]
     },
     {
         "cardId": 51,
         "cardNumber": 2,
-        "cardName": "투 오브 컵 (Two of Cups)",
+        "cardNumberName": "Two",
+        "cardType": "Sword",
+        "cardName": "투 오브 소드 (Two of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "동반자"},
-            {"isReversed": false, "keyword": "조화"},
-            {"isReversed": false, "keyword": "애정"},
-            {"isReversed": false, "keyword": "동료애"},
-            {"isReversed": true, "keyword": "갈등"},
-            {"isReversed": true, "keyword": "감정적인 배신"}
+            {
+                "keywordId": 308,
+                "isReversed": false,
+                "keyword": "결정"
+            },
+            {
+                "keywordId": 311,
+                "isReversed": false,
+                "keyword": "교착 상태"
+            },
+            {
+                "keywordId": 309,
+                "isReversed": false,
+                "keyword": "균형"
+            },
+            {
+                "keywordId": 310,
+                "isReversed": false,
+                "keyword": "타협"
+            },
+            {
+                "keywordId": 312,
+                "isReversed": true,
+                "keyword": "갈등"
+            },
+            {
+                "keywordId": 313,
+                "isReversed": true,
+                "keyword": "혼돈"
+            }
         ]
     },
     {
         "cardId": 52,
         "cardNumber": 3,
-        "cardName": "쓰리 오브 컵 (Three of Cups)",
+        "cardNumberName": "Three",
+        "cardType": "Sword",
+        "cardName": "쓰리 오브 소드 (Three of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "기쁨"},
-            {"isReversed": false, "keyword": "사교적인 모임"},
-            {"isReversed": false, "keyword": "축제"},
-            {"isReversed": true, "keyword": "과도한 기쁨"},
-            {"isReversed": true, "keyword": "자만심"}
+            {
+                "keywordId": 314,
+                "isReversed": false,
+                "keyword": "고통"
+            },
+            {
+                "keywordId": 315,
+                "isReversed": false,
+                "keyword": "상처"
+            },
+            {
+                "keywordId": 317,
+                "isReversed": false,
+                "keyword": "슬픔"
+            },
+            {
+                "keywordId": 316,
+                "isReversed": false,
+                "keyword": "이별"
+            },
+            {
+                "keywordId": 319,
+                "isReversed": true,
+                "keyword": "용서"
+            },
+            {
+                "keywordId": 318,
+                "isReversed": true,
+                "keyword": "회복"
+            }
         ]
     },
     {
         "cardId": 53,
         "cardNumber": 4,
-        "cardName": "포 오브 컵 (Four of Cups)",
+        "cardNumberName": "Four",
+        "cardType": "Sword",
+        "cardName": "포 오브 소드 (Four of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "심사숙고"},
-            {"isReversed": false, "keyword": "감정적 불만"},
-            {"isReversed": false, "keyword": "불만"},
-            {"isReversed": true, "keyword": "무관심"},
-            {"isReversed": true, "keyword": "감정적인 고립"}
+            {
+                "keywordId": 323,
+                "isReversed": false,
+                "keyword": "명상"
+            },
+            {
+                "keywordId": 321,
+                "isReversed": false,
+                "keyword": "재충전"
+            },
+            {
+                "keywordId": 322,
+                "isReversed": false,
+                "keyword": "회복"
+            },
+            {
+                "keywordId": 320,
+                "isReversed": false,
+                "keyword": "휴식"
+            },
+            {
+                "keywordId": 325,
+                "isReversed": true,
+                "keyword": "불안"
+            },
+            {
+                "keywordId": 324,
+                "isReversed": true,
+                "keyword": "소진"
+            }
         ]
     },
     {
         "cardId": 54,
         "cardNumber": 5,
-        "cardName": "파이브 오브 컵 (Five of Cups)",
+        "cardNumberName": "Five",
+        "cardType": "Sword",
+        "cardName": "파이브 오브 소드 (Five of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "손실"},
-            {"isReversed": false, "keyword": "애도"},
-            {"isReversed": false, "keyword": "회한"},
-            {"isReversed": false, "keyword": "슬픔"},
-            {"isReversed": true, "keyword": "자애로운 눈물"},
-            {"isReversed": true, "keyword": "과거의 매몰"}
+            {
+                "keywordId": 326,
+                "isReversed": false,
+                "keyword": "갈등"
+            },
+            {
+                "keywordId": 329,
+                "isReversed": false,
+                "keyword": "분리"
+            },
+            {
+                "keywordId": 327,
+                "isReversed": false,
+                "keyword": "패배"
+            },
+            {
+                "keywordId": 328,
+                "isReversed": false,
+                "keyword": "혼란"
+            },
+            {
+                "keywordId": 330,
+                "isReversed": true,
+                "keyword": "화해"
+            },
+            {
+                "keywordId": 331,
+                "isReversed": true,
+                "keyword": "후회"
+            }
         ]
     },
     {
         "cardId": 55,
         "cardNumber": 6,
-        "cardName": "식스 오브 컵 (Six of Cups)",
+        "cardNumberName": "Six",
+        "cardType": "Sword",
+        "cardName": "식스 오브 소드 (Six of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "회상"},
-            {"isReversed": false, "keyword": "추억"},
-            {"isReversed": false, "keyword": "유년 시절"},
-            {"isReversed": false, "keyword": "연민"},
-            {"isReversed": true, "keyword": "과거에 사로잡힘"},
-            {"isReversed": true, "keyword": "현실과의 연결 분리"}
+            {
+                "keywordId": 333,
+                "isReversed": false,
+                "keyword": "변화"
+            },
+            {
+                "keywordId": 334,
+                "isReversed": false,
+                "keyword": "여행"
+            },
+            {
+                "keywordId": 332,
+                "isReversed": false,
+                "keyword": "이동"
+            },
+            {
+                "keywordId": 335,
+                "isReversed": false,
+                "keyword": "치유"
+            },
+            {
+                "keywordId": 337,
+                "isReversed": true,
+                "keyword": "불안"
+            },
+            {
+                "keywordId": 336,
+                "isReversed": true,
+                "keyword": "정체"
+            }
         ]
     },
     {
         "cardId": 56,
         "cardNumber": 7,
-        "cardName": "세븐 오브 컵 (Seven of Cups)",
+        "cardNumberName": "Seven",
+        "cardType": "Sword",
+        "cardName": "세븐 오브 소드 (Seven of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "상상"},
-            {"isReversed": false, "keyword": "환상"},
-            {"isReversed": false, "keyword": "선택"},
-            {"isReversed": false, "keyword": "망상"},
-            {"isReversed": true, "keyword": "현실에서의 도피"},
-            {"isReversed": true, "keyword": "혼란"}
+            {
+                "keywordId": 338,
+                "isReversed": false,
+                "keyword": "기만"
+            },
+            {
+                "keywordId": 340,
+                "isReversed": false,
+                "keyword": "도망"
+            },
+            {
+                "keywordId": 341,
+                "isReversed": false,
+                "keyword": "독립"
+            },
+            {
+                "keywordId": 339,
+                "isReversed": false,
+                "keyword": "책략"
+            },
+            {
+                "keywordId": 343,
+                "isReversed": true,
+                "keyword": "양심의 가책"
+            },
+            {
+                "keywordId": 342,
+                "isReversed": true,
+                "keyword": "폭로"
+            }
         ]
     },
     {
         "cardId": 57,
         "cardNumber": 8,
-        "cardName": "에잇 오브 컵 (Eight of Cups)",
+        "cardNumberName": "Eight",
+        "cardType": "Sword",
+        "cardName": "에잇 오브 소드 (Eight of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "포기"},
-            {"isReversed": false, "keyword": "여행"},
-            {"isReversed": false, "keyword": "내적 탐구"},
-            {"isReversed": false, "keyword": "자아 찾기"},
-            {"isReversed": true, "keyword": "미완성"},
-            {"isReversed": true, "keyword": "회피"}
+            {
+                "keywordId": 344,
+                "isReversed": false,
+                "keyword": "구속"
+            },
+            {
+                "keywordId": 347,
+                "isReversed": false,
+                "keyword": "두려움"
+            },
+            {
+                "keywordId": 346,
+                "isReversed": false,
+                "keyword": "무력감"
+            },
+            {
+                "keywordId": 345,
+                "isReversed": false,
+                "keyword": "제한"
+            },
+            {
+                "keywordId": 349,
+                "isReversed": true,
+                "keyword": "자유"
+            },
+            {
+                "keywordId": 348,
+                "isReversed": true,
+                "keyword": "해방"
+            }
         ]
     },
     {
         "cardId": 58,
         "cardNumber": 9,
-        "cardName": "나인 오브 컵 (Nine of Cups)",
+        "cardNumberName": "Nine",
+        "cardType": "Sword",
+        "cardName": "나인 오브 소드 (Nine of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "행복"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": true, "keyword": "과소평가된 만족"},
-            {"isReversed": true, "keyword": "과잉 자화상"}
+            {
+                "keywordId": 353,
+                "isReversed": false,
+                "keyword": "걱정"
+            },
+            {
+                "keywordId": 352,
+                "isReversed": false,
+                "keyword": "고뇌"
+            },
+            {
+                "keywordId": 351,
+                "isReversed": false,
+                "keyword": "고통"
+            },
+            {
+                "keywordId": 350,
+                "isReversed": false,
+                "keyword": "불안"
+            },
+            {
+                "keywordId": 355,
+                "isReversed": true,
+                "keyword": "해소"
+            },
+            {
+                "keywordId": 354,
+                "isReversed": true,
+                "keyword": "회복"
+            }
         ]
     },
     {
         "cardId": 59,
         "cardNumber": 10,
-        "cardName": "텐 오브 컵 (Ten of Cups)",
+        "cardNumberName": "Ten",
+        "cardType": "Sword",
+        "cardName": "텐 오브 소드 (Ten of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "가정"},
-            {"isReversed": false, "keyword": "행복"},
-            {"isReversed": false, "keyword": "만족"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": true, "keyword": "가정의 불화"},
-            {"isReversed": true, "keyword": "과대 평가된 행복"}
+            {
+                "keywordId": 356,
+                "isReversed": false,
+                "keyword": "끝"
+            },
+            {
+                "keywordId": 358,
+                "isReversed": false,
+                "keyword": "배신"
+            },
+            {
+                "keywordId": 359,
+                "isReversed": false,
+                "keyword": "절망"
+            },
+            {
+                "keywordId": 357,
+                "isReversed": false,
+                "keyword": "파멸"
+            },
+            {
+                "keywordId": 360,
+                "isReversed": true,
+                "keyword": "재생"
+            },
+            {
+                "keywordId": 361,
+                "isReversed": true,
+                "keyword": "회복"
+            }
         ]
     },
     {
         "cardId": 60,
         "cardNumber": 11,
+        "cardNumberName": "Page",
+        "cardType": "Sword",
         "cardName": "페이지 오브 소드 (Page of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "관찰"},
-            {"isReversed": false, "keyword": "전략"},
-            {"isReversed": false, "keyword": "안목"},
-            {"isReversed": false, "keyword": "기민함"},
-            {"isReversed": true, "keyword": "부주의"},
-            {"isReversed": true, "keyword": "고립"}
+            {
+                "keywordId": 362,
+                "isReversed": false,
+                "keyword": "관찰"
+            },
+            {
+                "keywordId": 365,
+                "isReversed": false,
+                "keyword": "기민함"
+            },
+            {
+                "keywordId": 364,
+                "isReversed": false,
+                "keyword": "안목"
+            },
+            {
+                "keywordId": 363,
+                "isReversed": false,
+                "keyword": "전략"
+            },
+            {
+                "keywordId": 367,
+                "isReversed": true,
+                "keyword": "고립"
+            },
+            {
+                "keywordId": 366,
+                "isReversed": true,
+                "keyword": "부주의"
+            }
         ]
     },
     {
         "cardId": 61,
         "cardNumber": 12,
+        "cardNumberName": "Knight",
+        "cardType": "Sword",
         "cardName": "나이트 오브 소드 (Knight of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "도전적"},
-            {"isReversed": false, "keyword": "의지"},
-            {"isReversed": false, "keyword": "공격적"},
-            {"isReversed": false, "keyword": "결단력"},
-            {"isReversed": true, "keyword": "고집"},
-            {"isReversed": true, "keyword": "폭력"}
+            {
+                "keywordId": 371,
+                "isReversed": false,
+                "keyword": "결단력"
+            },
+            {
+                "keywordId": 370,
+                "isReversed": false,
+                "keyword": "공격적"
+            },
+            {
+                "keywordId": 368,
+                "isReversed": false,
+                "keyword": "도전적"
+            },
+            {
+                "keywordId": 369,
+                "isReversed": false,
+                "keyword": "의지"
+            },
+            {
+                "keywordId": 372,
+                "isReversed": true,
+                "keyword": "고집"
+            },
+            {
+                "keywordId": 373,
+                "isReversed": true,
+                "keyword": "폭력"
+            }
         ]
     },
     {
         "cardId": 62,
         "cardNumber": 13,
+        "cardNumberName": "Queen",
+        "cardType": "Sword",
         "cardName": "퀸 오브 소드 (Queen of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "명료함"},
-            {"isReversed": false, "keyword": "분석"},
-            {"isReversed": false, "keyword": "지혜"},
-            {"isReversed": false, "keyword": "논리적"},
-            {"isReversed": true, "keyword": "냉담"},
-            {"isReversed": true, "keyword": "비정상적인 논리"}
+            {
+                "keywordId": 377,
+                "isReversed": false,
+                "keyword": "논리적"
+            },
+            {
+                "keywordId": 374,
+                "isReversed": false,
+                "keyword": "명료함"
+            },
+            {
+                "keywordId": 375,
+                "isReversed": false,
+                "keyword": "분석"
+            },
+            {
+                "keywordId": 376,
+                "isReversed": false,
+                "keyword": "지혜"
+            },
+            {
+                "keywordId": 378,
+                "isReversed": true,
+                "keyword": "냉담"
+            },
+            {
+                "keywordId": 379,
+                "isReversed": true,
+                "keyword": "비정상적인 논리"
+            }
         ]
     },
     {
         "cardId": 63,
         "cardNumber": 14,
+        "cardNumberName": "King",
+        "cardType": "Sword",
         "cardName": "킹 오브 소드 (King of Swords)",
         "keywords": [
-            {"isReversed": false, "keyword": "지적인 힘"},
-            {"isReversed": false, "keyword": "분별력"},
-            {"isReversed": false, "keyword": "명확함"},
-            {"isReversed": false, "keyword": "사려 깊음"},
-            {"isReversed": true, "keyword": "억제된 감정"},
-            {"isReversed": true, "keyword": "냉혹함"}
+            {
+                "keywordId": 382,
+                "isReversed": false,
+                "keyword": "명확함"
+            },
+            {
+                "keywordId": 381,
+                "isReversed": false,
+                "keyword": "분별력"
+            },
+            {
+                "keywordId": 383,
+                "isReversed": false,
+                "keyword": "사려 깊음"
+            },
+            {
+                "keywordId": 380,
+                "isReversed": false,
+                "keyword": "지적인 힘"
+            },
+            {
+                "keywordId": 385,
+                "isReversed": true,
+                "keyword": "냉혹함"
+            },
+            {
+                "keywordId": 384,
+                "isReversed": true,
+                "keyword": "억제된 감정"
+            }
         ]
     },
     {
         "cardId": 64,
         "cardNumber": 1,
+        "cardNumberName": "Ace",
+        "cardType": "Pentacle",
         "cardName": "에이스 오브 펜타클스 (Ace of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "기회"},
-            {"isReversed": false, "keyword": "재정적 보상"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "투자"},
-            {"isReversed": true, "keyword": "놓친 기회"},
-            {"isReversed": true, "keyword": "재정적 손실"}
+            {
+                "keywordId": 386,
+                "isReversed": false,
+                "keyword": "기회"
+            },
+            {
+                "keywordId": 388,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 387,
+                "isReversed": false,
+                "keyword": "재정적 보상"
+            },
+            {
+                "keywordId": 389,
+                "isReversed": false,
+                "keyword": "투자"
+            },
+            {
+                "keywordId": 390,
+                "isReversed": true,
+                "keyword": "놓친 기회"
+            },
+            {
+                "keywordId": 391,
+                "isReversed": true,
+                "keyword": "재정적 손실"
+            }
         ]
     },
     {
         "cardId": 65,
         "cardNumber": 2,
+        "cardNumberName": "Two",
+        "cardType": "Pentacle",
         "cardName": "투 오브 펜타클스 (Two of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "균형"},
-            {"isReversed": false, "keyword": "조절"},
-            {"isReversed": false, "keyword": "초기성"},
-            {"isReversed": false, "keyword": "유연성"},
-            {"isReversed": true, "keyword": "불안정"},
-            {"isReversed": true, "keyword": "결정의 어려움"}
+            {
+                "keywordId": 392,
+                "isReversed": false,
+                "keyword": "균형"
+            },
+            {
+                "keywordId": 395,
+                "isReversed": false,
+                "keyword": "유연성"
+            },
+            {
+                "keywordId": 393,
+                "isReversed": false,
+                "keyword": "조절"
+            },
+            {
+                "keywordId": 394,
+                "isReversed": false,
+                "keyword": "초기성"
+            },
+            {
+                "keywordId": 397,
+                "isReversed": true,
+                "keyword": "결정의 어려움"
+            },
+            {
+                "keywordId": 396,
+                "isReversed": true,
+                "keyword": "불안정"
+            }
         ]
     },
     {
         "cardId": 66,
         "cardNumber": 3,
+        "cardNumberName": "Three",
+        "cardType": "Pentacle",
         "cardName": "쓰리 오브 펜타클스 (Three of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "협동"},
-            {"isReversed": false, "keyword": "협력"},
-            {"isReversed": false, "keyword": "전문성"},
-            {"isReversed": false, "keyword": "보수"},
-            {"isReversed": true, "keyword": "느린 진행"},
-            {"isReversed": true, "keyword": "비효율적인 협업"}
+            {
+                "keywordId": 401,
+                "isReversed": false,
+                "keyword": "보수"
+            },
+            {
+                "keywordId": 400,
+                "isReversed": false,
+                "keyword": "전문성"
+            },
+            {
+                "keywordId": 398,
+                "isReversed": false,
+                "keyword": "협동"
+            },
+            {
+                "keywordId": 399,
+                "isReversed": false,
+                "keyword": "협력"
+            },
+            {
+                "keywordId": 402,
+                "isReversed": true,
+                "keyword": "느린 진행"
+            },
+            {
+                "keywordId": 403,
+                "isReversed": true,
+                "keyword": "비효율적인 협업"
+            }
         ]
     },
     {
         "cardId": 67,
         "cardNumber": 4,
+        "cardNumberName": "Four",
+        "cardType": "Pentacle",
         "cardName": "포 오브 펜타클스 (Four of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "안정"},
-            {"isReversed": false, "keyword": "자산"},
-            {"isReversed": false, "keyword": "안전성"},
-            {"isReversed": false, "keyword": "소유"},
-            {"isReversed": true, "keyword": "탐욕"},
-            {"isReversed": true, "keyword": "고정 관념"}
+            {
+                "keywordId": 407,
+                "isReversed": false,
+                "keyword": "소유"
+            },
+            {
+                "keywordId": 406,
+                "isReversed": false,
+                "keyword": "안전성"
+            },
+            {
+                "keywordId": 404,
+                "isReversed": false,
+                "keyword": "안정"
+            },
+            {
+                "keywordId": 405,
+                "isReversed": false,
+                "keyword": "자산"
+            },
+            {
+                "keywordId": 409,
+                "isReversed": true,
+                "keyword": "고정 관념"
+            },
+            {
+                "keywordId": 408,
+                "isReversed": true,
+                "keyword": "탐욕"
+            }
         ]
     },
     {
         "cardId": 68,
         "cardNumber": 5,
+        "cardNumberName": "Five",
+        "cardType": "Pentacle",
         "cardName": "파이브 오브 펜타클스 (Five of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "부족"},
-            {"isReversed": false, "keyword": "고립"},
-            {"isReversed": false, "keyword": "난민"},
-            {"isReversed": false, "keyword": "어려움"},
-            {"isReversed": true, "keyword": "회복"},
-            {"isReversed": true, "keyword": "자기 도움의 거부"}
+            {
+                "keywordId": 411,
+                "isReversed": false,
+                "keyword": "고립"
+            },
+            {
+                "keywordId": 412,
+                "isReversed": false,
+                "keyword": "난민"
+            },
+            {
+                "keywordId": 410,
+                "isReversed": false,
+                "keyword": "부족"
+            },
+            {
+                "keywordId": 413,
+                "isReversed": false,
+                "keyword": "어려움"
+            },
+            {
+                "keywordId": 415,
+                "isReversed": true,
+                "keyword": "자기 도움의 거부"
+            },
+            {
+                "keywordId": 414,
+                "isReversed": true,
+                "keyword": "회복"
+            }
         ]
     },
     {
         "cardId": 69,
         "cardNumber": 6,
+        "cardNumberName": "Six",
+        "cardType": "Pentacle",
         "cardName": "식스 오브 펜타클스 (Six of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "자비"},
-            {"isReversed": false, "keyword": "베풂"},
-            {"isReversed": false, "keyword": "자선"},
-            {"isReversed": false, "keyword": "동등한 분배"},
-            {"isReversed": true, "keyword": "기부"},
-            {"isReversed": true, "keyword": "조건부 도움"}
+            {
+                "keywordId": 419,
+                "isReversed": false,
+                "keyword": "동등한 분배"
+            },
+            {
+                "keywordId": 417,
+                "isReversed": false,
+                "keyword": "베풂"
+            },
+            {
+                "keywordId": 416,
+                "isReversed": false,
+                "keyword": "자비"
+            },
+            {
+                "keywordId": 418,
+                "isReversed": false,
+                "keyword": "자선"
+            },
+            {
+                "keywordId": 420,
+                "isReversed": true,
+                "keyword": "기부"
+            },
+            {
+                "keywordId": 421,
+                "isReversed": true,
+                "keyword": "조건부 도움"
+            }
         ]
     },
     {
         "cardId": 70,
         "cardNumber": 7,
+        "cardNumberName": "Seven",
+        "cardType": "Pentacle",
         "cardName": "세븐 오브 펜타클스 (Seven of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "기다림"},
-            {"isReversed": false, "keyword": "자신감"},
-            {"isReversed": false, "keyword": "보상"},
-            {"isReversed": false, "keyword": "재평가"},
-            {"isReversed": true, "keyword": "실패"},
-            {"isReversed": true, "keyword": "평가 오류"}
+            {
+                "keywordId": 422,
+                "isReversed": false,
+                "keyword": "기다림"
+            },
+            {
+                "keywordId": 424,
+                "isReversed": false,
+                "keyword": "보상"
+            },
+            {
+                "keywordId": 423,
+                "isReversed": false,
+                "keyword": "자신감"
+            },
+            {
+                "keywordId": 425,
+                "isReversed": false,
+                "keyword": "재평가"
+            },
+            {
+                "keywordId": 426,
+                "isReversed": true,
+                "keyword": "실패"
+            },
+            {
+                "keywordId": 427,
+                "isReversed": true,
+                "keyword": "평가 오류"
+            }
         ]
     },
     {
         "cardId": 71,
         "cardNumber": 8,
+        "cardNumberName": "Eight",
+        "cardType": "Pentacle",
         "cardName": "에잇 오브 펜타클스 (Eight of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "노력"},
-            {"isReversed": false, "keyword": "전문성"},
-            {"isReversed": false, "keyword": "배움"},
-            {"isReversed": false, "keyword": "기술"},
-            {"isReversed": true, "keyword": "능력 부족"},
-            {"isReversed": true, "keyword": "열정의 부족"}
+            {
+                "keywordId": 431,
+                "isReversed": false,
+                "keyword": "기술"
+            },
+            {
+                "keywordId": 428,
+                "isReversed": false,
+                "keyword": "노력"
+            },
+            {
+                "keywordId": 430,
+                "isReversed": false,
+                "keyword": "배움"
+            },
+            {
+                "keywordId": 429,
+                "isReversed": false,
+                "keyword": "전문성"
+            },
+            {
+                "keywordId": 432,
+                "isReversed": true,
+                "keyword": "능력 부족"
+            },
+            {
+                "keywordId": 433,
+                "isReversed": true,
+                "keyword": "열정의 부족"
+            }
         ]
     },
     {
         "cardId": 72,
         "cardNumber": 9,
+        "cardNumberName": "Nine",
+        "cardType": "Pentacle",
         "cardName": "나인 오브 펜타클스 (Nine of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "독립"},
-            {"isReversed": false, "keyword": "풍족"},
-            {"isReversed": false, "keyword": "자유"},
-            {"isReversed": true, "keyword": "과소평가된 성취"},
-            {"isReversed": true, "keyword": "고립"}
+            {
+                "keywordId": 435,
+                "isReversed": false,
+                "keyword": "독립"
+            },
+            {
+                "keywordId": 434,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 437,
+                "isReversed": false,
+                "keyword": "자유"
+            },
+            {
+                "keywordId": 436,
+                "isReversed": false,
+                "keyword": "풍족"
+            },
+            {
+                "keywordId": 439,
+                "isReversed": true,
+                "keyword": "고립"
+            },
+            {
+                "keywordId": 438,
+                "isReversed": true,
+                "keyword": "과소평가된 성취"
+            }
         ]
     },
     {
         "cardId": 73,
         "cardNumber": 10,
+        "cardNumberName": "Ten",
+        "cardType": "Pentacle",
         "cardName": "텐 오브 펜타클스 (Ten of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "재산"},
-            {"isReversed": false, "keyword": "가문"},
-            {"isReversed": false, "keyword": "유산"},
-            {"isReversed": false, "keyword": "안정"},
-            {"isReversed": true, "keyword": "재산의 상실"},
-            {"isReversed": true, "keyword": "가치의 강조"}
+            {
+                "keywordId": 441,
+                "isReversed": false,
+                "keyword": "가문"
+            },
+            {
+                "keywordId": 443,
+                "isReversed": false,
+                "keyword": "안정"
+            },
+            {
+                "keywordId": 442,
+                "isReversed": false,
+                "keyword": "유산"
+            },
+            {
+                "keywordId": 440,
+                "isReversed": false,
+                "keyword": "재산"
+            },
+            {
+                "keywordId": 445,
+                "isReversed": true,
+                "keyword": "가치의 강조"
+            },
+            {
+                "keywordId": 444,
+                "isReversed": true,
+                "keyword": "재산의 상실"
+            }
         ]
     },
     {
         "cardId": 74,
         "cardNumber": 11,
+        "cardNumberName": "Page",
+        "cardType": "Pentacle",
         "cardName": "페이지 오브 펜타클스 (Page of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "현실적인 계획"},
-            {"isReversed": false, "keyword": "학습"},
-            {"isReversed": false, "keyword": "노력"},
-            {"isReversed": false, "keyword": "성장"},
-            {"isReversed": true, "keyword": "무관심"},
-            {"isReversed": true, "keyword": "학습의 부정"}
+            {
+                "keywordId": 448,
+                "isReversed": false,
+                "keyword": "노력"
+            },
+            {
+                "keywordId": 449,
+                "isReversed": false,
+                "keyword": "성장"
+            },
+            {
+                "keywordId": 447,
+                "isReversed": false,
+                "keyword": "학습"
+            },
+            {
+                "keywordId": 446,
+                "isReversed": false,
+                "keyword": "현실적인 계획"
+            },
+            {
+                "keywordId": 450,
+                "isReversed": true,
+                "keyword": "무관심"
+            },
+            {
+                "keywordId": 451,
+                "isReversed": true,
+                "keyword": "학습의 부정"
+            }
         ]
     },
     {
         "cardId": 75,
         "cardNumber": 12,
+        "cardNumberName": "Knight",
+        "cardType": "Pentacle",
         "cardName": "나이트 오브 펜타클스 (Knight of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "실제성"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": false, "keyword": "노력"},
-            {"isReversed": false, "keyword": "꼼꼼함"},
-            {"isReversed": true, "keyword": "보수적"},
-            {"isReversed": true, "keyword": "완벽주의"}
+            {
+                "keywordId": 455,
+                "isReversed": false,
+                "keyword": "꼼꼼함"
+            },
+            {
+                "keywordId": 454,
+                "isReversed": false,
+                "keyword": "노력"
+            },
+            {
+                "keywordId": 453,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 452,
+                "isReversed": false,
+                "keyword": "실제성"
+            },
+            {
+                "keywordId": 456,
+                "isReversed": true,
+                "keyword": "보수적"
+            },
+            {
+                "keywordId": 457,
+                "isReversed": true,
+                "keyword": "완벽주의"
+            }
         ]
     },
     {
         "cardId": 76,
         "cardNumber": 13,
+        "cardNumberName": "Queen",
+        "cardType": "Pentacle",
         "cardName": "퀸 오브 펜타클스 (Queen of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "직무"},
-            {"isReversed": false, "keyword": "성취"},
-            {"isReversed": false, "keyword": "풍요"},
-            {"isReversed": false, "keyword": "안정"},
-            {"isReversed": true, "keyword": "과잉 보호"},
-            {"isReversed": true, "keyword": "무거운 책임"}
+            {
+                "keywordId": 459,
+                "isReversed": false,
+                "keyword": "성취"
+            },
+            {
+                "keywordId": 461,
+                "isReversed": false,
+                "keyword": "안정"
+            },
+            {
+                "keywordId": 458,
+                "isReversed": false,
+                "keyword": "직무"
+            },
+            {
+                "keywordId": 460,
+                "isReversed": false,
+                "keyword": "풍요"
+            },
+            {
+                "keywordId": 462,
+                "isReversed": true,
+                "keyword": "과잉 보호"
+            },
+            {
+                "keywordId": 463,
+                "isReversed": true,
+                "keyword": "무거운 책임"
+            }
         ]
     },
     {
         "cardId": 77,
         "cardNumber": 14,
+        "cardNumberName": "King",
+        "cardType": "Pentacle",
         "cardName": "킹 오브 펜타클스 (King of Pentacles)",
         "keywords": [
-            {"isReversed": false, "keyword": "안정"},
-            {"isReversed": false, "keyword": "자산"},
-            {"isReversed": false, "keyword": "성공"},
-            {"isReversed": false, "keyword": "신뢰"},
-            {"isReversed": true, "keyword": "탐욕"},
-            {"isReversed": true, "keyword": "만족할 준비가 안된 욕망"}
+            {
+                "keywordId": 466,
+                "isReversed": false,
+                "keyword": "성공"
+            },
+            {
+                "keywordId": 467,
+                "isReversed": false,
+                "keyword": "신뢰"
+            },
+            {
+                "keywordId": 464,
+                "isReversed": false,
+                "keyword": "안정"
+            },
+            {
+                "keywordId": 465,
+                "isReversed": false,
+                "keyword": "자산"
+            },
+            {
+                "keywordId": 469,
+                "isReversed": true,
+                "keyword": "만족할 준비가 안된 욕망"
+            },
+            {
+                "keywordId": 468,
+                "isReversed": true,
+                "keyword": "탐욕"
+            }
         ]
     }
 ]

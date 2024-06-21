@@ -13,7 +13,7 @@ import org.hibernate.annotations.Comment;
         uniqueConstraints={
                 @UniqueConstraint(
                         name="cardKeyWordConstraint",
-                        columnNames={"card_id", "is_reversed", "keword"}
+                        columnNames={"card_id", "is_reversed", "keyword"}
                 )
         }
 )
@@ -21,9 +21,11 @@ import org.hibernate.annotations.Comment;
 public class TarotCardKeyWord {
   @Id
   @NotNull
-  @Column(name = "keword_id", nullable = false)
+  @Column(name = "keyword_id", nullable = false)
+//  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @GeneratedValue(strategy = GenerationType.AUTO)
   @Comment("키워드 아이디")
-  private Integer kewordId;
+  private Integer keywordId;
 
   @NotNull
   @Column(name = "card_id", nullable = false)
@@ -36,9 +38,15 @@ public class TarotCardKeyWord {
   private Boolean isReversed;
 
   @NotNull
-  @Column(name = "keword", length = 10, nullable = false)
+  @Column(name = "keyword", length = 30, nullable = false)
   @Comment("키워드")
-  private String keword;
+  private String keyword;
+
+  public TarotCardKeyWord(Integer cardId, Boolean isReversed, String keyword) {
+    this.cardId = cardId;
+    this.isReversed = isReversed;
+    this.keyword = keyword;
+  }
 
   @ManyToOne
   @JoinColumns({

@@ -1,0 +1,182 @@
+{
+  "cardId": 27,
+  "cardName": "식스 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 성공과 조화",
+            "상호 존중과 인정",
+            "사랑의 승리"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "자만심으로 인한 관계 악화",
+            "상대방에 대한 과도한 기대",
+            "사랑의 성공에 대한 의심"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "업무적 성과와 인정",
+            "승진이나 보상",
+            "리더십의 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "성과에 대한 과대평가",
+            "자만심으로 인한 실수",
+            "일시적인 성공의 허상"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 성공과 안정",
+            "투자의 성과",
+            "금전적 보상"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "금전적 성공의 일시성",
+            "과도한 지출이나 낭비",
+            "재정 관리의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 상태의 개선",
+            "치료의 성공",
+            "활력과 에너지 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "일시적인 건강 회복",
+            "과신으로 인한 건강 관리 소홀",
+            "건강 문제의 재발 가능성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 성취와 좋은 결과",
+            "지식의 인정과 칭찬",
+            "학습 목표 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 성과에 대한 과신",
+            "노력 부족으로 인한 퇴보",
+            "일시적 성공에 안주"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 인정과 존중",
+            "우정의 승리",
+            "사회적 성공과 인기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 허영심",
+            "진정한 우정의 부재",
+            "일시적인 인기"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 화합과 성공",
+            "가족 구성원의 성취 축하",
+            "가정 내 조화와 안정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간 경쟁과 질투",
+            "가족의 성공에 대한 과장",
+            "가정 내 불화의 가능성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "개인적 성취와 승리",
+            "자신감과 자존감 상승",
+            "목표 달성과 인정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 자만심",
+            "성공의 일시성",
+            "겸손함의 필요성"
+          ]
+        }
+      ]
+    }
+  ]
+}

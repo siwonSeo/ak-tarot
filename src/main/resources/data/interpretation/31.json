@@ -1,0 +1,182 @@
+{
+  "cardId": 31,
+  "cardName": "텐 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 과도한 부담",
+            "감정적 스트레스와 압박감",
+            "사랑으로 인한 책임감 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 부담 완화",
+            "책임과 의무의 재조정",
+            "감정적 스트레스 해소"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "과도한 업무 부담",
+            "직장 스트레스 증가",
+            "책임감으로 인한 압박"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무 부담 경감",
+            "효율적인 업무 분배",
+            "스트레스 관리 개선"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 부담 증가",
+            "과도한 지출과 빚",
+            "금전적 스트레스"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 부담 감소",
+            "부채 해결의 기회",
+            "금전 관리의 개선"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "과도한 스트레스로 인한 건강 악화",
+            "신체적, 정신적 피로 누적",
+            "건강 관리의 어려움"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "스트레스 감소와 건강 회복",
+            "건강 관리 방식의 개선",
+            "휴식과 회복의 시간"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "과도한 학업 부담",
+            "학습 스트레스 증가",
+            "다양한 과제로 인한 압박감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 부담 완화",
+            "효율적인 학습 방법 발견",
+            "학업 스트레스 관리 개선"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 부담 증가",
+            "사회적 의무로 인한 스트레스",
+            "인간관계의 피로감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "사회적 부담 감소",
+            "친구 관계의 재조정",
+            "건강한 경계 설정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족에 대한 과도한 책임감",
+            "가정 내 스트레스 증가",
+            "가족 문제로 인한 부담"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 부담의 경감",
+            "가족 간 책임 분담",
+            "가정 내 스트레스 해소"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적인 삶의 부담 증가",
+            "다양한 책임으로 인한 스트레스",
+            "과도한 의무감과 압박"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "부담의 경감과 해소",
+            "스트레스 관리 능력 향상",
+            "삶의 균형 회복"
+          ]
+        }
+      ]
+    }
+  ]
+}

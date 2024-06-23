@@ -1,0 +1,182 @@
+{
+  "cardId": 29,
+  "cardName": "에이트 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "급속한 로맨스 발전",
+            "열정적인 사랑의 시작",
+            "관계의 빠른 진전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 지연 또는 정체",
+            "소통의 오해와 혼란",
+            "성급한 판단으로 인한 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "빠른 경력 성장",
+            "업무의 신속한 진행",
+            "새로운 기회의 도래"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무 진행의 지연",
+            "과도한 업무로 인한 스트레스",
+            "성급한 결정으로 인한 실수"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "급속한 재정 상황 개선",
+            "빠른 수익 창출 기회",
+            "재정적 결정의 신속한 진행"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정의 지연",
+            "예상치 못한 금전적 장애물",
+            "성급한 투자로 인한 손실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "빠른 회복과 치유",
+            "건강 증진을 위한 적극적 행동",
+            "에너지 레벨의 급속한 상승"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "회복 속도의 지연",
+            "과도한 활동으로 인한 피로",
+            "건강 관리의 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습 속도의 가속화",
+            "새로운 지식의 빠른 습득",
+            "학업 목표의 신속한 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 진도의 지연",
+            "정보 과부하로 인한 혼란",
+            "성급한 학습으로 인한 오류"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 우정의 빠른 형성",
+            "친구 관계의 활발한 발전",
+            "사회적 활동의 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 일시적 정체",
+            "오해로 인한 갈등",
+            "성급한 판단으로 인한 친구 관계 악화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 문제의 신속한 해결",
+            "가족 간 소통의 활성화",
+            "가족 관계의 빠른 개선"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간 소통의 어려움",
+            "가족 문제 해결의 지연",
+            "성급한 결정으로 인한 가족 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "사건의 빠른 전개",
+            "기회의 신속한 포착",
+            "변화에 대한 적극적 대응"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "계획의 지연 또는 방해",
+            "성급한 행동으로 인한 문제",
+            "변화에 대한 적응 어려움"
+          ]
+        }
+      ]
+    }
+  ]
+}

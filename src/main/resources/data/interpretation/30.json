@@ -1,0 +1,182 @@
+{
+  "cardId": 30,
+  "cardName": "나인 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 방어적 태도",
+            "과거의 상처로 인한 경계심",
+            "사랑의 시련을 견디는 힘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 방어벽 허물기",
+            "관계에 대한 두려움 극복",
+            "새로운 사랑에 대한 개방성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서의 경계심과 주의",
+            "도전에 대한 준비 태세",
+            "업무 스트레스에 대한 대비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 업무 긴장감 해소",
+            "협력적 태도로의 전환",
+            "새로운 기회에 대한 개방성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 위험에 대한 경계",
+            "안전한 재정 관리",
+            "예상치 못한 지출에 대한 준비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 재정적 불안 해소",
+            "새로운 투자 기회 고려",
+            "재정적 유연성 증가"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강에 대한 경계심 증가",
+            "예방적 건강 관리",
+            "스트레스 관리의 중요성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 염려증 완화",
+            "긍정적인 건강 습관 형성",
+            "심신의 균형 회복"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 스트레스에 대한 대비",
+            "집중력과 인내심 발휘",
+            "학습 목표 달성을 위한 준비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 부담감 감소",
+            "유연한 학습 방식 채택",
+            "새로운 학습 영역 탐험"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 경계심",
+            "신뢰 구축의 필요성",
+            "사회적 스트레스에 대한 대비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "사회적 방어벽 허물기",
+            "새로운 우정에 대한 개방성",
+            "대인 관계 스트레스 감소"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 문제에 대한 대비",
+            "가족 간 경계 설정",
+            "가정 내 스트레스 관리"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간 방어적 태도 완화",
+            "개방적인 가족 소통",
+            "가족 관계 개선의 기회"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "일반적인 경계심과 주의",
+            "도전에 대한 준비 태세",
+            "내적 강인함과 인내"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 불안감 해소",
+            "새로운 경험에 대한 개방성",
+            "유연성과 적응력 향상"
+          ]
+        }
+      ]
+    }
+  ]
+}

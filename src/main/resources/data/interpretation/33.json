@@ -1,0 +1,182 @@
+{
+  "cardId": 33,
+  "cardName": "나이트 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "열정적이고 흥미진진한 로맨스",
+            "매력적이고 카리스마 있는 연인",
+            "관계에서의 모험과 스릴"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "충동적이고 불안정한 관계",
+            "질투와 독점욕",
+            "관계에서의 갈등과 다툼"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "열정적인 경력 추구",
+            "새로운 프로젝트에 대한 도전",
+            "리더십과 추진력 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 충동성과 성급함",
+            "과도한 경쟁심",
+            "업무에서의 갈등과 마찰"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "적극적인 재정 관리",
+            "새로운 수입원 발견",
+            "재정적 모험과 투자"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "무모한 재정 결정",
+            "과도한 지출과 낭비",
+            "재정적 위험 감수"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "활력 넘치는 건강 상태",
+            "적극적인 운동과 체력 관리",
+            "건강 증진을 위한 열정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 운동으로 인한 부상 위험",
+            "건강에 대한 무모한 접근",
+            "스트레스로 인한 건강 악화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 열정과 의욕",
+            "새로운 지식 영역 탐구",
+            "도전적인 학습 목표 설정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 성급함과 조급증",
+            "집중력 부족",
+            "학습 계획의 잦은 변경"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "활발하고 열정적인 사회 생활",
+            "새로운 친구 관계 형성",
+            "모임이나 활동의 리더 역할"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 갈등과 다툼",
+            "과도한 독단적 태도",
+            "사회적 관계의 불안정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족을 위한 열정적인 노력",
+            "가족 활동의 리더십 발휘",
+            "가족 관계 개선을 위한 적극성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간 갈등과 논쟁",
+            "가족에 대한 과도한 통제욕",
+            "가정 내 불화와 긴장"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "열정적이고 모험적인 삶의 태도",
+            "새로운 도전에 대한 열망",
+            "카리스마와 리더십 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "충동적이고 성급한 행동",
+            "과도한 자신감과 오만",
+            "갈등과 불화 유발"
+          ]
+        }
+      ]
+    }
+  ]
+}

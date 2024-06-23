@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Index Page</title>
+</head>
+
+<script  th:inline="javascript">
+</script>
+
+<body>
+<h1>타로카드 해석입니다.</h1>
+<table>
+    <thead>
+    <tr>
+        <th>카드명</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="card : ${cards}">
+        <td th:text="${card.cardName}"></td>
+        <td><img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

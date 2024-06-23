@@ -1,0 +1,182 @@
+{
+  "cardId": 36,
+  "cardName": "에이스 오브 컵",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 사랑의 시작",
+            "감정적 충만함과 기쁨",
+            "깊은 정서적 연결"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정적 불안정",
+            "사랑의 기회 상실",
+            "감정 표현의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "창의적이고 감성적인 새 프로젝트",
+            "직장에서의 정서적 만족",
+            "동료들과의 좋은 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 감정적 스트레스",
+            "창의성 부족",
+            "업무 열정의 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감정적 만족을 주는 재정적 기회",
+            "풍요로움과 만족감",
+            "재정적 직관력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불안정",
+            "돈과 관련된 감정적 스트레스",
+            "물질주의에 대한 과도한 집착"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "정서적, 신체적 웰빙",
+            "치유와 회복",
+            "건강에 대한 긍정적 태도"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정적 스트레스로 인한 건강 악화",
+            "건강 관리 소홀",
+            "정신적 불안정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 새로운 열정",
+            "창의적이고 직관적인 학습 방식",
+            "감성 지능의 발달"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 흥미 상실",
+            "감정적 요인으로 인한 학습 방해",
+            "집중력 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 의미 있는 우정의 시작",
+            "감정적으로 깊은 친구 관계",
+            "친구들과의 정서적 유대감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 감정적 불안정",
+            "의미 있는 우정 형성의 어려움",
+            "친구에 대한 과도한 의존"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 깊은 정서적 유대",
+            "새로운 가족 구성원의 탄생",
+            "가정에서의 사랑과 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서의 감정적 단절",
+            "가정 내 불화",
+            "가족에 대한 애정 표현의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 감정적 시작",
+            "직관력과 창의성의 증가",
+            "정서적 풍요로움과 만족"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정적 불안정과 혼란",
+            "새로운 시작에 대한 두려움",
+            "감정 표현의 어려움"
+          ]
+        }
+      ]
+    }
+  ]
+}

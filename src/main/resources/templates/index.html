@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Index Page</title>
+</head>
+
+<script  th:inline="javascript">
+    var autoplayVideoInterval = setInterval("autoplayVideo()",100);
+
+    function autoplayVideo(){
+        var promise = document.querySelector('.video').play();
+        if (promise !== undefined){
+            promise.then(_=>{
+            clearInterval(autoplayVideoInterval);
+        }).catch(error =>{
+        });
+        }
+    }
+
+</script>
+
+<body>
+<h1>타로카드를 뽑아 볼까요!</h1>
+<div>
+    <video class="video" width="500" height="400" playsinline controls autoplay loop>
+        <source type="video/mp4" th:src="@{/mp4/tarot.mp4}" />
+    </video>
+</div>
+<ul>
+    <li><a th:href="@{/interpretation/1}">1장</a></li>
+    <li><a th:href="@{/interpretation/2}">2장</a></li>
+    <li><a th:href="@{/interpretation/3}">3장</a></li>
+    <li><a th:href="@{/interpretation/4}">4장</a></li>
+    <li><a th:href="@{/interpretation/15}">5장</a></li>
+</ul>
+<table>
+    <thead>
+    <tr>
+        <th>카드명</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+
+
+    <!--
+    <tr th:each="card : ${cards}">
+        <td th:text="${card.cardName}"></td>
+        <td><img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/></td>
+    </tr>
+    -->
+    </tbody>
+</table>
+</body>
+</html>

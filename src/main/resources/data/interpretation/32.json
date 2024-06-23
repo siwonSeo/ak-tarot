@@ -1,0 +1,182 @@
+{
+  "cardId": 32,
+  "cardName": "페이지 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 로맨스의 시작",
+            "열정적이고 순수한 사랑",
+            "관계에 대한 흥분과 기대"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "성급하거나 미숙한 사랑",
+            "관계에 대한 비현실적 기대",
+            "감정 조절의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 직업 기회",
+            "열정적인 업무 태도",
+            "창의적인 아이디어의 등장"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 미숙함",
+            "성급한 경력 결정",
+            "업무에 대한 과도한 낙관주의"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 재정적 기회",
+            "금전적 모험심",
+            "재정 관리에 대한 학습 의지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 미숙함",
+            "무모한 금전 결정",
+            "재정 관리 능력 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 개선에 대한 열정",
+            "새로운 운동이나 다이어트 시도",
+            "활력과 에너지 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리의 미숙함",
+            "과도한 운동이나 다이어트",
+            "건강에 대한 무모한 접근"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 학습 열정",
+            "창의적인 학습 방법 시도",
+            "지식에 대한 흥미와 호기심"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 방법의 미숙함",
+            "공부에 대한 성급함",
+            "지식의 깊이 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 우정의 시작",
+            "사회적 활동에 대한 열정",
+            "친구 관계에서의 순수함"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "사회적 관계의 미숙함",
+            "친구 선택의 실수",
+            "과도한 사교성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 새로운 시작",
+            "가족에 대한 열정과 애정",
+            "가족 내 새로운 역할 수용"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서의 미숙함",
+            "가족에 대한 비현실적 기대",
+            "가족 내 역할 혼란"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 시작에 대한 열정",
+            "모험심과 호기심 증가",
+            "창의적이고 열정적인 에너지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "미숙함과 경험 부족",
+            "성급하고 충동적인 행동",
+            "현실적 판단력 부족"
+          ]
+        }
+      ]
+    }
+  ]
+}

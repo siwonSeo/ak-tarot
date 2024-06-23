@@ -1,0 +1,182 @@
+{
+  "cardId": 37,
+  "cardName": "투 오브 컵",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "서로 사랑하는 관계의 시작",
+            "감정적 조화와 균형",
+            "깊은 유대감과 친밀함"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 불화와 갈등",
+            "감정적 불균형",
+            "서로에 대한 이해 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "동료와의 긍정적인 협력 관계",
+            "업무 파트너십의 형성",
+            "직장에서의 조화로운 인간관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무 관계에서의 갈등",
+            "협력의 어려움",
+            "직장 내 인간관계 악화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 파트너십의 형성",
+            "공동 투자의 기회",
+            "금전적 조화와 균형"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "금전적 관계에서의 불화",
+            "재정적 파트너십의 실패",
+            "돈 문제로 인한 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "심신의 조화와 균형",
+            "정서적 안정이 주는 건강 혜택",
+            "치유를 위한 협력 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강과 정서 사이의 불균형",
+            "스트레스로 인한 건강 악화",
+            "건강 관리 파트너십의 부재"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습 파트너와의 협력",
+            "지식 공유와 상호 학습",
+            "공부에 대한 긍정적인 태도"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 파트너와의 갈등",
+            "공부에 대한 동기 부족",
+            "지식 공유의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊은 우정의 형성",
+            "상호 이해와 지지",
+            "친구와의 정서적 유대감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "우정의 균열",
+            "친구와의 오해와 갈등",
+            "정서적 거리감"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 사랑과 화합",
+            "가족 구성원 간의 깊은 이해",
+            "가정 내 조화로운 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 불화와 갈등",
+            "가족 관계의 단절",
+            "가정 내 소통의 부재"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "조화로운 관계의 형성",
+            "상호 이해와 협력",
+            "정서적 안정과 균형"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 불균형과 갈등",
+            "소통의 어려움",
+            "정서적 불안정"
+          ]
+        }
+      ]
+    }
+  ]
+}

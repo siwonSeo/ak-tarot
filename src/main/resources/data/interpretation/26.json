@@ -1,0 +1,182 @@
+{
+  "cardId": 26,
+  "cardName": "파이브 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 갈등과 경쟁",
+            "의견 충돌과 불화",
+            "소통의 어려움"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "갈등 해소와 화해",
+            "서로의 차이점 수용",
+            "협력을 통한 관계 개선"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장 내 경쟁과 스트레스",
+            "업무 과중으로 인한 어려움",
+            "팀워크의 부재"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "경쟁 상황 완화",
+            "협업을 통한 문제 해결",
+            "직장 내 긴장 감소"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 압박과 스트레스",
+            "자원 부족으로 인한 갈등",
+            "금전 관련 논쟁"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정 문제 해결의 실마리",
+            "금전 관련 갈등 해소",
+            "재정 관리 개선"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "스트레스로 인한 건강 악화",
+            "과로와 피로 누적",
+            "정신적 압박감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "스트레스 해소와 휴식",
+            "건강 회복의 조짐",
+            "정신적 안정 찾기"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 스트레스와 부담",
+            "집중력 저하와 혼란",
+            "경쟁으로 인한 압박감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 스트레스 해소",
+            "효율적인 학습 방법 찾기",
+            "협력 학습의 이점"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 갈등",
+            "의견 충돌과 논쟁",
+            "그룹 내 경쟁과 긴장"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 간 갈등 해소",
+            "서로의 차이 인정과 수용",
+            "우정 회복과 화해"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간 불화와 다툼",
+            "세대 간 갈등",
+            "가정 내 스트레스 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 갈등 해소의 기회",
+            "대화를 통한 이해 증진",
+            "가족 간 화합과 협력"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "일상 생활의 스트레스와 갈등",
+            "다양한 책임으로 인한 부담",
+            "주변 환경과의 마찰"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "일상의 갈등 해소",
+            "스트레스 관리 능력 향상",
+            "주변과의 조화 찾기"
+          ]
+        }
+      ]
+    }
+  ]
+}

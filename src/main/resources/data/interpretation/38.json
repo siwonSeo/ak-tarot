@@ -1,0 +1,182 @@
+{
+  "cardId": 38,
+  "cardName": "쓰리 오브 컵",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "사랑의 축하와 기쁨",
+            "관계에서의 즐거움과 행복",
+            "감정적 풍요로움"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 과도한 향락",
+            "삼각관계의 가능성",
+            "감정적 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "팀워크와 협력의 성공",
+            "직장에서의 축하와 인정",
+            "업무적 성과의 즐거움"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "팀 내 갈등이나 경쟁",
+            "과도한 사교로 인한 업무 소홀",
+            "성과에 대한 과대평가"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 성공의 축하",
+            "풍요로움과 여유",
+            "금전적 이익의 공유"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 지출과 낭비",
+            "금전적 성공의 과대평가",
+            "재정적 협력의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 회복의 기쁨",
+            "활력과 생기의 증진",
+            "정서적 건강의 향상"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 향락으로 인한 건강 악화",
+            "정서적 불안정과 스트레스",
+            "건강 관리의 소홀"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "그룹 스터디의 성공",
+            "학업 성취의 기쁨",
+            "지식 공유의 즐거움"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "공부보다 노는 데 치중",
+            "학업 성과의 과대평가",
+            "그룹 내 경쟁이나 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구들과의 즐거운 시간",
+            "우정의 깊이와 풍요로움",
+            "사회적 활동의 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "표면적인 우정 관계",
+            "과도한 사교로 인한 피로",
+            "친구 관계에서의 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족의 화합과 축하",
+            "가족 간의 즐거운 시간",
+            "가정의 행복과 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 표면적인 관계",
+            "가정 내 갈등이나 불화",
+            "가족 행사의 과도한 강조"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "축하와 기쁨의 시간",
+            "사회적 활동의 증가",
+            "감정적 풍요로움과 만족"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 향락 추구",
+            "표면적인 관계와 기쁨",
+            "진정한 만족의 부재"
+          ]
+        }
+      ]
+    }
+  ]
+}

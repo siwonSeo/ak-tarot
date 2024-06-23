@@ -1,0 +1,182 @@
+{
+  "cardId": 34,
+  "cardName": "퀸 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "열정적이고 매력적인 연인",
+            "관계에서의 자신감과 독립성",
+            "사랑에 대한 열정과 창의성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "질투심과 소유욕",
+            "관계에서의 지나친 지배력",
+            "감정적 불안정성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "리더십과 카리스마 발휘",
+            "창의적이고 열정적인 업무 수행",
+            "커리어에서의 성공과 인정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "권위주의적 태도",
+            "업무에서의 과도한 통제욕",
+            "동료와의 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 독립성과 안정",
+            "창의적인 수입원 발굴",
+            "금전 관리의 탁월함"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 과시욕",
+            "무분별한 지출",
+            "금전적 독립성 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "활력 넘치는 건강 상태",
+            "자기 관리의 우수성",
+            "건강한 생활 습관 유지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 스트레스로 인한 건강 악화",
+            "건강 관리 소홀",
+            "불규칙한 생활 습관"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서의 열정과 창의성",
+            "자기주도적 학습 능력",
+            "지식의 실제적 적용"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 과도한 자만심",
+            "지식의 편협성",
+            "학습 동기 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 카리스마",
+            "사교성과 인기",
+            "친구들에게 영감을 주는 존재"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 지배적 태도",
+            "과도한 관심 요구",
+            "친구들과의 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족을 이끄는 강력한 리더십",
+            "가정에서의 창의성과 열정",
+            "가족 구성원들에게 영감 제공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족에 대한 과도한 통제",
+            "가정 내 갈등과 불화",
+            "가족 구성원의 독립성 억압"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "카리스마와 자신감 넘치는 태도",
+            "창의성과 열정의 발휘",
+            "주변에 긍정적 영향력 행사"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지나친 자만심과 독단적 태도",
+            "감정적 불안정성",
+            "타인에 대한 과도한 지배욕"
+          ]
+        }
+      ]
+    }
+  ]
+}

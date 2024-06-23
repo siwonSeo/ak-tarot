@@ -1,0 +1,182 @@
+{
+  "cardId": 35,
+  "cardName": "킹 오브 완드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강력하고 열정적인 연인",
+            "관계에서의 리더십과 보호",
+            "확고한 사랑과 헌신"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 지나친 지배욕",
+            "억압적이고 통제적인 태도",
+            "감정 표현의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강력한 리더십과 권위",
+            "사업이나 프로젝트의 성공",
+            "경력에서의 최고 위치 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "권위주의적이고 독단적인 태도",
+            "과도한 야망으로 인한 문제",
+            "리더십 능력의 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 성공과 안정",
+            "부의 효과적인 관리와 증식",
+            "경제적 리더십 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 오만과 낭비",
+            "돈에 대한 지나친 집착",
+            "재정 관리 능력 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강인한 체력과 활력",
+            "건강한 생활 방식의 실천",
+            "정신적, 육체적 균형"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 스트레스로 인한 건강 악화",
+            "건강 관리의 소홀",
+            "과로와 번아웃"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서의 탁월한 성취",
+            "지식의 실제적 응용 능력",
+            "학문적 리더십 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 오만함과 독단",
+            "지식의 편협성",
+            "학습 동기의 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 리더십",
+            "신뢰받고 존경받는 친구",
+            "우정에 대한 강한 헌신"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 독단과 지배",
+            "과도한 자아 중심적 태도",
+            "우정의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가정에서의 강력한 리더십",
+            "가족에 대한 보호와 지원",
+            "가족 구성원들의 존경"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가정에서의 독재적 태도",
+            "가족 구성원의 자율성 억압",
+            "가정 내 갈등과 불화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강력한 카리스마와 영향력",
+            "목표 달성을 위한 열정과 추진력",
+            "삶에서의 주도권과 책임감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 권위주의와 독단",
+            "타인에 대한 지나친 통제",
+            "자만심과 오만함"
+          ]
+        }
+      ]
+    }
+  ]
+}

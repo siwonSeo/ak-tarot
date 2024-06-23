@@ -1,0 +1,182 @@
+{
+  "cardId": 18,
+  "cardName": "달",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감정의 깊이를 탐험할 시기입니다.",
+            "직관과 감성을 믿으세요.",
+            "새로운 로맨스의 가능성이 열립니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정적 혼란을 주의하세요.",
+            "현실과 환상을 구분하는 것이 중요합니다.",
+            "관계에서 오해가 생길 수 있으니 명확한 소통이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "창의성을 발휘할 좋은 기회입니다.",
+            "직관을 믿고 새로운 아이디어를 추진하세요.",
+            "숨겨진 재능이 드러날 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무상 착각이나 오해를 주의하세요.",
+            "현실적인 목표 설정이 필요합니다.",
+            "불확실한 상황에 대비하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 직관을 믿으세요.",
+            "예상치 못한 수입이 있을 수 있습니다.",
+            "장기적인 재정 계획을 세울 좋은 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 착각이나 사기를 주의하세요.",
+            "불필요한 지출을 자제하세요.",
+            "현실적인 재정 관리가 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "정신적, 감정적 건강에 집중하세요.",
+            "휴식과 명상이 도움이 될 것입니다.",
+            "직관적인 치유법을 시도해 보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "스트레스와 불안을 관리하세요.",
+            "과도한 걱정이나 망상을 조심하세요.",
+            "전문가의 조언을 구하는 것이 좋습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "창의적인 학습 방법을 시도해 보세요.",
+            "잠재의식의 힘을 활용하세요.",
+            "직관적 이해가 깊어질 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습에 있어 혼란을 주의하세요.",
+            "현실적인 학습 목표를 설정하세요.",
+            "정보의 정확성을 꼭 확인하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감정적 유대감이 깊어질 수 있습니다.",
+            "친구의 숨겨진 면을 발견할 수 있어요.",
+            "새로운 인연이 직관적으로 다가올 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 오해를 주의하세요.",
+            "거짓된 친구를 조심하세요.",
+            "감정적 균형을 유지하는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 감정적 교류가 중요한 시기입니다.",
+            "가족의 숨겨진 니즈를 파악하세요.",
+            "직관적인 소통이 도움이 될 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간 오해나 갈등을 주의하세요.",
+            "현실적인 기대를 가지세요.",
+            "명확한 의사소통이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 목소리에 귀 기울이세요.",
+            "꿈과 상상력을 현실로 만들 수 있는 시기입니다.",
+            "직관적인 결정이 좋은 결과를 가져올 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "현실과 환상을 구분하는 것이 중요합니다.",
+            "과도한 불안이나 망상을 조심하세요.",
+            "객관적인 시각을 유지하세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

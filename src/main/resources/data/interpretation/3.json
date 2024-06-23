@@ -1,0 +1,182 @@
+{
+  "cardId": 3,
+  "cardName": "여사제",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "풍요롭고 안정적인 관계",
+            "사랑과 애정의 표현이 풍부함",
+            "상대방에 대한 따뜻한 보살핌과 양육"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 과도한 의존성",
+            "질식할 것 같은 과잉보호",
+            "감정 표현의 부족 또는 냉담함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "창의성과 생산성의 증가",
+            "풍요로운 업무 환경 조성",
+            "리더십과 양육적 관리 스타일"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 생산성 저하",
+            "창의력 부족 또는 아이디어 고갈",
+            "과도한 업무로 인한 소진"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 풍요와 안정",
+            "물질적 욕구의 충족",
+            "재물을 통한 편안함과 안락함 추구"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불안정 또는 손실",
+            "물질주의에 대한 과도한 집착",
+            "재정 관리 능력의 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적인 건강과 웰빙의 향상",
+            "신체적, 정신적 조화와 균형",
+            "풍요로운 영양 섭취와 자기 관리"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리의 소홀",
+            "과식 또는 영양 불균형",
+            "스트레스로 인한 건강 악화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 풍부한 이해와 흡수",
+            "창의적이고 생산적인 학습 방식",
+            "지식의 실제적 적용과 확장"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 의욕 저하 또는 집중력 부족",
+            "지식의 실용적 적용 어려움",
+            "과도한 정보로 인한 혼란"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "따뜻하고 지지적인 우정 관계",
+            "친구들과의 풍요로운 교류",
+            "서로를 돌보고 양육하는 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 과도한 의존",
+            "우정의 불균형 또는 일방적인 관계",
+            "사회적 관계에서의 고립 또는 단절"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "풍요롭고 화목한 가정 환경",
+            "가족 간의 따뜻한 사랑과 보살핌",
+            "안정적이고 지지적인 가족 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 갈등 또는 불화",
+            "과잉보호 또는 간섭",
+            "가족 관계에서의 정서적 단절"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "창조성과 풍요로움의 시기",
+            "자연과의 조화와 연결",
+            "감성적 풍요와 직관력 발달"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "창조성의 막힘 또는 아이디어 부족",
+            "자연과의 단절 또는 불균형",
+            "감정적 불안정 또는 과잉 반응"
+          ]
+        }
+      ]
+    }
+  ]
+}

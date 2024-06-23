@@ -1,0 +1,182 @@
+{
+  "cardId": 6,
+  "cardName": "연인들",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊은 애정과 조화로운 파트너십",
+            "중요한 관계의 선택이나 결정",
+            "사랑과 신뢰에 기반한 결합"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 불화나 불균형",
+            "사랑이나 파트너 선택에서의 갈등",
+            "자기 사랑의 부족 또는 의존적 관계"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "일과 개인적 가치관의 조화",
+            "협력과 팀워크의 중요성",
+            "경력 관련 중요한 선택이나 결정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장 내 관계의 갈등이나 불화",
+            "경력 선택에서의 우유부단함",
+            "개인의 가치와 직업 사이의 불일치"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 파트너십이나 협력의 이점",
+            "금전적 결정에서의 균형과 조화",
+            "가치 있는 재정적 기회나 선택"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에서의 갈등이나 어려움",
+            "금전 문제로 인한 관계 갈등",
+            "재정적 가치관의 불일치"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신체와 마음의 조화로운 균형",
+            "건강한 생활 방식의 선택",
+            "정서적, 신체적 웰빙의 향상"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관련 결정에서의 갈등",
+            "신체와 정신 건강의 불균형",
+            "불건강한 습관이나 관계로 인한 스트레스"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 열정과 흥미의 조화",
+            "협력 학습이나 그룹 프로젝트의 이점",
+            "학업 관련 중요한 선택이나 결정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 선택에서의 갈등이나 우유부단함",
+            "공부와 개인 생활의 불균형",
+            "학습 파트너와의 불화나 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊고 의미 있는 우정의 형성",
+            "친구 관계에서의 조화와 상호 이해",
+            "중요한 사회적 연결이나 선택"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 갈등이나 불화",
+            "사회적 선택에서의 어려움",
+            "친구와 개인적 가치관의 충돌"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 조화와 깊은 유대감",
+            "가족 관련 중요한 결정이나 선택",
+            "가족 구성원 간의 상호 이해와 존중"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서의 갈등이나 불화",
+            "가족과 개인의 가치관 사이의 충돌",
+            "가족 관련 결정에서의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "중요한 인생의 선택이나 결정",
+            "자아와 타인과의 조화로운 관계",
+            "가치관과 행동의 일치"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가치관의 충돌이나 내적 갈등",
+            "중요한 결정에서의 우유부단함",
+            "자아와 외부 세계와의 불일치"
+          ]
+        }
+      ]
+    }
+  ]
+}

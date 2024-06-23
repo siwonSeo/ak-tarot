@@ -1,0 +1,182 @@
+{
+  "cardId": 10,
+  "cardName": "운명의 수레바퀴",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 새로운 전환점",
+            "예상치 못한 만남이나 기회",
+            "운명적인 사랑의 가능성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 불안정성 증가",
+            "예상치 못한 변화로 인한 혼란",
+            "운에 지나치게 의존하는 태도"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "경력상의 중요한 전환점",
+            "새로운 기회나 승진의 가능성",
+            "긍정적인 변화와 성장"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 예상치 못한 어려움",
+            "변화에 적응하지 못하는 상황",
+            "일시적인 후퇴나 정체"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정 상황의 긍정적인 변화",
+            "예상치 못한 금전적 이득",
+            "투자나 투기의 기회"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불안정이나 손실",
+            "예상치 못한 지출이나 문제 발생",
+            "재정 계획의 차질"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 상태의 개선이나 회복",
+            "새로운 치료법이나 방법의 발견",
+            "건강에 대한 인식 변화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 상태의 예상치 못한 변화",
+            "기존 치료법의 효과 감소",
+            "건강 관리의 어려움 증가"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서의 새로운 기회나 전환점",
+            "예상치 못한 학습 성과",
+            "운이 따르는 시험이나 평가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 계획의 차질이나 변경",
+            "예상치 못한 학습 장애물",
+            "학업 성과의 불안정성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 친구 관계의 형성",
+            "기존 친구 관계의 긍정적 변화",
+            "예상치 못한 만남이나 재회"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 불안정성 증가",
+            "예상치 못한 갈등이나 이별",
+            "사회적 환경의 급격한 변화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 상황의 긍정적인 변화",
+            "가족 내 새로운 사건이나 기회",
+            "가족 관계의 개선이나 화해"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 불안정성 증가",
+            "예상치 못한 가족 문제 발생",
+            "가족 구성원 간의 갈등 악화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "인생의 중요한 전환점",
+            "운명적인 사건이나 만남",
+            "긍정적인 변화와 기회의 시기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "예상치 못한 어려움이나 장애물",
+            "변화에 대한 두려움이나 저항",
+            "운명에 대한 과도한 의존이나 무력감"
+          ]
+        }
+      ]
+    }
+  ]
+}

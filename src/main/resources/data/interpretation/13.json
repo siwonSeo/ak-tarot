@@ -1,0 +1,182 @@
+{
+  "cardId": 13,
+  "cardName": "죽음",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 큰 변화나 전환점",
+            "낡은 관계 패턴의 종료와 새로운 시작",
+            "관계의 깊은 변화를 통한 성장"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "변화를 두려워하여 관계의 정체 발생",
+            "끝나야 할 관계를 붙잡으려는 시도",
+            "관계의 변화를 거부하여 생기는 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "경력의 큰 전환점이나 변화",
+            "오래된 직업이나 역할의 종료",
+            "새로운 직업 기회나 경력 경로의 시작"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업 변화에 대한 저항이나 두려움",
+            "필요한 변화를 미루어 발생하는 문제",
+            "직장에서의 정체나 무기력함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정 상황의 큰 변화나 전환",
+            "낡은 재정 습관의 종료와 새로운 시작",
+            "재정적 손실 후의 새로운 기회"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 변화에 대한 두려움이나 저항",
+            "필요한 재정 개혁을 미루는 상황",
+            "재정적 손실이나 침체의 지속"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 상태의 큰 변화나 전환점",
+            "오래된 건강 문제의 해결이나 종료",
+            "새로운 건강 관리 방식의 시작"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 변화에 대한 저항이나 두려움",
+            "필요한 생활 습관 변화를 미루는 상황",
+            "건강 회복의 지연이나 정체"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업이나 학습 방식의 큰 변화",
+            "오래된 학습 패턴의 종료와 새로운 접근법",
+            "학업 분야의 전환이나 새로운 시작"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 변화에 대한 두려움이나 저항",
+            "필요한 학습 방식의 변화를 미루는 상황",
+            "학업에서의 정체나 무기력함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계의 큰 변화나 전환",
+            "오래된 우정의 종료와 새로운 관계의 시작",
+            "사회적 네트워크의 변화와 재구성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계 변화에 대한 두려움이나 저항",
+            "끝나야 할 우정을 붙잡으려는 시도",
+            "사회적 변화를 거부하여 생기는 고립"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 구조나 역동성의 큰 변화",
+            "오래된 가족 패턴의 종료와 새로운 시작",
+            "가족 관계의 변화를 통한 성장과 발전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 변화에 대한 저항이나 두려움",
+            "필요한 가족 구조 변화를 미루는 상황",
+            "가족 관계의 정체나 고착화된 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "인생의 큰 전환점이나 변화",
+            "과거의 종료와 새로운 시작",
+            "변화를 통한 개인적 성장과 변형"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "변화에 대한 두려움이나 저항",
+            "필요한 변화를 미루어 발생하는 정체",
+            "과거에 집착하여 새로운 기회를 놓치는 상황"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "cardId": 17,
+  "cardName": "별",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "희망과 낙관으로 가득 찬 새로운 관계",
+            "기존 관계의 갱신과 치유",
+            "상호 신뢰와 영감을 주는 파트너십"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에 대한 희망 상실",
+            "비현실적인 기대로 인한 실망",
+            "관계의 치유와 회복 지연"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 직업적 기회와 가능성",
+            "창의성과 영감이 넘치는 업무 환경",
+            "장기적 목표를 향한 희망과 비전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 목표에 대한 희망 상실",
+            "업무에서의 영감과 동기 부족",
+            "비현실적인 직업적 기대로 인한 실망"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 회복과 안정의 시기",
+            "새로운 수입원이나 투자 기회",
+            "긍정적인 재정 전망과 희망"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 회복의 지연",
+            "비현실적인 금전적 기대",
+            "재정적 희망의 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 회복과 치유의 시기",
+            "신체적, 정신적 균형의 회복",
+            "건강에 대한 긍정적 전망과 희망"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 회복의 지연",
+            "치유 과정에 대한 비현실적 기대",
+            "건강에 대한 희망 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 새로운 열정과 영감",
+            "창의적이고 혁신적인 학습 방법",
+            "학업 목표 달성에 대한 희망과 비전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 동기 부족",
+            "비현실적인 학업 기대로 인한 실망",
+            "학습 과정에서의 영감 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 우정의 형성과 기존 관계의 갱신",
+            "상호 영감을 주는 친구 관계",
+            "사회적 네트워크의 확장과 긍정적 전망"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에 대한 희망 상실",
+            "사회적 고립감이나 소외감",
+            "우정에 대한 비현실적 기대"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 치유와 회복",
+            "가족 내 새로운 희망과 비전 공유",
+            "가족 간의 상호 이해와 화합 증진"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계 개선에 대한 희망 상실",
+            "가족 내 소통의 어려움 지속",
+            "가족에 대한 비현실적 기대"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 희망과 영감의 시기",
+            "창의성과 직관력의 증대",
+            "정신적 평화와 내적 조화의 회복"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "희망의 상실과 낙담",
+            "비현실적 기대로 인한 실망",
+            "영적 혹은 창의적 침체기"
+          ]
+        }
+      ]
+    }
+  ]
+}

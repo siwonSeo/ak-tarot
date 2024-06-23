@@ -1,0 +1,182 @@
+{
+  "cardId": 15,
+  "cardName": "악마",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 집착이나 의존성",
+            "육체적 욕망이 지배하는 관계",
+            "불건전하거나 강압적인 관계 패턴"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "유해한 관계로부터의 해방",
+            "중독적 행동 패턴의 인식과 극복",
+            "관계에서의 자유와 독립성 회복"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서의 권력 남용이나 착취",
+            "과도한 야망이나 물질주의적 태도",
+            "불건전한 직장 환경이나 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "부정적인 직장 환경으로부터의 탈출",
+            "과도한 업무 스트레스의 해소",
+            "자신의 진정한 가치를 찾는 과정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 중독이나 과도한 물질주의",
+            "돈에 대한 집착이나 강박관념",
+            "불법적이거나 비윤리적인 재정 활동"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 속박으로부터의 해방",
+            "물질주의적 태도의 극복",
+            "건전한 재정 관리로의 전환"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "중독이나 강박적 행동으로 인한 건강 악화",
+            "부정적인 생활 습관에 대한 집착",
+            "정신적, 육체적 건강의 불균형"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "해로운 습관이나 중독으로부터의 회복",
+            "건강에 대한 새로운 인식과 접근",
+            "정신적, 육체적 건강의 균형 회복"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에 대한 과도한 집착이나 강박",
+            "비효율적인 학습 방식에 대한 고착",
+            "학업 스트레스로 인한 부정적 영향"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "비생산적인 학습 패턴으로부터의 해방",
+            "학업에 대한 새로운 접근법 발견",
+            "균형 잡힌 학습 태도의 형성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "유해하거나 독성있는 친구 관계",
+            "친구에 대한 과도한 의존이나 집착",
+            "사회적 압력이나 부정적 영향"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "해로운 친구 관계로부터의 해방",
+            "건전한 경계 설정과 자기 주장",
+            "진정한 우정의 가치 재발견"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 내 권력 남용이나 지배적 관계",
+            "가족에 대한 과도한 집착이나 의존",
+            "가족 내 불건전한 역학 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 부정적 패턴으로부터의 해방",
+            "가족 관계의 재정립과 개선",
+            "가족 내 건강한 경계 설정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 어두운 면이나 욕망과의 대면",
+            "중독, 집착, 강박 등 부정적 패턴의 인식",
+            "자기기만이나 환상에서 벗어날 필요성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "부정적 패턴이나 속박으로부터의 해방",
+            "자기 인식과 내면의 힘 회복",
+            "진정한 자유와 자아 실현을 향한 움직임"
+          ]
+        }
+      ]
+    }
+  ]
+}

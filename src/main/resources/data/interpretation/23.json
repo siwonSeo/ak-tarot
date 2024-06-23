@@ -1,0 +1,182 @@
+{
+  "cardId": 23,
+  "cardName": "투 오브 완드 (Two of Wands)",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 미래 계획 수립",
+            "파트너와의 장기적 비전 공유",
+            "사랑에서의 새로운 가능성 탐색"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 방향성 상실",
+            "파트너와의 의견 불일치",
+            "사랑의 미래에 대한 두려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "경력 발전을 위한 계획 수립",
+            "새로운 비즈니스 기회 탐색",
+            "직업적 파트너십 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "경력 목표의 불확실성",
+            "비즈니스 파트너십의 어려움",
+            "직업적 선택에 대한 우유부단함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 성장을 위한 계획 수립",
+            "장기적 투자 기회 고려",
+            "재정적 파트너십 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정 계획의 불확실성",
+            "금전적 결정에 대한 우유부단함",
+            "재정적 파트너십의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "장기적 건강 목표 설정",
+            "새로운 건강 관리 방법 탐색",
+            "건강한 생활을 위한 계획 수립"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 목표 달성의 어려움",
+            "건강 관리 방법 선택의 혼란",
+            "건강에 대한 장기적 비전 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 계획의 수립",
+            "새로운 학습 영역 탐색",
+            "교육적 파트너십 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 방향성의 불확실성",
+            "학습 계획 실행의 어려움",
+            "교육적 선택에 대한 우유부단함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정 관계의 발전 계획",
+            "새로운 사회적 네트워크 탐색",
+            "친구와의 장기적 목표 공유"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "우정 관계의 방향성 상실",
+            "사회적 계획의 불확실성",
+            "친구 관계에서의 의견 충돌"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족의 미래 계획 수립",
+            "가족 구성원과의 비전 공유",
+            "가족 관계 발전을 위한 새로운 방법 모색"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 계획의 불확실성",
+            "가족 구성원 간 의견 불일치",
+            "가족의 미래에 대한 우려"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "미래에 대한 계획과 비전 수립",
+            "새로운 가능성과 기회 탐색",
+            "장기적 목표를 향한 첫 걸음"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "미래에 대한 불확실성과 두려움",
+            "결정과 선택의 어려움",
+            "계획 실행의 지연 또는 방해"
+          ]
+        }
+      ]
+    }
+  ]
+}

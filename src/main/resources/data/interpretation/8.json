@@ -1,0 +1,182 @@
+{
+  "cardId": 8,
+  "cardName": "힘",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내적 힘과 자신감을 바탕으로 한 건강한 관계",
+            "애정과 열정의 조화로운 균형",
+            "상대방에 대한 이해와 인내심 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 자신감 부족이나 불안정",
+            "감정 조절의 어려움으로 인한 갈등",
+            "상대방에 대한 지나친 의존이나 통제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "도전적인 상황을 극복할 수 있는 내적 힘",
+            "리더십과 결단력 발휘의 시기",
+            "인내와 끈기로 목표 달성 가능"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "자신감 부족으로 인한 기회 상실",
+            "압박감이나 스트레스에 대한 부적절한 대처",
+            "과도한 자만심이나 공격성으로 인한 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 어려움을 극복할 수 있는 힘과 의지",
+            "장기적 재정 목표 달성을 위한 인내심",
+            "충동적 소비를 조절하는 자제력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에서의 우유부단함",
+            "금전적 압박감에 대한 부적절한 대응",
+            "과도한 위험 감수나 무모한 투자"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강한 생명력과 회복력",
+            "건강 관리를 위한 자기 통제력",
+            "정신적, 육체적 균형 유지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리에 대한 의지 부족",
+            "스트레스나 불안으로 인한 건강 악화",
+            "건강한 습관 유지의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에 대한 강한 의지와 집중력",
+            "어려운 과제를 극복할 수 있는 인내심",
+            "자기 주도적 학습 능력 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 자신감 부족",
+            "집중력 저하나 의욕 상실",
+            "학업 스트레스에 대한 부적절한 대처"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서의 신뢰와 상호 존중",
+            "갈등 상황을 해결할 수 있는 내적 힘",
+            "친구를 위한 용기 있는 행동"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 자신감 부족",
+            "갈등을 회피하거나 부적절하게 대처",
+            "친구에 대한 과도한 의존이나 통제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 강한 유대감과 신뢰",
+            "가족 문제 해결을 위한 인내와 용기",
+            "가족 구성원 간의 상호 이해와 존중"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서의 갈등이나 불화",
+            "가족 문제에 대한 회피나 무력감",
+            "가족 간 의사소통의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내적 힘과 용기를 발휘하는 시기",
+            "어려움을 극복할 수 있는 인내심과 결단력",
+            "자기 통제력과 정서적 안정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "자신감 부족이나 내적 불안",
+            "감정 조절의 어려움이나 충동성",
+            "도전을 회피하거나 두려워하는 태도"
+          ]
+        }
+      ]
+    }
+  ]
+}

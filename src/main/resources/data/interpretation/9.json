@@ -1,0 +1,182 @@
+{
+  "cardId": 9,
+  "cardName": "은둔자",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "자기 성찰의 시간이 필요함",
+            "관계에서 잠시 거리를 두고 생각할 필요가 있음",
+            "내면의 목소리에 귀 기울이는 시기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "고립감과 외로움을 느낄 수 있음",
+            "관계에서의 소통 부족",
+            "과도한 자기 중심적 태도"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "독립적인 업무나 연구에 적합한 시기",
+            "전문성을 갖추기 위한 학습과 성찰이 필요함",
+            "경험을 통한 지혜 획득"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "팀워크의 부족으로 인한 어려움",
+            "과도한 고립으로 인한 업무 효율 저하",
+            "새로운 아이디어나 조언을 받아들이지 못함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정 상황에 대한 신중한 검토가 필요함",
+            "장기적인 재무 계획 수립에 적합한 시기",
+            "절제와 절약의 중요성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 조언을 무시하여 발생하는 문제",
+            "과도한 절약으로 인한 기회 상실",
+            "재정 관리에 대한 무관심"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 평화를 찾는 것이 중요함",
+            "명상이나 요가와 같은 정신적 수련이 도움됨",
+            "건강에 대한 깊은 이해와 자기 관리가 필요한 시기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "스트레스로 인한 건강 악화 가능성",
+            "고립으로 인한 정신적 불균형",
+            "전문가의 조언을 무시하여 발생하는 건강 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊이 있는 학습과 연구에 적합한 시기",
+            "독학이나 자기주도적 학습이 효과적",
+            "지식의 실제적 적용과 내면화가 중요"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 의욕 저하나 집중력 부족",
+            "과도한 고립으로 인한 학습 효율 감소",
+            "다른 사람들과의 교류를 통한 학습 기회 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊이 있는 대화와 교류가 가능한 친구 관계",
+            "소수의 진정한 친구와의 관계에 집중",
+            "친구와의 관계에서 자기 성찰의 기회를 얻음"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 고립과 소외감",
+            "사회적 상호작용의 부족",
+            "친구들과의 소통 단절"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계에서 개인의 공간과 시간 존중이 필요함",
+            "가족 내에서 지혜로운 조언자 역할",
+            "가족 관계에 대한 깊은 통찰력 획득"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족으로부터의 고립과 단절",
+            "가족 간 소통의 부재",
+            "가족 문제에 대한 과도한 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 목소리에 귀 기울이는 시기",
+            "고독을 통한 자아 발견과 성장",
+            "지혜와 통찰력을 얻는 중요한 단계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 고립으로 인한 현실과의 괴리",
+            "자기 성찰의 균형을 잃음",
+            "타인의 조언이나 도움을 거부하는 태도"
+          ]
+        }
+      ]
+    }
+  ]
+}

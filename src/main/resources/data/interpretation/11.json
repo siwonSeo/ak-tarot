@@ -1,0 +1,182 @@
+{
+  "cardId": 11,
+  "cardName": "정의",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 공정성과 균형",
+            "상호 존중과 이해를 바탕으로 한 관계",
+            "진실성과 정직함이 중요한 시기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 불균형과 불공정",
+            "거짓말이나 속임수로 인한 문제",
+            "관계에서의 책임 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "공정한 평가와 보상을 받을 수 있는 시기",
+            "윤리적 결정이 중요한 상황",
+            "법률이나 규정과 관련된 일에서 유리함"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 불공정한 대우",
+            "윤리적 딜레마나 법적 문제 발생 가능",
+            "결정을 내리는 데 어려움을 겪음"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 결정에서의 공정성과 균형",
+            "계약이나 거래에서 유리한 결과",
+            "장기적 관점에서의 재정 계획 수립"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불균형이나 불공정한 거래",
+            "금전적 손실이나 법적 문제 발생 가능",
+            "재정 관리에서의 부주의나 무책임"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신체와 정신의 균형 유지",
+            "건강한 생활 습관의 중요성",
+            "의료적 결정에서의 신중함과 공정성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리의 불균형",
+            "스트레스로 인한 건강 악화",
+            "의료적 조언을 무시하여 발생하는 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "논리적이고 체계적인 학습 방법 효과적",
+            "공정한 평가와 결과를 얻을 수 있는 시기",
+            "법률, 윤리, 철학 관련 학습에 유리"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 불공정한 대우나 평가",
+            "학습 계획의 불균형",
+            "윤리적 딜레마나 부정행위의 유혹"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "공정하고 균형 잡힌 우정 관계",
+            "상호 존중과 이해를 바탕으로 한 교류",
+            "갈등 해결에 있어 중재자 역할 가능"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 불공정함이나 편견",
+            "친구 간 갈등이나 오해 발생 가능",
+            "책임감 없는 행동으로 인한 문제"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 내 공정한 역할 분담과 의사 결정",
+            "가족 간 갈등의 합리적 해결",
+            "가족 구성원 각자의 권리와 책임 존중"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 불공정한 대우나 차별",
+            "가족 간 갈등의 악화나 해결 지연",
+            "가족 문제에 대한 책임 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "공정성과 정의를 추구하는 시기",
+            "균형 잡힌 판단과 결정이 중요",
+            "책임감 있는 행동의 결과로 얻는 이익"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "불공정한 상황이나 결정에 직면할 수 있음",
+            "편견이나 선입견으로 인한 문제",
+            "책임 회피나 불균형으로 인한 어려움"
+          ]
+        }
+      ]
+    }
+  ]
+}

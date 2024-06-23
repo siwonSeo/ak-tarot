@@ -1,0 +1,182 @@
+{
+  "cardId": 25,
+  "cardName": "포 오브 완드 (Four of Wands)",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 안정과 조화",
+            "사랑의 결실, 약혼 또는 결혼",
+            "파트너와의 축하와 기쁨의 시간"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 불안정",
+            "약속이나 계획의 지연",
+            "기대에 미치지 못하는 관계의 현실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직업적 성취와 안정",
+            "팀워크의 성공과 화합",
+            "경력에서의 중요한 이정표 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 불안정",
+            "팀 내 갈등 또는 불화",
+            "경력 목표 달성의 지연"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정과 풍요",
+            "투자의 성공적인 결실",
+            "경제적 목표의 달성과 축하"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불안정",
+            "기대했던 금전적 이득의 지연",
+            "경제적 안정을 위한 더 많은 노력 필요"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 상태의 안정과 개선",
+            "건강 목표 달성의 축하",
+            "신체와 마음의 조화로운 상태"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 개선의 지연",
+            "기대했던 건강 상태에 도달하지 못함",
+            "건강 관리의 일시적 후퇴"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업의 성취와 완성",
+            "교육적 목표 달성의 축하",
+            "학습 환경에서의 안정과 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 성취의 지연",
+            "교육 환경에서의 불안정",
+            "학습 목표 달성의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정의 축하와 기쁨",
+            "친구들과의 화합과 안정",
+            "사회적 관계에서의 성취감"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 불안정",
+            "사회적 모임의 연기 또는 실망",
+            "우정의 기대에 미치지 못하는 현실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족의 화합과 축하",
+            "가정에서의 안정과 평화",
+            "가족 관계의 긍정적 발전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 일시적 불안정",
+            "가족 행사나 계획의 연기",
+            "가정에서의 조화 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "성취와 안정의 시기",
+            "목표 달성에 대한 축하와 기쁨",
+            "조화롭고 안정적인 환경"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "안정의 일시적 상실",
+            "기대했던 성과의 지연",
+            "목표 달성 후 예상치 못한 도전"
+          ]
+        }
+      ]
+    }
+  ]
+}

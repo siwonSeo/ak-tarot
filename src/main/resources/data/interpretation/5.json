@@ -1,0 +1,182 @@
+{
+  "cardId": 5,
+  "cardName": "사제",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통적이고 안정적인 관계",
+            "종교적 또는 정신적 가치관을 공유하는 파트너십",
+            "결혼이나 약혼 등 공식적인 관계로의 발전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 과도한 제약이나 형식주의",
+            "개인의 자유와 신념의 충돌",
+            "비전통적인 관계에 대한 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통적이고 안정적인 직업 경로",
+            "멘토링이나 교육 관련 경력",
+            "조직 내 규범과 절차의 중요성 인식"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장 내 관습이나 규칙에 대한 반발",
+            "창의성을 제한하는 경직된 업무 환경",
+            "권위에 대한 도전 또는 불화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통적이고 보수적인 재정 관리",
+            "장기적이고 안정적인 재무 계획",
+            "재정 관련 조언이나 지도의 중요성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 관습이나 조언에 대한 불신",
+            "비전통적인 재정 방식으로 인한 위험",
+            "재정적 자유와 안정 사이의 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통적인 의학과 치료법에 대한 신뢰",
+            "정신적, 영적 건강의 중요성 인식",
+            "건강 관련 전문가의 조언 수용"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "전통적 치료법에 대한 의심 또는 거부",
+            "건강 관련 조언이나 규칙에 대한 반발",
+            "정신적 건강과 신체적 건강의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통적인 교육 방식의 가치 인식",
+            "멘토나 교사로부터의 지도와 학습",
+            "체계적이고 구조화된 학습 방법"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "교육 시스템이나 방식에 대한 의문",
+            "자기 주도적 학습과 전통적 교육의 충돌",
+            "학문적 권위에 대한 도전"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "오랜 시간 지속되는 신뢰할 수 있는 우정",
+            "공통된 가치관이나 신념을 바탕으로 한 친구 관계",
+            "멘토-멘티 관계의 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 과도한 동조 압력",
+            "개인의 독특성이 무시되는 그룹 역학",
+            "우정에서의 자유와 제약 사이의 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통적인 가족 가치의 중요성",
+            "가족 내에서의 정신적, 도덕적 지도력",
+            "세대 간 지혜와 전통의 전수"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 전통이나 가치관에 대한 반발",
+            "가족 내 권위와 개인의 자유 사이의 갈등",
+            "세대 차이로 인한 가족 간 불화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전통과 제도에 대한 존중",
+            "정신적, 도덕적 가이드의 필요성 인식",
+            "사회적 규범과 가치의 중요성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "기존 체제나 믿음에 대한 의문과 도전",
+            "개인의 자유와 사회적 규범 사이의 갈등",
+            "비전통적이거나 혁신적인 접근 방식 추구"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "cardId": 24,
+  "cardName": "쓰리 오브 완드 (Three of Wands)",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 성장과 확장",
+            "파트너와의 새로운 경험 추구",
+            "사랑의 여정에서의 모험과 탐험"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계 발전의 지연",
+            "파트너와의 거리감 증가",
+            "사랑에서의 기대와 현실의 불일치"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "경력의 확장과 성장",
+            "새로운 비즈니스 기회의 실현",
+            "장기적 계획의 첫 결실"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 성장의 지연",
+            "비즈니스 확장의 어려움",
+            "경력 계획의 실행 장애"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 확장과 성장",
+            "투자의 첫 결실",
+            "새로운 수입원의 발견"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 성장의 지연",
+            "투자 수익의 부진",
+            "금전적 계획의 실현 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 개선의 진전",
+            "새로운 건강 관리 방법의 효과",
+            "건강한 생활습관의 확립"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 개선의 지연",
+            "건강 관리 계획의 실행 어려움",
+            "건강 목표 달성의 장애물"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업의 확장과 발전",
+            "새로운 학습 영역의 탐구",
+            "교육적 목표의 실현"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 진전의 지연",
+            "새로운 학습에 대한 어려움",
+            "교육 계획 실행의 장애"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정 관계의 확장",
+            "새로운 사회적 경험",
+            "친구들과의 모험과 탐험"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "우정 관계 발전의 지연",
+            "사회적 활동의 제한",
+            "친구와의 계획 실현의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 성장과 확장",
+            "가족과의 새로운 경험",
+            "가족 계획의 실현"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계 발전의 지연",
+            "가족 계획 실행의 어려움",
+            "가족 간 기대와 현실의 불일치"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "계획의 실현과 확장",
+            "새로운 기회의 도래",
+            "장기적 비전의 첫 결실"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "계획 실행의 지연",
+            "기대했던 결과의 미실현",
+            "확장과 성장의 장애물"
+          ]
+        }
+      ]
+    }
+  ]
+}

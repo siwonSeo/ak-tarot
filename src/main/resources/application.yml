@@ -9,24 +9,26 @@ server:
 
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-#    url: 'jdbc:h2:mem:test;MODE=MySQL'
-    url: 'jdbc:h2:~/data/tarot;MODE=MySQL'
-    username: sa
-    password:
+#    driver-class-name: org.h2.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    url: 'jdbc:h2:mem:test;MODE=MySQL'
+#    url: 'jdbc:h2:~/data/tarot;MODE=MySQL'
+    url: 'jdbc:mysql://localhost:3306/tarot?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul'
+    username: root
+    password: sasa
   h2:
     console:
       enabled: true
       path: /h2-console
 
   jpa:
-    database: h2
-    database-platform: org.hibernate.dialect.H2Dialect
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.H2Dialect
+#        dialect: org.hibernate.dialect.MySQLDialect
         format_sql: true
         show_sql: true
         encoding: UTF-8
@@ -49,3 +51,14 @@ springdoc:
     disable-swagger-default-url: true
     display-request-duration: true
     operations-sorter: alpha
+
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    template-resolver-order: 1
+    check-template: true
+    check-template-location: true

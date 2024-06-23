@@ -1,0 +1,182 @@
+{
+  "cardId": 14,
+  "cardName": "악마",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 균형과 조화 유지",
+            "상호 이해와 타협을 통한 관계 발전",
+            "감정적 안정과 성숙한 사랑"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 불균형이나 조화 부족",
+            "과도한 감정 기복이나 충동적 행동",
+            "상대방과의 소통 부족이나 오해"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서의 균형과 조화 유지",
+            "다양한 업무의 효율적 관리",
+            "장기적 관점에서의 경력 개발"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무와 삶의 균형 상실",
+            "과도한 스트레스나 번아웃",
+            "직장에서의 갈등이나 불화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정의 균형과 안정성 확보",
+            "장기적 관점에서의 재무 계획",
+            "수입과 지출의 조화로운 관리"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불균형이나 과도한 지출",
+            "충동적인 재정 결정",
+            "장기적 재무 계획의 부재"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신체와 정신의 균형 유지",
+            "절제와 조화를 통한 건강 증진",
+            "스트레스 관리와 정서적 안정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강의 불균형이나 과도한 스트레스",
+            "건강 관리의 부족이나 극단적 행동",
+            "정신적, 육체적 피로 누적"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습의 균형과 효율성 증대",
+            "다양한 학습 방법의 조화로운 적용",
+            "장기적 관점에서의 학업 계획"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업과 다른 활동 간의 불균형",
+            "비효율적인 학습 방식",
+            "학업 스트레스나 과도한 부담"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정의 균형과 조화 유지",
+            "다양한 친구 관계의 조화로운 관리",
+            "상호 이해와 존중을 통한 우정 발전"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 불균형이나 갈등",
+            "특정 관계에 대한 과도한 집착",
+            "사회적 관계에서의 조화 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 균형과 조화 유지",
+            "가족 구성원 간의 이해와 타협",
+            "안정적이고 평화로운 가정 환경"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 불균형이나 갈등",
+            "가족 내 역할 분담의 불균형",
+            "가족 간 소통 부족이나 오해"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "삶의 다양한 측면에서의 균형과 조화",
+            "절제와 중용을 통한 안정과 성장",
+            "장기적 관점에서의 삶의 계획과 실천"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "삶의 불균형이나 조화 부족",
+            "극단적 행동이나 결정",
+            "장기적 관점 부족으로 인한 문제"
+          ]
+        }
+      ]
+    }
+  ]
+}

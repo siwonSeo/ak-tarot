@@ -1,0 +1,182 @@
+{
+  "cardId": 20,
+  "cardName": "심판 (Judgement)",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "과거의 관계를 새롭게 바라보기",
+            "관계에서의 중요한 결정 시기",
+            "자신과 파트너의 행동을 객관적으로 평가하기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 자기반성 부족",
+            "과거의 실수를 반복하는 경향",
+            "변화를 두려워하여 정체된 관계"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "경력에 대한 중요한 평가 시기",
+            "새로운 직업 기회의 도래",
+            "과거의 업적에 대한 인정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "경력 발전의 지연",
+            "자신의 능력에 대한 의심",
+            "직장에서의 평가 두려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정 상태에 대한 객관적 평가",
+            "중요한 금융 결정의 시기",
+            "과거의 재정적 실수로부터의 학습"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정의 지연",
+            "금전적 문제에 대한 책임 회피",
+            "재정 상태 개선의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 상태의 전반적인 개선",
+            "중요한 의료 검진 또는 진단",
+            "건강한 생활 습관으로의 전환"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 문제의 무시 또는 부정",
+            "필요한 의료 처치의 지연",
+            "건강 개선을 위한 노력 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 성과에 대한 중요한 평가",
+            "새로운 학습 기회의 발견",
+            "과거의 학습 방식 개선"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 동기 부족",
+            "학습 결과에 대한 두려움",
+            "교육적 성장의 정체"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "오래된 우정의 갱신",
+            "친구 관계에 대한 재평가",
+            "새로운 사회적 연결의 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 갈등 회피",
+            "사회적 고립 또는 단절",
+            "우정에 대한 냉소적 태도"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 회복과 화해",
+            "가족 내 중요한 결정이나 전환점",
+            "세대 간 이해와 소통 증진"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 문제의 지속적인 회피",
+            "가족 간 갈등의 해결 어려움",
+            "가족 관계 개선의 지연"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "인생의 중요한 전환점",
+            "과거의 행동에 대한 깊은 성찰",
+            "새로운 시작을 위한 준비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "변화에 대한 두려움과 저항",
+            "자기반성의 부족",
+            "중요한 삶의 결정 지연"
+          ]
+        }
+      ]
+    }
+  ]
+}

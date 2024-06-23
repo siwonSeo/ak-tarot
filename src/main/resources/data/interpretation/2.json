@@ -1,0 +1,182 @@
+{
+  "cardId": 2,
+  "cardName": "여사제",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직관과 내면의 지혜를 통한 관계 이해",
+            "상대방의 감정에 대한 깊은 통찰",
+            "정서적 깊이와 신비로움이 있는 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 비밀이나 숨겨진 측면",
+            "감정 표현의 어려움이나 억제",
+            "직관을 무시하고 이성에만 의존"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 지혜를 활용한 직업적 결정",
+            "직관을 통한 새로운 기회 포착",
+            "깊이 있는 지식과 통찰력 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 불확실성이나 혼란",
+            "중요한 정보의 은폐나 무시",
+            "직관과 현실 사이의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 직관력과 통찰력 발휘",
+            "숨겨진 재정 기회 발견",
+            "정신적 가치와 물질적 풍요의 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에서의 불확실성",
+            "금전적 비밀이나 숨겨진 문제",
+            "물질주의에 대한 과도한 집착"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 힐링 능력 활성화",
+            "직관을 통한 건강 문제 이해",
+            "심신의 균형과 조화 추구"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 문제의 심리적 원인 무시",
+            "신체 신호에 대한 둔감",
+            "건강에 관한 혼란이나 불확실성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직관적 학습과 깊이 있는 이해",
+            "숨겨진 지식이나 비밀 탐구",
+            "내적 지혜와 학문의 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습의 어려움이나 집중력 부족",
+            "지식의 실용적 적용 어려움",
+            "intuition과 논리적 사고의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊이 있고 의미 있는 우정 형성",
+            "친구의 숨겨진 면을 이해하는 능력",
+            "정신적, 영적 교류가 있는 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 비밀이나 오해",
+            "social interaction에서의 어려움",
+            "친구와의 정서적 거리감"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 내 숨겨진 역동성 이해",
+            "가족 문제에 대한 직관적 해결책",
+            "가족 간 깊은 정서적 유대 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 비밀이나 숨겨진 갈등",
+            "가족 구성원 간 소통의 어려움",
+            "가족 관계에서의 정서적 단절"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 지혜와 직관력 발달",
+            "숨겨진 진실이나 지식 발견",
+            "영적 성장과 자기 이해 증진"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "내적 혼란이나 불확실성",
+            "직관과 현실 사이의 불균형",
+            "중요한 메시지나 신호 무시"
+          ]
+        }
+      ]
+    }
+  ]
+}

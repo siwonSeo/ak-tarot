@@ -1,0 +1,182 @@
+{
+  "cardId": 21,
+  "cardName": "세계 (The World)",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 완성과 성취",
+            "파트너와의 깊은 유대감 형성",
+            "사랑에서의 조화와 균형 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 정체 또는 미완성",
+            "파트너와의 거리감 또는 단절",
+            "사랑에서의 목표 달성 지연"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "커리어 목표의 성공적 달성",
+            "직업적 성취와 인정",
+            "새로운 경력 단계로의 진입"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 목표 달성의 지연",
+            "경력 발전의 장애물",
+            "일에서의 불완전한 만족감"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 목표의 달성",
+            "금전적 안정과 풍요",
+            "장기 투자의 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 목표 달성의 지연",
+            "금전적 성공의 불완전함",
+            "재정 계획의 미완성"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적인 건강과 웰빙의 달성",
+            "신체와 정신의 조화로운 균형",
+            "건강 목표의 성공적 완성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 회복의 지연",
+            "건강 목표 달성의 어려움",
+            "신체와 정신의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 또는 연구의 성공적 완성",
+            "지식의 통합과 전체적 이해",
+            "교육적 목표의 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 완성의 지연",
+            "지식 통합의 어려움",
+            "교육 목표 달성의 장애물"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정의 완성과 깊은 유대감",
+            "사회적 네트워크의 확장",
+            "다양한 관계에서의 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "우정 관계의 불완전함",
+            "사회적 고립 또는 소외감",
+            "인간관계에서의 불만족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 조화와 완성",
+            "세대 간 이해와 화합",
+            "가족 내 갈등의 해결"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 불완전함",
+            "가족 내 갈등의 지속",
+            "가족 간 소통의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "인생의 한 주기의 완성",
+            "전체적인 성취감과 만족",
+            "새로운 시작을 위한 준비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "목표 달성의 지연 또는 미완성",
+            "전체적인 불만족 또는 미완성감",
+            "새로운 시작에 대한 두려움"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,7 +23,7 @@ public class TarotCardKeyWord {
   @NotNull
   @Column(name = "keyword_id", nullable = false)
 //  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  @GeneratedValue(strategy = GenerationType.AUTO)
+//  @GeneratedValue(strategy = GenerationType.AUTO)
   @Comment("키워드 아이디")
   private Integer keywordId;
 
@@ -42,7 +42,8 @@ public class TarotCardKeyWord {
   @Comment("키워드")
   private String keyword;
 
-  public TarotCardKeyWord(Integer cardId, Boolean isReversed, String keyword) {
+  public TarotCardKeyWord(Integer keywordId, Integer cardId, Boolean isReversed, String keyword) {
+    this.keywordId = keywordId;
     this.cardId = cardId;
     this.isReversed = isReversed;
     this.keyword = keyword;

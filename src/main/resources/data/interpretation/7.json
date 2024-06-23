@@ -1,0 +1,182 @@
+{
+  "cardId": 7,
+  "cardName": "전차",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서의 진전과 승리",
+            "자신감과 의지로 관계 장애물 극복",
+            "사랑을 위한 적극적인 행동과 노력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 통제력 상실",
+            "감정적 충동으로 인한 갈등",
+            "관계의 방향성 상실 또는 정체"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "경력에서의 큰 진전과 성공",
+            "목표 달성을 위한 강한 의지와 결단력",
+            "경쟁에서의 승리와 인정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 과도한 공격성 또는 경쟁",
+            "경력 목표의 방향성 상실",
+            "업무에서의 통제력 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 목표 달성을 위한 강한 추진력",
+            "금전적 성공과 진전",
+            "재정 관리에 대한 통제력 획득"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에서의 충동성",
+            "금전 관리의 어려움과 통제력 상실",
+            "재정적 목표의 혼란 또는 좌절"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 목표 달성을 위한 강한 의지력",
+            "건강 증진을 위한 적극적인 행동",
+            "신체적, 정신적 균형의 유지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리의 불균형 또는 과도한 스트레스",
+            "건강 목표 달성의 어려움",
+            "건강에 대한 통제력 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업 목표 달성을 위한 강한 집중력",
+            "학습에서의 빠른 진전과 성과",
+            "학업 경쟁에서의 승리"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 스트레스와 압박감",
+            "학습 방향성의 혼란",
+            "공부에 대한 동기 부족 또는 번아웃"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정을 위한 적극적인 노력과 행동",
+            "사회적 목표 달성과 인정",
+            "친구 관계에서의 리더십 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 과도한 경쟁 또는 지배",
+            "사회적 상황에서의 통제력 상실",
+            "우정의 방향성 상실 또는 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 목표 달성을 위한 협력과 노력",
+            "가족 내 갈등의 성공적 해결",
+            "가족을 이끄는 강한 리더십"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 권력 다툼이나 갈등",
+            "가족 관계에서의 통제력 상실",
+            "가족 문제 해결의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "목표 달성을 위한 강한 의지와 결단력",
+            "도전과 장애물의 성공적 극복",
+            "자기 통제와 내적 갈등의 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "내적 갈등과 자기 통제의 어려움",
+            "목표 상실 또는 방향성 혼란",
+            "충동적 행동과 결과에 대한 부담"
+          ]
+        }
+      ]
+    }
+  ]
+}

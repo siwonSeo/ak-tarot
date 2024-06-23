@@ -1,0 +1,182 @@
+{
+  "cardId": 12,
+  "cardName": "행드맨",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에 대한 새로운 시각 획득",
+            "사랑을 위한 자기 희생과 양보",
+            "관계의 일시적 중단으로 인한 깨달음"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 불필요한 자기희생",
+            "결정을 미루거나 행동하지 않아 생기는 문제",
+            "관계의 정체나 답답함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직업에 대한 새로운 관점 형성",
+            "경력 전환을 위한 준비 기간",
+            "일시적인 정체기를 통한 통찰 획득"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 무기력함이나 정체",
+            "변화를 위한 결정을 미루는 상황",
+            "불필요한 자기희생으로 인한 스트레스"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정 상황에 대한 새로운 시각 획득",
+            "일시적인 금전적 제약으로 인한 깨달음",
+            "물질적 가치관의 변화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정의 지연으로 인한 손실",
+            "불필요한 금전적 희생이나 낭비",
+            "재정 상황의 정체나 악화"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강에 대한 새로운 인식 형성",
+            "휴식과 명상을 통한 치유",
+            "질병을 통한 인생의 깨달음"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 회복의 지연이나 정체",
+            "건강 관리에 대한 무기력함",
+            "불필요한 치료나 과도한 걱정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 새로운 접근법 발견",
+            "일시적 휴식을 통한 학습 효율 증가",
+            "깊이 있는 사고와 통찰력 개발"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업의 정체나 지연",
+            "공부에 대한 무기력함이나 흥미 상실",
+            "불필요한 학업 스트레스나 강박"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정에 대한 새로운 시각 획득",
+            "친구를 위한 자기희생이나 양보",
+            "일시적 고립을 통한 관계의 재평가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 정체나 단절",
+            "불필요한 자기희생으로 인한 불만",
+            "사회적 활동의 지연이나 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계에 대한 새로운 이해",
+            "가족을 위한 희생과 양보",
+            "가족 문제에 대한 새로운 해결책 발견"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 정체나 갈등",
+            "가족 내 역할에 대한 불만이나 부담",
+            "가족 문제 해결의 지연이나 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "삶에 대한 새로운 시각과 통찰력 획득",
+            "일시적 중단이나 휴식을 통한 성장",
+            "자발적 희생을 통한 깨달음"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "삶의 정체나 무기력함",
+            "변화를 위한 결정이나 행동의 지연",
+            "불필요한 자기희생이나 고립"
+          ]
+        }
+      ]
+    }
+  ]
+}

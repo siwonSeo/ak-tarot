@@ -1,0 +1,182 @@
+{
+  "cardId": 1,
+  "cardName": "마법사",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 관계를 시작할 수 있는 능력",
+            "매력적이고 카리스마 있는 태도",
+            "관계에서의 창의성과 communication 능력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 조작이나 속임수",
+            "진실되지 못한 감정 표현",
+            "사랑에 대한 환상이나 비현실적 기대"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 기술이나 지식을 습득할 기회",
+            "창의력과 재능을 발휘할 시기",
+            "경력에서의 큰 도약이나 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재능을 제대로 활용하지 못함",
+            "직장에서의 기만이나 부정직한 행동",
+            "능력에 비해 성과가 부족함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 기회를 잡을 수 있는 능력",
+            "창의적인 수입원 발견",
+            "재물을 끌어당기는 긍정적 에너지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "금전적 손실이나 사기 위험",
+            "재정 관리 능력 부족",
+            "돈에 관한 비윤리적 행동"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 회복을 위한 내적 힘",
+            "holistic한 치유 방법 시도",
+            "건강에 대한 적극적이고 창의적인 접근"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 문제를 무시하거나 과소평가",
+            "불건전한 생활 습관",
+            "신체와 마음의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 지식을 빠르게 습득하는 능력",
+            "학습에 대한 열정과 집중력",
+            "창의적이고 혁신적인 학습 방법"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 부정직이나 지름길 추구",
+            "지식의 오용이나 잘못된 적용",
+            "학습 동기 부족이나 집중력 저하"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 친구 관계 형성 능력",
+            "친구들 사이에서 리더십 발휘",
+            "우정에 창의성과 재미를 더함"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 조작이나 이용",
+            "진실하지 못한 우정",
+            "사회적 관계에서의 불안정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 문제 해결을 위한 창의적 접근",
+            "가족 내에서의 리더십과 조화 창출",
+            "가족 관계 개선을 위한 communication 기술"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간 불화나 오해",
+            "가족을 조종하거나 속이는 행동",
+            "가족에 대한 책임 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "내면의 힘과 잠재력 발현",
+            "의지와 집중력으로 목표 달성",
+            "창의성과 재능의 효과적인 활용"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재능이나 능력의 오용",
+            "자만심이나 과도한 자신감",
+            "내적 불균형이나 혼란"
+          ]
+        }
+      ]
+    }
+  ]
+}

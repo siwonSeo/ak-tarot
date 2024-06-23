@@ -1,0 +1,182 @@
+{
+  "cardId": 22,
+  "cardName": "에이스 오브 완드 (Ace of Wands)",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 로맨스의 시작",
+            "열정적인 사랑의 불꽃",
+            "관계에서의 새로운 에너지와 활력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 열정 감소",
+            "새로운 시작에 대한 두려움",
+            "사랑의 기회를 놓침"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 직업 기회의 도래",
+            "창의적인 프로젝트의 시작",
+            "경력에서의 열정과 동기 부여"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 기회의 지연 또는 상실",
+            "일에 대한 열정 부족",
+            "새 프로젝트 시작의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 재정적 기회",
+            "수입 증가의 가능성",
+            "창의적인 재정 아이디어의 시작"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 기회의 상실 또는 지연",
+            "금전적 계획의 실행 어려움",
+            "재정적 성장의 정체"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 건강 루틴의 시작",
+            "활력과 에너지의 증가",
+            "건강 개선을 위한 열정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 개선의 지연",
+            "에너지 부족 또는 피로",
+            "건강한 습관 형성의 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 학습 기회의 시작",
+            "학업에 대한 열정과 동기 부여",
+            "창의적인 학습 방법의 발견"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 의욕의 저하",
+            "새로운 공부 시작의 어려움",
+            "학업 기회의 상실 또는 지연"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 우정의 시작",
+            "사회적 활동의 증가",
+            "친구 관계에서의 열정과 에너지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "새로운 인간관계 형성의 어려움",
+            "사회적 활동에 대한 의욕 저하",
+            "친구 관계에서의 에너지 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 새로운 시작",
+            "가족 내 활력과 에너지 증가",
+            "가족과의 새로운 활동 시작"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계 개선의 지연",
+            "가족 간 소통의 어려움",
+            "가족 활동에 대한 열정 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 시작과 기회의 도래",
+            "창의성과 열정의 불꽃",
+            "삶의 새로운 단계 시작"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "새로운 시작에 대한 두려움",
+            "기회를 놓치거나 지연됨",
+            "열정과 창의성의 감소"
+          ]
+        }
+      ]
+    }
+  ]
+}

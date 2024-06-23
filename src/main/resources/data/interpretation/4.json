@@ -1,0 +1,182 @@
+{
+  "cardId": 4,
+  "cardName": "여황제",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 책임감 있는 관계",
+            "관계에서의 리더십과 보호",
+            "장기적이고 실용적인 파트너십"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 지배적이거나 통제적인 행동",
+            "감정 표현의 어려움 또는 냉담함",
+            "관계에서의 융통성 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강력한 리더십과 권위 발휘",
+            "체계적이고 조직적인 업무 처리",
+            "경력에서의 안정과 성취"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "권위의 남용 또는 독단적 행동",
+            "업무에서의 경직성과 융통성 부족",
+            "리더십 부재 또는 책임 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정성과 보안",
+            "체계적이고 전략적인 재무 관리",
+            "장기적 재정 계획의 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 통제력 상실 또는 과도한 통제",
+            "융통성 없는 재정 관리",
+            "재정적 독립성 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강한 체력과 정신력",
+            "체계적인 건강 관리와 규율",
+            "건강에 대한 책임감 있는 접근"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리에 대한 지나친 경직성",
+            "스트레스로 인한 건강 악화",
+            "건강 문제에 대한 통제 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "체계적이고 규율 있는 학습 방식",
+            "논리적 사고와 분석력 향상",
+            "학업에서의 리더십과 성취"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습에 대한 경직된 접근",
+            "창의성 부족 또는 융통성 없는 사고",
+            "학업 스트레스 또는 과도한 압박"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신뢰할 수 있고 안정적인 우정",
+            "친구 관계에서의 리더십과 조언",
+            "장기적이고 믿음직한 friendship"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 지배적 행동",
+            "우정에서의 융통성 부족",
+            "친구들과의 감정적 단절"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족에 대한 강한 책임감과 보호",
+            "안정적이고 체계적인 가정 환경",
+            "가족 내에서의 권위와 리더십"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서의 독재적 행동",
+            "가족 간 소통의 부족과 경직성",
+            "가족 구성원의 자율성 침해"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "강력한 의지력과 자기 통제",
+            "체계적인 계획과 실행 능력",
+            "안정성과 질서의 확립"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 통제욕구와 경직성",
+            "권위에 대한 반발 또는 복종",
+            "창의성과 유연성의 부족"
+          ]
+        }
+      ]
+    }
+  ]
+}

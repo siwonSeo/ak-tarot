@@ -1,0 +1,182 @@
+{
+  "cardId": 67,
+  "cardName": "포 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 안정과 보안을 중요하게 여기는 시기입니다.",
+            "물질적인 안정을 바탕으로 사랑이 더욱 견고해집니다.",
+            "서로를 위한 실질적인 노력이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적인 문제로 인해 관계에 긴장이 생길 수 있습니다.",
+            "안정을 추구한 나머지 관계가 지루해질 수 있으니 주의하세요.",
+            "감정적인 교류보다 현실적인 면에만 치중하지 않도록 하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적인 직장이나 수입원을 얻을 수 있는 기회가 옵니다.",
+            "꾸준한 노력이 결실을 맺는 시기입니다.",
+            "재정적 안정을 바탕으로 커리어를 발전시킬 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장이나 사업에서 재정적 어려움을 겪을 수 있습니다.",
+            "안정만을 추구하다 성장의 기회를 놓칠 수 있으니 주의하세요.",
+            "현재의 상황에 안주하지 말고 새로운 도전을 고려해보세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정과 보안을 얻을 수 있는 시기입니다.",
+            "장기적인 투자나 저축이 좋은 결과를 가져올 것입니다.",
+            "물질적인 풍요를 누릴 수 있지만 검소함을 잃지 마세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 손실이나 불안정한 상황이 발생할 수 있습니다.",
+            "과도한 지출이나 잘못된 투자 결정을 주의하세요.",
+            "현재의 재정 상태를 재평가하고 새로운 전략을 세울 필요가 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적으로 안정적인 건강 상태를 유지할 수 있습니다.",
+            "규칙적인 생활과 균형 잡힌 식단으로 건강을 더욱 증진시키세요.",
+            "건강 관리에 대한 투자가 좋은 결과를 가져올 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 문제로 인한 재정적 부담이 생길 수 있습니다.",
+            "건강 관리에 소홀해지지 않도록 주의하세요.",
+            "스트레스나 불안으로 인한 건강 악화를 조심하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "꾸준한 학습으로 안정적인 성과를 얻을 수 있습니다.",
+            "실용적이고 실질적인 지식 습득에 집중하세요.",
+            "장기적인 학습 계획을 세우고 실천하면 좋은 결과가 있을 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습에 대한 동기부여가 떨어질 수 있습니다.",
+            "실용성만 추구하다 창의성이나 새로운 아이디어를 놓칠 수 있어요.",
+            "현재의 학습 방식을 재평가하고 새로운 접근법을 시도해보세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 신뢰할 수 있는 우정을 만들 수 있는 시기입니다.",
+            "물질적인 도움을 주고받으며 우정이 더욱 돈독해질 수 있습니다.",
+            "오랜 친구들과의 관계를 소중히 여기세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 물질적인 문제로 갈등이 생길 수 있습니다.",
+            "진정한 우정보다는 이해관계에 얽매일 수 있으니 주의하세요.",
+            "소외감을 느끼거나 친구 관계가 소원해질 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가정의 안정과 평화를 누릴 수 있는 시기입니다.",
+            "가족을 위한 재정적 계획을 세우고 실천하세요.",
+            "가족 간의 유대감이 더욱 강해질 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가정 내 재정적 문제로 갈등이 생길 수 있습니다.",
+            "가족 간의 소통 부족으로 관계가 소원해질 수 있으니 주의하세요.",
+            "가정의 안정을 위해 노력하되, 개인의 성장도 소홀히 하지 마세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정과 보안을 중요하게 여기는 시기입니다.",
+            "실용적이고 현실적인 접근 방식이 도움이 될 것입니다.",
+            "장기적인 계획을 세우고 꾸준히 실천하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적인 어려움이나 불안정한 상황에 직면할 수 있습니다.",
+            "현재의 상황에 안주하지 말고 변화의 필요성을 고민해보세요.",
+            "지나친 보수적 태도로 인해 기회를 놓치지 않도록 주의하세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

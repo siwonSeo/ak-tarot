@@ -1,0 +1,182 @@
+{
+  "cardId": 69,
+  "cardName": "식스 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서 균형과 조화를 이루는 시기입니다.",
+            "서로 주고받는 사랑으로 관계가 더욱 풍성해집니다.",
+            "파트너의 필요를 이해하고 관대하게 대하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서 불균형이나 불공정함을 느낄 수 있습니다.",
+            "한쪽이 지나치게 주기만 하거나 받기만 하는 상황을 주의하세요.",
+            "상호 존중과 공평한 기여의 필요성을 인식하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "업무에서 인정받고 보상을 받을 수 있는 시기입니다.",
+            "동료나 부하직원과의 관계가 원만해집니다.",
+            "자신의 능력을 다른 이들과 나누는 리더십을 발휘하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무에서 불공정한 대우를 받거나 보상이 부족할 수 있습니다.",
+            "능력에 비해 과소평가되거나 과대평가될 수 있으니 주의하세요.",
+            "직장 내 권력 관계를 재평가하고 균형을 찾으세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정과 풍요를 누릴 수 있는 시기입니다.",
+            "수입이 늘어나거나 예상치 못한 금전적 혜택을 받을 수 있습니다.",
+            "여유가 있다면 자선활동이나 기부를 고려해보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불균형이나 불공정한 거래를 경험할 수 있습니다.",
+            "과도한 지출이나 잘못된 투자 결정을 주의하세요.",
+            "금전 관계에서 착취당하거나 남을 착취하지 않도록 주의하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적으로 건강이 개선되는 시기입니다.",
+            "필요한 치료나 도움을 받을 수 있는 기회가 생깁니다.",
+            "자신의 건강을 돌보면서 다른 이들의 건강도 챙기세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리에 있어 균형을 잃을 수 있습니다.",
+            "과도한 운동이나 불필요한 건강 보조제 섭취를 주의하세요.",
+            "전문가의 조언을 무시하거나 과신하지 않도록 주의하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서 성과를 얻고 인정받을 수 있는 시기입니다.",
+            "멘토의 도움을 받거나 다른 이들을 가르칠 기회가 생길 수 있습니다.",
+            "지식을 나누고 협력하는 학습 방식이 효과적일 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서 불공정함을 경험하거나 노력에 비해 결과가 부족할 수 있습니다.",
+            "지나친 경쟁심이나 비교 의식을 주의하세요.",
+            "독학에 치중하지 말고 다양한 의견을 수용하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서 주고받는 균형을 이룰 수 있습니다.",
+            "서로 도움을 주고받으며 우정이 깊어집니다.",
+            "관대함과 이해심으로 친구 관계를 더욱 풍성하게 만드세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 불균형이나 불공정함을 느낄 수 있습니다.",
+            "일방적인 요구나 기대를 주의하세요.",
+            "진정한 우정의 가치를 재평가하고 균형 있는 관계를 추구하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 조화와 균형을 이룰 수 있는 시기입니다.",
+            "서로 돕고 나누는 가족 관계가 형성됩니다.",
+            "가족 구성원 각자의 역할과 기여를 인정하고 감사하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내에서 책임과 부담의 불균형을 느낄 수 있습니다.",
+            "가족 간 재정적 문제로 갈등이 생길 수 있으니 주의하세요.",
+            "가족 구성원 모두의 필요와 기여를 균형 있게 고려하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "균형과 조화를 이루는 시기입니다.",
+            "주고받는 관계의 중요성을 인식하세요.",
+            "자신의 능력과 자원을 다른 이들과 나누세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "불균형이나 불공정함을 경험할 수 있습니다.",
+            "과도한 자만심이나 열등감을 주의하세요.",
+            "모든 관계와 상황에서 균형과 공정함을 추구하세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

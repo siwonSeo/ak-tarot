@@ -1,0 +1,182 @@
+{
+  "cardId": 71,
+  "cardName": "에이트 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계를 발전시키기 위해 꾸준히 노력하는 시기입니다.",
+            "세심한 관심과 노력으로 관계의 질을 높일 수 있습니다.",
+            "서로의 성장을 위해 함께 노력하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에 대한 과도한 집착이나 완벽주의로 어려움을 겪을 수 있습니다.",
+            "관계 발전을 위한 노력이 균형을 잃지 않도록 주의하세요.",
+            "상대방의 개인적 시간과 공간을 존중하는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직업적 기술을 향상시키기 위해 노력하는 시기입니다.",
+            "꾸준한 학습과 연습으로 전문성을 키울 수 있습니다.",
+            "세부적인 것에 주의를 기울이며 일의 질을 높이세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "일에 대한 과도한 몰입으로 균형을 잃을 수 있습니다.",
+            "완벽주의로 인해 업무 진행이 지연될 수 있으니 주의하세요.",
+            "효율성과 품질 사이의 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정을 위해 꾸준히 노력하는 시기입니다.",
+            "작은 금액이라도 꾸준한 저축과 투자가 중요합니다.",
+            "재정 관리 기술을 향상시키는데 시간을 투자하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "금전적 이익을 위해 다른 중요한 부분을 소홀히 할 수 있습니다.",
+            "과도한 절약이나 지출로 균형을 잃지 않도록 주의하세요.",
+            "돈에 대한 집착이 삶의 질을 떨어뜨리지 않도록 하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 증진을 위해 꾸준히 노력하는 시기입니다.",
+            "규칙적인 운동과 건강한 식습관을 유지하세요.",
+            "작은 변화라도 지속적으로 실천하면 큰 효과를 볼 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강에 대한 과도한 집착으로 스트레스를 받을 수 있습니다.",
+            "완벽한 건강을 추구하다 오히려 균형을 잃지 않도록 주의하세요.",
+            "건강한 생활과 즐거운 삶 사이의 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에 집중하고 꾸준히 노력하는 시기입니다.",
+            "세부적인 부분까지 주의를 기울여 학습의 질을 높이세요.",
+            "실습과 반복 학습으로 기술을 향상시킬 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "공부에 대한 과도한 몰입으로 다른 부분을 소홀히 할 수 있습니다.",
+            "완벽주의로 인해 학습 진도가 더디게 나갈 수 있으니 주의하세요.",
+            "효율적인 학습 방법과 충분한 휴식 사이의 균형을 찾으세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계를 발전시키기 위해 꾸준히 노력하는 시기입니다.",
+            "작은 관심과 배려로 우정을 돈독히 할 수 있습니다.",
+            "친구의 성장을 돕고 함께 발전하는 관계를 만드세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에 과도하게 집착하거나 완벽을 요구할 수 있습니다.",
+            "우정을 위한 노력이 부담이 되지 않도록 주의하세요.",
+            "친구의 개인적 공간과 시간을 존중하는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계 개선을 위해 꾸준히 노력하는 시기입니다.",
+            "작은 것부터 실천하며 가족 간의 유대를 강화하세요.",
+            "가족 구성원 각자의 성장을 지원하고 함께 발전하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족에 대한 과도한 기대나 간섭으로 갈등이 생길 수 있습니다.",
+            "완벽한 가정을 추구하다 오히려 문제가 생길 수 있으니 주의하세요.",
+            "가족 구성원 각자의 개성과 공간을 존중하는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "꾸준한 노력과 집중이 필요한 시기입니다.",
+            "세부적인 것에 주의를 기울이며 기술을 향상시키세요.",
+            "작은 진전이라도 지속적으로 이루어 나가는 것이 중요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 완벽주의나 집착으로 균형을 잃을 수 있습니다.",
+            "노력의 과정을 즐기지 못하고 결과에만 집중할 수 있으니 주의하세요.",
+            "효율성과 품질, 일과 삶의 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

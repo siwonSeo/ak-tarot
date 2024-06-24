@@ -1,0 +1,182 @@
+{
+  "cardId": 75,
+  "cardName": "나이트 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 신뢰할 수 있는 파트너",
+            "장기적인 관계 발전",
+            "물질적 안정을 바탕으로 한 사랑"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지루하고 답답한 관계",
+            "변화를 두려워하는 파트너",
+            "물질에 집착하여 감정을 소홀히 함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적인 직장 또는 사업",
+            "꾸준한 노력으로 인한 성과",
+            "신뢰받는 직원 또는 동료"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 정체",
+            "변화를 거부하여 발전이 더딤",
+            "지나친 보수성으로 인한 기회 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적인 재정 상태",
+            "장기적인 투자의 성공",
+            "꾸준한 저축과 재테크"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 성장의 정체",
+            "과도한 절약으로 인한 기회 상실",
+            "금전적 위험을 지나치게 회피"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "꾸준한 운동으로 건강 증진",
+            "안정적인 생활 습관 형성",
+            "장기적인 건강 관리 계획 수립"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리의 게으름",
+            "변화를 거부하여 건강 악화",
+            "지나친 안정 추구로 활력 저하"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "꾸준한 학습 태도",
+            "체계적이고 실용적인 학습 방법",
+            "장기적인 학습 계획 실천"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 의욕 저하",
+            "새로운 학습 방법 수용 거부",
+            "지나친 반복학습으로 인한 비효율"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신뢰할 수 있는 오랜 친구",
+            "안정적이고 지속적인 우정",
+            "실질적인 도움을 주는 친구 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지루하고 정체된 친구 관계",
+            "새로운 인연을 만들기 어려움",
+            "친구 관계에서의 소극적 태도"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 화목한 가정",
+            "가족을 위한 책임감 있는 행동",
+            "가족 간의 신뢰와 지지"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 정체",
+            "가족 구성원 간의 소통 부족",
+            "과도한 보수성으로 인한 가족 갈등"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "꾸준함과 인내로 목표 달성",
+            "신뢰와 책임감 있는 행동",
+            "장기적인 계획의 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "변화를 두려워하는 태도",
+            "지나친 보수성으로 인한 기회 상실",
+            "느린 진전으로 인한 좌절감"
+          ]
+        }
+      ]
+    }
+  ]
+}

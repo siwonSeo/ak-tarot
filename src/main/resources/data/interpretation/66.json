@@ -1,29 +1,182 @@
-아래 키워드로 다시 해줘(괄호안은 코드값). JSON형태로
-cardId는 카드번호야
-isReversed는 역방향 여부
-cardName는 카드명
-interpretationContents는 해석
-사랑(A)
-커리어(B)
-금전(C)
-건강(D)
-공부(E)
-친구(F)
-가족(G)
-기타(Z)
-
-66번 쓰리 오브 펜타클 부터 해줘
 {
-  "cardId":카드번호
-,"cardName":"카드명"
-,"categories":[
-  {
-    "categoryCode":"A"
-  ,"categoryName":"사랑"
-    "interpretations":[
-      "isReversed":false
-    ,"interpretationContents":[]
-    ]
-  }
-]
+  "cardId": 66,
+  "cardName": "쓰리 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "팀워크와 협력이 중요한 시기입니다.",
+            "서로의 장점을 인정하고 보완하는 관계를 만들어가세요.",
+            "함께 노력하면 관계가 더욱 견고해질 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "서로 간의 불화나 의견 충돌이 있을 수 있습니다.",
+            "협력과 소통의 부족으로 관계에 어려움이 생길 수 있습니다.",
+            "개인주의적 태도를 버리고 상대방의 의견을 경청하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "팀 프로젝트나 협업에서 좋은 성과를 낼 수 있습니다.",
+            "동료들과의 협력을 통해 업무 효율성이 높아집니다.",
+            "전문성을 인정받고 성장할 수 있는 기회가 옵니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "팀워크의 부족으로 업무 진행에 어려움이 있을 수 있습니다.",
+            "개인의 능력을 과신하여 협력을 거부하는 태도를 주의하세요.",
+            "동료들과의 의사소통 개선이 필요한 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "협력을 통해 재정적 이익을 얻을 수 있습니다.",
+            "공동 투자나 사업 파트너십이 좋은 결과를 가져올 수 있습니다.",
+            "전문가의 조언을 듣고 재정 계획을 세우는 것이 도움됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "금전적 문제로 인한 갈등이 생길 수 있습니다.",
+            "공동 프로젝트나 투자에서 손실이 발생할 수 있으니 주의하세요.",
+            "재정 관리에 있어 다른 사람의 조언을 무시하지 마세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전문가의 조언을 받아 건강 관리를 하면 좋은 결과가 있을 것입니다.",
+            "규칙적인 운동과 바른 생활 습관으로 건강이 개선됩니다.",
+            "다른 사람들과 함께하는 운동이나 활동이 도움이 됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리에 소홀해질 수 있으니 주의가 필요합니다.",
+            "전문가의 조언을 무시하거나 잘못된 방법으로 건강을 해칠 수 있습니다.",
+            "스트레스 관리와 휴식의 중요성을 인식하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "그룹 스터디나 협력 학습이 큰 도움이 될 것입니다.",
+            "전문가나 선배의 조언을 구하면 학습 효과가 높아집니다.",
+            "실습이나 현장 경험을 통해 지식을 더욱 견고히 할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "혼자만의 학습 방식에 집착하여 효율이 떨어질 수 있습니다.",
+            "다른 사람의 도움이나 조언을 거부하는 태도를 주의하세요.",
+            "이론과 실제 간의 괴리를 느낄 수 있으니 균형 잡힌 학습이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구들과의 협력 활동을 통해 우정이 더욱 깊어집니다.",
+            "서로의 재능을 인정하고 보완하는 관계가 형성됩니다.",
+            "공동의 목표를 위해 함께 노력하는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 갈등이나 불화가 생길 수 있습니다.",
+            "개인주의적 태도로 인해 우정에 균열이 생길 수 있으니 주의하세요.",
+            "서로의 차이를 인정하고 존중하는 자세가 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 협력과 팀워크가 중요한 시기입니다.",
+            "서로의 역할을 존중하고 협력하면 가정이 더욱 화목해집니다.",
+            "가족 공동의 목표를 세우고 함께 노력하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 불화나 의견 충돌이 있을 수 있습니다.",
+            "각자의 이기심으로 인해 가정 내 갈등이 생길 수 있으니 주의하세요.",
+            "서로의 의견을 경청하고 타협하는 자세가 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "협력과 팀워크가 중요한 시기입니다.",
+            "다른 사람들의 재능과 능력을 인정하고 함께 일하세요.",
+            "전문가의 조언을 구하고 실천하면 좋은 결과를 얻을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "협력의 부족으로 어려움을 겪을 수 있습니다.",
+            "개인주의적 태도나 고집으로 인해 문제가 발생할 수 있으니 주의하세요.",
+            "다른 사람들의 의견을 무시하지 말고 열린 마음으로 소통하세요."
+          ]
+        }
+      ]
+    }
+  ]
 }

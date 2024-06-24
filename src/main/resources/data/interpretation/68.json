@@ -1,0 +1,182 @@
+{
+  "cardId": 68,
+  "cardName": "파이브 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서 어려움이나 불안정한 시기를 겪을 수 있습니다.",
+            "경제적 문제로 인해 연인 관계에 긴장이 생길 수 있습니다.",
+            "서로를 지지하고 힘을 모아 어려움을 극복하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 어려움이 점차 해소되기 시작합니다.",
+            "서로의 가치를 재발견하고 관계가 회복될 수 있습니다.",
+            "물질적인 것보다 정서적 유대감에 집중하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서의 어려움이나 재정적 불안정을 경험할 수 있습니다.",
+            "일시적인 실업이나 수입 감소가 있을 수 있으니 대비하세요.",
+            "현재의 어려움을 극복할 방법을 적극적으로 찾아보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "커리어의 어려움이 점차 개선되기 시작합니다.",
+            "새로운 직업 기회나 수입원이 생길 수 있습니다.",
+            "과거의 실패를 교훈 삼아 더 나은 미래를 준비하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 어려움이나 손실을 겪을 수 있는 시기입니다.",
+            "예상치 못한 지출이나 수입 감소에 대비하세요.",
+            "도움이 필요하다면 주변에 지원을 요청하는 것도 고려해보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 어려움이 점차 해소되기 시작합니다.",
+            "새로운 수입원이나 재정적 기회가 생길 수 있습니다.",
+            "과거의 재정 관리 실수를 교훈 삼아 더 현명한 결정을 하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 문제로 인해 어려움을 겪을 수 있습니다.",
+            "스트레스나 불안으로 인한 건강 악화를 주의하세요.",
+            "정기적인 건강 검진과 관리에 신경 쓰세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 상태가 점차 개선되기 시작합니다.",
+            "치유의 기회를 잡고 건강을 회복할 수 있습니다.",
+            "몸과 마음의 균형을 위해 노력하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서 어려움이나 좌절을 경험할 수 있습니다.",
+            "재정적 문제로 인해 학업을 지속하기 어려울 수 있습니다.",
+            "포기하지 말고 도움을 요청하거나 대안을 찾아보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업의 어려움이 점차 해소되기 시작합니다.",
+            "새로운 학습 기회나 지원을 받을 수 있습니다.",
+            "과거의 실패를 교훈 삼아 더 효과적인 학습 방법을 찾으세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서 소외감이나 고립감을 느낄 수 있습니다.",
+            "경제적 문제로 인해 친구들과의 관계가 소원해질 수 있습니다.",
+            "진정한 친구를 구분하고 서로 도움을 주고받으세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 어려움이 점차 해소되기 시작합니다.",
+            "새로운 우정이 형성되거나 오래된 친구와 재회할 수 있습니다.",
+            "과거의 갈등을 해결하고 더 강한 유대감을 만들어가세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 갈등이나 경제적 어려움을 겪을 수 있습니다.",
+            "가족 구성원의 건강 문제로 걱정이 생길 수 있습니다.",
+            "서로 지지하고 협력하여 어려움을 극복하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 어려움이 점차 해소되기 시작합니다.",
+            "가족 간의 화해와 회복이 일어날 수 있습니다.",
+            "과거의 갈등을 해결하고 더 강한 가족 유대감을 만들어가세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "어려움이나 고난의 시기를 겪을 수 있습니다.",
+            "현재의 상황에 대해 비관적으로 생각하지 마세요.",
+            "주변의 도움을 받아들이고 긍정적인 마인드를 유지하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "어려움이 점차 해소되고 희망이 보이기 시작합니다.",
+            "새로운 기회나 도움의 손길이 나타날 수 있습니다.",
+            "과거의 경험을 바탕으로 더 나은 미래를 준비하세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

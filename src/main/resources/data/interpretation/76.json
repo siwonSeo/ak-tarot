@@ -1,0 +1,182 @@
+{
+  "cardId": 76,
+  "cardName": "퀸 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 풍요로운 관계",
+            "현실적이고 실용적인 파트너",
+            "물질적, 정서적으로 풍요로운 사랑"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질에 집착하는 관계",
+            "과도한 소유욕으로 인한 갈등",
+            "파트너에 대한 과도한 의존"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 성공적인 경력",
+            "실용적인 리더십 발휘",
+            "풍요로운 업무 환경 조성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "일과 삶의 균형 상실",
+            "물질적 성공에 대한 과도한 집착",
+            "비효율적인 업무 관리"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정과 풍요",
+            "현명한 재산 관리 능력",
+            "장기적인 재테크 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불안정 또는 과소비",
+            "물질에 대한 지나친 집착",
+            "비효율적인 재산 관리"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 건강한 생활",
+            "영양 균형이 잡힌 식습관",
+            "정신적, 육체적 웰빙 달성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리 소홀",
+            "과도한 스트레스로 인한 건강 악화",
+            "불균형한 생활 습관"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "실용적이고 체계적인 학습",
+            "안정적인 학습 환경 조성",
+            "지식의 실제적 적용 능력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업과 실생활의 괴리",
+            "지나친 완벽주의로 인한 학습 부진",
+            "비효율적인 학습 방법"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신뢰할 수 있는 든든한 친구",
+            "실질적인 도움을 주고받는 관계",
+            "안정적이고 풍요로운 우정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적 이해관계에 얽힌 친구 관계",
+            "과도한 의존성 있는 우정",
+            "친구 관계에서의 불균형"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 풍요로운 가정",
+            "가족을 위한 헌신과 보살핌",
+            "실용적인 가정 관리 능력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족에 대한 과도한 통제",
+            "물질적 풍요에 치중한 가족 관계",
+            "가족 구성원 간의 불균형한 관계"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "풍요롭고 안정적인 삶의 실현",
+            "실용적이고 현실적인 문제 해결 능력",
+            "물질적, 정서적 풍요의 조화"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질에 대한 과도한 집착",
+            "현실과 이상의 불균형",
+            "안정을 추구하나 불안정한 상태"
+          ]
+        }
+      ]
+    }
+  ]
+}

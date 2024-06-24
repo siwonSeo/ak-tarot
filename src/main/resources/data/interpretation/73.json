@@ -1,0 +1,182 @@
+{
+  "cardId": 73,
+  "cardName": "텐 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 풍요로운 사랑의 관계를 맺을 수 있는 시기입니다.",
+            "가족의 지지와 축복 속에서 관계가 더욱 견고해집니다.",
+            "장기적인 관점에서 파트너와의 미래를 계획해보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서 물질적인 면에 과도하게 집착할 수 있습니다.",
+            "가족이나 전통에 얽매여 개인의 행복을 놓칠 수 있으니 주의하세요.",
+            "안정만을 추구하다 관계의 열정을 잃지 않도록 하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직업적으로 큰 성공과 안정을 이룰 수 있는 시기입니다.",
+            "장기적인 커리어 목표가 실현될 수 있습니다.",
+            "가업을 잇거나 가족 사업에서 좋은 성과를 낼 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 성공에 과도하게 집착하여 개인 생활을 희생할 수 있습니다.",
+            "가족의 기대나 전통에 얽매여 자신의 진로를 포기할 수 있으니 주의하세요.",
+            "금전적 성공과 개인의 행복 사이에서 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적으로 큰 풍요와 안정을 누릴 수 있는 시기입니다.",
+            "장기 투자나 부동산 투자에서 좋은 성과를 얻을 수 있습니다.",
+            "세대를 이어갈 수 있는 재산을 마련할 수 있는 기회입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적 풍요에 지나치게 집착하여 다른 중요한 가치를 잃을 수 있습니다.",
+            "가족 간 재정 문제로 갈등이 생길 수 있으니 주의하세요.",
+            "금전적 안정과 개인의 자유 사이에서 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적으로 매우 좋은 건강 상태를 유지할 수 있는 시기입니다.",
+            "가족력으로 내려오는 건강한 생활 습관의 혜택을 볼 수 있습니다.",
+            "장기적인 관점에서 건강을 관리하고 유지하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강에 대한 과신으로 정기 검진 등을 소홀히 할 수 있습니다.",
+            "유전적 질환이나 가족력에 주의를 기울일 필요가 있습니다.",
+            "현재의 건강 상태에 안주하지 말고 지속적인 관리가 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서 큰 성취와 안정을 이룰 수 있는 시기입니다.",
+            "가족의 지원과 환경적 혜택으로 학습에 집중할 수 있습니다.",
+            "장기적인 교육 계획이 결실을 맺을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업적 성취에 과도하게 집착하여 다른 중요한 경험을 놓칠 수 있습니다.",
+            "가족의 기대나 전통에 얽매여 자신의 진정한 학업 욕구를 무시할 수 있으니 주의하세요.",
+            "학업과 개인의 흥미 사이에서 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "contentEsreversed":[
+            "오랜 시간 동안 유지될 수 있는 견고한 우정을 맺을 수 있는 시기입니다.",
+            "가족같이 편안한 친구 관계를 만들 수 있습니다.",
+            "친구들과 함께 장기적인 목표를 세우고 실현해 나갈 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 물질적인 면에 과도하게 집착할 수 있습니다.",
+            "오래된 친구 관계에 안주하여 새로운 인연을 만들기 어려울 수 있으니 주의하세요.",
+            "진정한 우정의 가치를 재평가하고 균형 있는 관계를 만들어가세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 유대감이 더욱 강화되는 시기입니다.",
+            "세대를 이어가는 가족의 전통과 유산이 중요해집니다.",
+            "가족 구성원 모두가 안정과 풍요를 누릴 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서 물질적인 면에 과도하게 집착할 수 있습니다.",
+            "가족의 전통이나 기대에 얽매여 개인의 자유를 잃을 수 있으니 주의하세요.",
+            "가족의 화합과 개인의 독립성 사이에서 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적으로 큰 안정과 풍요를 누리는 시기입니다.",
+            "장기적인 계획이 결실을 맺고 세대를 이어갈 수 있는 기반을 마련할 수 있습니다.",
+            "전통과 유산의 가치를 인식하고 미래를 위해 준비하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적 성공이나 전통에 과도하게 집착할 수 있습니다.",
+            "안정에 안주하여 새로운 변화와 도전을 두려워할 수 있으니 주의하세요.",
+            "전통적 가치와 개인의 자유 사이에서 균형을 찾는 것이 중요합니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

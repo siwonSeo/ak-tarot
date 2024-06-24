@@ -1,0 +1,182 @@
+{
+  "cardId": 77,
+  "cardName": "킹 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 성숙한 관계",
+            "물질적으로 풍요로운 파트너십",
+            "신뢰와 책임감 있는 사랑"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질주의적 관계",
+            "감정보다 경제적 안정에 치중",
+            "지나치게 통제적인 파트너"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 성공적인 경력",
+            "탁월한 재정 관리 능력",
+            "리더십과 실용적인 비즈니스 감각"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 일중독",
+            "물질적 성공에 대한 집착",
+            "비효율적인 사업 운영"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 안정과 풍요",
+            "현명한 투자와 자산 관리",
+            "장기적인 재무 계획 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 손실 위험",
+            "과도한 물질주의",
+            "비윤리적인 재정 관리"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 건강한 생활",
+            "규칙적인 운동과 균형 잡힌 식단",
+            "장기적인 건강 관리 성공"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과로로 인한 건강 악화",
+            "건강에 대한 과도한 걱정",
+            "불균형한 생활 습관"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "체계적이고 실용적인 학습 방법",
+            "학업과 실무 경험의 조화",
+            "꾸준한 노력으로 인한 학업 성취"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "실용성 없는 지식 추구",
+            "학업에 대한 과도한 집착",
+            "비효율적인 학습 태도"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신뢰할 수 있는 조언자",
+            "안정적이고 성숙한 우정",
+            "실질적인 도움을 주는 친구 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적 이해관계에 얽힌 친구관계",
+            "친구에 대한 과도한 통제",
+            "불균형한 우정"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 풍요로운 가정",
+            "가족을 위한 책임감 있는 리더십",
+            "세대 간 지혜의 전수"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족에 대한 과도한 통제",
+            "물질적 가치관의 강요",
+            "가족 간의 소통 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정과 풍요의 실현",
+            "실용적이고 현실적인 목표 달성",
+            "책임감 있는 리더십 발휘"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질주의적 가치관의 한계",
+            "권위주의적 태도로 인한 갈등",
+            "변화를 수용하지 못하는 고집"
+          ]
+        }
+      ]
+    }
+  ]
+}

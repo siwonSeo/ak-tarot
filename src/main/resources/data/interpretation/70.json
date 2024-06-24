@@ -1,0 +1,182 @@
+{
+  "cardId": 70,
+  "cardName": "세븐 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에 투자한 시간과 노력의 결실을 기다리는 시기입니다.",
+            "인내심을 가지고 관계의 성장을 지켜보세요.",
+            "장기적인 관점에서 관계를 바라보고 평가하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에 대한 불안과 조급함을 느낄 수 있습니다.",
+            "노력에 비해 결과가 미흡하다고 느낄 수 있으나, 너무 성급하게 판단하지 마세요.",
+            "관계에 대한 재평가가 필요할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "장기 프로젝트나 투자의 결과를 기다리는 시기입니다.",
+            "꾸준한 노력이 결실을 맺을 것이니 인내심을 가지세요.",
+            "현재의 성과를 평가하고 미래 계획을 재조정하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "일의 진행이 지연되거나 결과가 기대에 미치지 못할 수 있습니다.",
+            "노력에 비해 보상이 적다고 느낄 수 있으나, 조급해하지 마세요.",
+            "현재의 직업이나 프로젝트에 대한 재평가가 필요할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "장기 투자나 저축의 결과를 기다리는 시기입니다.",
+            "재정적 안정을 위해 꾸준히 노력한 것이 결실을 맺을 것입니다.",
+            "현재의 재정 상태를 평가하고 미래를 위한 계획을 세우세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 성과가 기대에 미치지 못할 수 있습니다.",
+            "투자나 저축의 결과에 실망할 수 있으나, 너무 성급하게 판단하지 마세요.",
+            "현재의 재정 전략을 재검토하고 필요하다면 새로운 접근을 시도하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 개선을 위한 노력의 결과가 서서히 나타나는 시기입니다.",
+            "꾸준한 운동과 건강한 생활 습관을 유지하세요.",
+            "장기적인 관점에서 건강을 관리하고 평가하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 개선의 속도가 느리거나 기대에 미치지 못할 수 있습니다.",
+            "건강 관리에 대한 지루함이나 실망감을 느낄 수 있으나, 포기하지 마세요.",
+            "현재의 건강 관리 방식을 재검토하고 필요하다면 새로운 접근을 시도하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에 투자한 시간과 노력의 결실을 기다리는 시기입니다.",
+            "꾸준한 학습이 결과로 나타날 것이니 인내심을 가지세요.",
+            "현재의 학습 성과를 평가하고 미래 계획을 조정하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 성과가 기대에 미치지 못할 수 있습니다.",
+            "노력에 비해 결과가 미흡하다고 느낄 수 있으나, 너무 성급하게 판단하지 마세요.",
+            "현재의 학습 방식을 재검토하고 필요하다면 새로운 접근을 시도하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "우정에 투자한 시간과 노력의 결실을 기다리는 시기입니다.",
+            "오랜 친구 관계가 더욱 견고해지는 것을 경험할 수 있습니다.",
+            "친구 관계를 장기적인 관점에서 평가하고 가꾸어 나가세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 기대했던 만큼의 보답을 받지 못할 수 있습니다.",
+            "우정에 대한 실망이나 지루함을 느낄 수 있으나, 너무 성급하게 판단하지 마세요.",
+            "현재의 친구 관계를 재평가하고 필요하다면 새로운 접근을 시도하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계에 투자한 시간과 노력의 결실을 기다리는 시기입니다.",
+            "가족을 위한 장기 계획이 서서히 결과를 보일 것입니다.",
+            "가족 관계를 장기적인 관점에서 평가하고 미래를 준비하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서 기대했던 만큼의 변화나 개선이 없을 수 있습니다.",
+            "가족을 위한 노력이 충분히 인정받지 못한다고 느낄 수 있으나, 포기하지 마세요.",
+            "현재의 가족 관계를 재평가하고 필요하다면 새로운 접근을 시도하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "장기적인 노력의 결실을 기다리는 시기입니다.",
+            "인내심을 가지고 현재의 상황을 평가하세요.",
+            "미래를 위한 계획을 재조정하고 준비하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "노력에 비해 결과가 미흡하다고 느낄 수 있습니다.",
+            "지루함이나 실망감을 느낄 수 있으나, 너무 성급하게 판단하지 마세요.",
+            "현재의 상황을 재평가하고 필요하다면 새로운 접근을 시도하세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

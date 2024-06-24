@@ -1,0 +1,182 @@
+{
+  "cardId": 74,
+  "cardName": "페이지 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 만남의 기회",
+            "안정적인 관계의 시작",
+            "물질적 안정을 바탕으로 한 사랑"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질에 집착하여 관계를 망치는 상황",
+            "현실적인 문제로 인한 갈등",
+            "새로운 관계를 시작하기 어려운 상황"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 직업 기회",
+            "안정적인 수입원 발견",
+            "실용적인 기술 습득의 시기"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업 선택의 어려움",
+            "금전적 손실 가능성",
+            "실용적 기술 부족으로 인한 어려움"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적인 수입 증가",
+            "현명한 투자 기회",
+            "재정 관리 능력 향상"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 손실 위험",
+            "부주의한 지출 증가",
+            "금전 관리 능력 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 증진을 위한 새로운 습관 형성",
+            "체력 향상의 기회",
+            "건강에 대한 관심 증가"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리 소홀",
+            "나쁜 생활 습관으로 인한 건강 악화",
+            "건강 문제로 인한 스트레스 증가"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 학습 기회",
+            "실용적인 지식 습득",
+            "꾸준한 학습 태도 형성"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 의욕 저하",
+            "비효율적인 학습 방법",
+            "실용성 없는 지식에 집중"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 친구 관계 형성",
+            "믿음직한 조언자 등장",
+            "실용적인 도움을 주고받는 관계"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "신뢰할 수 없는 친구 관계",
+            "물질적 이해관계로 인한 갈등",
+            "친구 관계에서의 소홀함"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 안정적인 관계",
+            "가족을 위한 실용적인 계획 수립",
+            "가족 구성원의 새로운 시작 지원"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 물질적 갈등",
+            "가족 구성원의 독립 지연",
+            "가족 관계에서의 책임감 부족"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 기회에 대한 열린 마음",
+            "실용적이고 현실적인 접근 방식",
+            "안정과 성장을 위한 준비"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "기회를 놓치는 상황",
+            "현실에 대한 부정적 인식",
+            "변화에 대한 두려움과 저항"
+          ]
+        }
+      ]
+    }
+  ]
+}

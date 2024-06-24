@@ -5,6 +5,7 @@ import com.tarot.dto.ResponseTarotCard;
 import com.tarot.dto.ResponseTarotCardInterpretation;
 import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
+import jakarta.annotation.Nullable;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -52,7 +53,12 @@ public class TarotController {
     }
 
     @GetMapping("/card/interpretation/{cardCount}")
-    public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(@PathVariable("cardCount") int cardCount) {
-        return new ResponseEntity<>(tarotService.getTaroCardInterpretationsByRandom(cardCount), HttpStatus.OK);
+    public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(
+             @PathVariable("cardCount") int cardCount
+            ,@RequestParam(name="isReverseOn", required = false) Boolean isReverseOn //역방향 활성화 여부
+            ,@RequestParam(name="categoryCode", required = false) Character categoryCode
+
+    ) {
+        return new ResponseEntity<>(tarotService.getTaroCardInterpretationsByRandom(cardCount, isReverseOn, categoryCode), HttpStatus.OK);
     }
 }

@@ -18,6 +18,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.springframework.core.io.ClassPathResource;
+import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
 
 import java.io.FileReader;
@@ -71,7 +72,8 @@ public class TarotService {
     }
 
     //임의로 카드를 뽑는다(카드 갯수만큼)
-    public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount){
+    public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount , Boolean isReverseOn
+            , Character categoryCode){
         Random random = new Random();
         Set<Integer> cardSet=new HashSet<>();
         while(true) {
@@ -85,7 +87,9 @@ public class TarotService {
             }
         }
 
-        List<RequestTarotCard.TarotCardSearch> params = cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(c, random.nextBoolean())).toList();
+        List<RequestTarotCard.TarotCardSearch> params = cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(
+                c, (isReverseOn != null && isReverseOn) ? random.nextBoolean() : true, categoryCode)
+        ).toList();
         System.out.println(params);
         return tarotCardRepository.findTaroCardInterpretations(params);
     }

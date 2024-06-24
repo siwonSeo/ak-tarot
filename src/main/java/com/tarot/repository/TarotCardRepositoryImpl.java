@@ -168,7 +168,18 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
     }
     private BooleanExpression eqCardInterpretations(List<RequestTarotCard.TarotCardSearch> params){
         return params.stream()
-                .map(p->tarotCardInterpretation.cardId.eq(p.cardId()).and(tarotCardInterpretation.isReversed.eq(p.isReversed())))
+                .map(p->{
+                        BooleanExpression be = tarotCardInterpretation.cardId.eq(p.cardId());
+                        if(p.isReversed() != null){
+                            be = be.and(tarotCardInterpretation.isReversed.eq(p.isReversed()));
+                        }
+                        if(p.categoryCode() != null){
+                            be = be.and(tarotCardInterpretation.categoryCode.eq(p.categoryCode()));
+                        }
+//                        return be.and(tarotCardInterpretation.isReversed.eq(p.isReversed()));
+                        return be;
+                    }
+                )
 //                .map(p->tarotCardInterpretation.cardId.eq(p.cardId()))
                 .reduce(BooleanExpression::or)
                 .orElseGet(tarotCardInterpretation.cardId::isNull);

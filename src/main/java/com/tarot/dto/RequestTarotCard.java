@@ -1,5 +1,7 @@
 package com.tarot.dto;
 
+import org.springframework.lang.Nullable;
+
 import java.util.List;
 
 public record RequestTarotCard(
@@ -7,6 +9,8 @@ public record RequestTarotCard(
           ) {
     public record TarotCardSearch(
               Integer cardId
-            , Boolean isReversed){
+            , @Nullable Boolean isReversed
+            , @Nullable Character categoryCode
+    ){
     }
 }

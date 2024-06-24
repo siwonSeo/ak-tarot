@@ -24,8 +24,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 @RequiredArgsConstructor
 @Service
@@ -68,6 +67,26 @@ public class TarotService {
     }
 
     public List<ResponseTarotCardInterpretation> getTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params){
+        return tarotCardRepository.findTaroCardInterpretations(params);
+    }
+
+    //임의로 카드를 뽑는다(카드 갯수만큼)
+    public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount){
+        Random random = new Random();
+        Set<Integer> cardSet=new HashSet<>();
+        while(true) {
+            //1 ~ 45 사이의 랜덤한 숫자 얻어내기
+            int ranNum = random.nextInt(77);
+            //얻어낸 숫자를 Set 에 저장하기
+            cardSet.add(ranNum);
+            //만일 lottoSet 의 size 가 6 이면 반복문 탈출
+            if(cardSet.size() == cardCount) {
+                break;
+            }
+        }
+
+        List<RequestTarotCard.TarotCardSearch> params = cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(c, random.nextBoolean())).toList();
+        System.out.println(params);
         return tarotCardRepository.findTaroCardInterpretations(params);
     }
 

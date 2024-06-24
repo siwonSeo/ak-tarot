@@ -27,12 +27,14 @@ public class TarotController {
         return "index";
     }
 
-    @GetMapping("/main")
-    public ModelAndView abc1(ModelAndView model) {
-//        model.setViewName("card");
-//        return model;
-        return new ModelAndView("card");
+    /*
+    @GetMapping("/interpretation/{cardCount}")
+    public String interpretation(Model model, @RequestParam int cardCount) {
+        model.addAttribute("cardInterpretations", tarotService.getTaroCardInterpretationsByRandom(cardCount));
+        return "interpretation";
     }
+
+     */
 
     @GetMapping("/cards")
     public ResponseEntity<List<TarotCard>> getTaroCards(){
@@ -47,5 +49,10 @@ public class TarotController {
     @PostMapping("/card/interpretation/search")
     public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(@RequestBody RequestTarotCard param){
         return new ResponseEntity<>(tarotService.getTaroCardInterpretations(param.searchCards()), HttpStatus.OK);
+    }
+
+    @GetMapping("/card/interpretation/{cardCount}")
+    public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(@PathVariable("cardCount") int cardCount) {
+        return new ResponseEntity<>(tarotService.getTaroCardInterpretationsByRandom(cardCount), HttpStatus.OK);
     }
 }

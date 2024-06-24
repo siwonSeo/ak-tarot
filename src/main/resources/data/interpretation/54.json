@@ -1,0 +1,182 @@
+{
+  "cardId": 54,
+  "cardName": "파이브 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서 갈등과 다툼이 발생할 수 있습니다.",
+            "승리에 집착하다 관계가 손상될 수 있으니 주의하세요.",
+            "자존심보다는 서로를 이해하려는 노력이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 갈등이 해소되기 시작합니다.",
+            "화해와 용서의 기회가 찾아올 수 있습니다.",
+            "과거의 다툼에서 교훈을 얻고 더 나은 관계를 만들어갈 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서 경쟁이 치열해질 수 있습니다.",
+            "승리를 위해 윤리를 저버리지 않도록 주의하세요.",
+            "협력보다는 개인의 성과가 중요시되는 시기일 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장 내 갈등이 해소되고 협력의 분위기가 조성됩니다.",
+            "과거의 실패나 패배를 교훈 삼아 새로운 전략을 세울 수 있습니다.",
+            "화해와 타협을 통해 더 나은 업무 환경을 만들 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 경쟁이나 분쟁이 발생할 수 있습니다.",
+            "금전적 이득을 위해 윤리를 저버리지 않도록 주의하세요.",
+            "단기적 이익보다는 장기적 안정성을 고려해야 합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 갈등이 해소되고 안정을 찾을 수 있습니다.",
+            "과거의 재정적 실수를 만회할 기회가 올 수 있습니다.",
+            "공정하고 윤리적인 재정 관리가 가능해집니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "스트레스로 인한 건강 문제가 발생할 수 있습니다.",
+            "경쟁심이나 과도한 욕심으로 건강을 해치지 않도록 주의하세요.",
+            "정신적, 육체적 균형을 유지하는 것이 중요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 문제가 개선되고 회복의 조짐이 보입니다.",
+            "과거의 건강 관리 실수를 교훈 삼아 더 나은 습관을 형성할 수 있습니다.",
+            "마음의 평화를 찾아 전반적인 웰빙이 향상됩니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서의 경쟁이 치열해질 수 있습니다.",
+            "지나친 경쟁심으로 학습의 즐거움을 잃지 않도록 주의하세요.",
+            "개인의 발전에 집중하되, 다른 사람을 깎아내리지 않도록 하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 갈등이 해소되고 협력 학습이 가능해집니다.",
+            "과거의 실패를 교훈 삼아 더 효과적인 학습 방법을 찾을 수 있습니다.",
+            "지식의 공유와 상호 학습의 가치를 깨달을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서 갈등이나 경쟁이 생길 수 있습니다.",
+            "승리나 우월감을 위해 우정을 해치지 않도록 주의하세요.",
+            "의견 차이를 인정하고 존중하는 태도가 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 간의 갈등이 해소되고 화해의 기회가 찾아옵니다.",
+            "과거의 다툼을 극복하고 더 강한 우정을 만들 수 있습니다.",
+            "서로의 차이를 인정하고 존중하는 관계로 발전할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 갈등이나 다툼이 발생할 수 있습니다.",
+            "개인의 이익보다는 가족 전체의 화합을 고려하세요.",
+            "서로를 이해하고 양보하는 자세가 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 갈등이 해소되고 화해의 기회가 찾아옵니다.",
+            "과거의 가족 문제를 해결하고 더 강한 유대관계를 형성할 수 있습니다.",
+            "서로의 차이를 인정하고 존중하는 가족 문화를 만들 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "갈등과 경쟁의 시기를 겪을 수 있습니다.",
+            "승리에 집착하기보다는 공정성과 윤리를 지키는 것이 중요합니다.",
+            "타인을 배려하면서도 자신의 입장을 지키는 균형이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "갈등이 해소되고 평화로운 시기가 찾아옵니다.",
+            "과거의 실수나 패배를 교훈 삼아 더 나은 미래를 만들 수 있습니다.",
+            "협력과 상호 이해의 가치를 깨닫고 실천할 수 있습니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

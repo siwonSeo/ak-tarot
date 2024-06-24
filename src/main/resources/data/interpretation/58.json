@@ -1,0 +1,182 @@
+{
+  "cardId": 58,
+  "cardName": "나인 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에 대한 불안과 걱정이 큰 시기입니다.",
+            "과도한 스트레스로 인해 파트너와의 갈등이 생길 수 있습니다.",
+            "부정적인 생각에서 벗어나 객관적으로 상황을 바라보세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 어려움을 극복하고 회복의 기미가 보입니다.",
+            "불안과 걱정에서 벗어나 평화를 찾게 될 것입니다.",
+            "파트너와의 소통을 통해 관계가 개선될 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "업무 스트레스가 극에 달해 있습니다.",
+            "과도한 걱정으로 인해 업무 효율이 떨어질 수 있습니다.",
+            "현실적인 목표 설정과 긍정적인 마인드가 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "업무 관련 스트레스가 점차 해소됩니다.",
+            "어려움을 극복하고 새로운 기회를 맞이할 수 있습니다.",
+            "긍정적인 변화의 조짐이 보이니 희망을 가지세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 불안과 걱정이 큰 시기입니다.",
+            "과도한 지출이나 투자로 인한 손실을 조심하세요.",
+            "현재의 상황을 냉철하게 분석하고 대책을 세우세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 어려움에서 벗어나기 시작합니다.",
+            "불필요한 지출을 줄이고 절약하는 습관이 도움이 됩니다.",
+            "새로운 수입원을 찾을 수 있는 기회가 올 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "스트레스로 인한 건강 악화를 조심하세요.",
+            "불안과 걱정이 신체 증상으로 나타날 수 있습니다.",
+            "충분한 휴식과 스트레스 관리가 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 상태가 점차 개선되고 있습니다.",
+            "정신적, 육체적 스트레스에서 벗어나게 됩니다.",
+            "규칙적인 운동과 명상이 도움이 될 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에 대한 불안과 스트레스가 큰 시기입니다.",
+            "과도한 걱정으로 인해 집중력이 떨어질 수 있습니다.",
+            "효율적인 학습 계획과 긍정적인 마인드가 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업 관련 스트레스가 점차 해소됩니다.",
+            "어려움을 극복하고 학습 효율이 높아집니다.",
+            "새로운 학습 방법을 찾아 시도해보세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구관계에서 오해나 갈등이 생길 수 있습니다.",
+            "과도한 걱정으로 인해 소통에 어려움을 겪을 수 있습니다.",
+            "객관적인 시각으로 상황을 바라보고 대화를 시도하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구관계의 어려움이 해소되기 시작합니다.",
+            "오해가 풀리고 관계가 회복될 수 있습니다.",
+            "솔직한 대화를 통해 더 깊은 우정을 쌓을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 갈등이나 불화가 있을 수 있습니다.",
+            "과도한 걱정으로 인해 가족과의 소통에 어려움을 겪을 수 있습니다.",
+            "서로를 이해하려는 노력과 인내가 필요한 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 갈등이 해소되고 관계가 개선됩니다.",
+            "서로를 이해하고 배려하는 마음이 깊어집니다.",
+            "가족과 함께하는 시간을 늘려 유대감을 강화하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적으로 불안과 걱정이 큰 시기입니다.",
+            "부정적인 생각에 사로잡혀 있을 수 있습니다.",
+            "현실을 객관적으로 바라보고 긍정적인 면을 찾으세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "어려움과 불안에서 벗어나 회복의 기미가 보입니다.",
+            "긍정적인 변화의 조짐이 보이니 희망을 가지세요.",
+            "명상이나 자기 성찰을 통해 내면의 평화를 찾아보세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "cardId": 65,
+  "cardName": "투 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서 물질적, 실질적 측면의 균형을 찾으려 노력하는 시기입니다.",
+            "파트너와 함께 재정적 문제를 해결하거나 계획을 세울 수 있습니다.",
+            "안정적이지만 때로는 단조로운 관계를 경험할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서 재정적 불균형이나 갈등이 생길 수 있습니다.",
+            "물질적인 문제로 인해 관계가 불안정해질 수 있습니다.",
+            "관계의 실질적인 측면에 너무 집중하여 감정적 연결을 놓칠 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직업적 안정성과 변화 사이에서 균형을 찾으려 노력하는 시기입니다.",
+            "여러 가지 일을 동시에 관리하며 유연성을 발휘할 수 있습니다.",
+            "재정적 안정을 위해 꾸준히 노력하는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업적 불안정이나 재정적 어려움을 경험할 수 있습니다.",
+            "업무 부담이 과중하여 균형을 잃을 수 있습니다.",
+            "변화에 적응하기 어려워 직업적 성장이 지체될 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 균형을 유지하려 노력하는 시기입니다.",
+            "수입과 지출 사이에서 적절한 관리가 필요합니다.",
+            "안정적이지만 큰 이익은 없는 재정 상태를 유지할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 불안정이나 예상치 못한 지출이 생길 수 있습니다.",
+            "재정 관리에 어려움을 겪을 수 있습니다.",
+            "금전적 문제로 인한 스트레스가 증가할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신체적, 정신적 건강의 균형을 유지하려 노력하는 시기입니다.",
+            "일상적인 건강 관리 습관을 형성하는 것이 중요합니다.",
+            "적당한 운동과 휴식의 균형이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리에 소홀해져 문제가 생길 수 있습니다.",
+            "스트레스로 인한 건강 악화를 주의해야 합니다.",
+            "건강과 일 사이의 균형을 잡는 데 어려움을 겪을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업과 다른 책임 사이에서 균형을 찾으려 노력하는 시기입니다.",
+            "실용적이고 체계적인 학습 방법이 도움이 될 수 있습니다.",
+            "꾸준한 노력으로 서서히 성과를 얻을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업과 다른 의무 사이에서 균형을 잡기 어려울 수 있습니다.",
+            "학습에 집중하기 어려운 상황이 생길 수 있습니다.",
+            "학업 성과가 기대에 미치지 못해 실망할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서 주고받음의 균형을 찾으려 노력하는 시기입니다.",
+            "실용적이고 믿음직한 친구 관계를 형성할 수 있습니다.",
+            "친구와 함께 재정적 또는 실질적인 목표를 달성할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 불균형이나 갈등이 생길 수 있습니다.",
+            "친구와의 재정적 문제로 인해 관계가 악화될 수 있습니다.",
+            "친구 관계를 유지하는 데 어려움을 겪을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 내에서 책임과 역할의 균형을 찾으려 노력하는 시기입니다.",
+            "가족의 재정적 안정을 위해 함께 노력할 수 있습니다.",
+            "전통과 변화 사이에서 가족의 균형을 유지하려 노력합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 책임 분배의 불균형으로 갈등이 생길 수 있습니다.",
+            "가족의 재정적 문제로 인한 스트레스가 증가할 수 있습니다.",
+            "가족 관계에서 안정감을 찾기 어려울 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "삶의 여러 측면에서 균형을 찾으려 노력하는 시기입니다.",
+            "안정성과 변화 사이에서 적절한 조화를 이루려 합니다.",
+            "꾸준한 노력과 인내로 서서히 목표를 달성할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "삶의 여러 영역에서 균형을 잃고 어려움을 겪을 수 있습니다.",
+            "변화에 적응하기 어려워 불안정함을 느낄 수 있습니다.",
+            "재정적 또는 실질적인 문제로 인한 스트레스가 증가할 수 있습니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

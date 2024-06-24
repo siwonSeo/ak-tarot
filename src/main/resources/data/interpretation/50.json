@@ -1,0 +1,182 @@
+{
+  "cardId": 50,
+  "cardName": "에이스 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 관계의 시작을 의미합니다.",
+            "명확한 의사소통이 중요할 시기입니다.",
+            "관계에서 진실을 추구하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서 혼란이나 오해가 있을 수 있습니다.",
+            "감정적인 충동을 조심하세요.",
+            "상대방의 의도를 오해하지 않도록 주의하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 아이디어나 프로젝트의 시작을 나타냅니다.",
+            "명확한 사고와 의사소통이 성공을 가져올 것입니다.",
+            "도전적인 과제를 해결할 수 있는 능력이 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 혼란이나 의사소통 문제가 있을 수 있습니다.",
+            "성급한 결정을 피하고 신중히 생각하세요.",
+            "목표를 재평가할 필요가 있을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 목표를 달성할 수 있는 새로운 기회가 올 것입니다.",
+            "명확한 재정 계획을 세우는 것이 중요합니다.",
+            "투자나 재정 결정에 있어 논리적인 접근이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에 있어 혼란이 있을 수 있습니다.",
+            "충동적인 지출을 피하세요.",
+            "재정 상황을 다시 검토하고 필요하다면 조언을 구하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 관리에 대한 새로운 접근법을 시도해 보세요.",
+            "정신적, 육체적 건강을 균형 있게 관리하는 것이 중요합니다.",
+            "의료 전문가의 조언을 따르는 것이 도움이 될 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "스트레스나 불안이 건강에 영향을 줄 수 있습니다.",
+            "과도한 걱정은 피하고 균형 잡힌 시각을 유지하세요.",
+            "건강 관련 정보를 잘못 해석하지 않도록 주의하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 학습 방법이나 주제에 도전해 보세요.",
+            "논리적 사고와 분석 능력이 향상될 것입니다.",
+            "지적 호기심을 따라가면 좋은 결과를 얻을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습에 있어 혼란이나 집중력 저하를 경험할 수 있습니다.",
+            "정보의 과부하를 조심하세요.",
+            "기본으로 돌아가 기초를 다지는 것이 도움이 될 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 우정이 시작될 수 있는 시기입니다.",
+            "친구들과의 솔직한 대화가 관계를 강화시킬 것입니다.",
+            "지적인 대화나 활동을 통해 친구 관계가 발전할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 오해나 갈등이 생길 수 있습니다.",
+            "말을 할 때 신중을 기하세요.",
+            "친구의 감정을 고려하면서도 자신의 입장을 분명히 하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 의사소통이 개선될 수 있는 시기입니다.",
+            "가족 문제에 대한 새로운 해결책을 찾을 수 있습니다.",
+            "가족 간의 솔직한 대화가 관계를 강화시킬 것입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 의견 차이나 갈등이 발생할 수 있습니다.",
+            "감정적인 반응을 자제하고 이성적으로 대화하세요.",
+            "서로의 입장을 이해하려는 노력이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 시작과 가능성의 시기입니다.",
+            "명확한 사고와 의사소통이 중요합니다.",
+            "진실을 추구하고 정직하게 행동하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "혼란이나 불확실성을 경험할 수 있습니다.",
+            "성급한 판단이나 결정을 피하세요.",
+            "상황을 다각도로 바라보고 신중히 행동하세요."
+          ]
+        }
+      ]
+    }
+  ]
+}

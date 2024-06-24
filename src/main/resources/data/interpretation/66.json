@@ -1,0 +1,29 @@
+아래 키워드로 다시 해줘(괄호안은 코드값). JSON형태로
+cardId는 카드번호야
+isReversed는 역방향 여부
+cardName는 카드명
+interpretationContents는 해석
+사랑(A)
+커리어(B)
+금전(C)
+건강(D)
+공부(E)
+친구(F)
+가족(G)
+기타(Z)
+
+66번 쓰리 오브 펜타클 부터 해줘
+{
+  "cardId":카드번호
+,"cardName":"카드명"
+,"categories":[
+  {
+    "categoryCode":"A"
+  ,"categoryName":"사랑"
+    "interpretations":[
+      "isReversed":false
+    ,"interpretationContents":[]
+    ]
+  }
+]
+}

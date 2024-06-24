@@ -1,0 +1,182 @@
+{
+  "cardId": 61,
+  "cardName": "나이트 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "열정적이고 직설적인 의사소통이 관계에 활력을 줄 수 있습니다.",
+            "새로운 로맨스나 관계의 급격한 발전이 있을 수 있습니다.",
+            "지적인 매력과 카리스마가 돋보이는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정적 충동이나 공격적인 언행으로 관계에 문제가 생길 수 있습니다.",
+            "너무 성급하게 관계를 진전시키려 하지 않도록 주의하세요.",
+            "상대방의 감정을 고려하지 않은 행동을 경계해야 합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 아이디어나 프로젝트를 빠르게 추진할 수 있는 시기입니다.",
+            "열정과 추진력을 바탕으로 한 성과를 얻을 수 있습니다.",
+            "도전적인 태도와 빠른 결단력이 유리하게 작용할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "성급한 결정이나 공격적인 태도로 인해 문제가 발생할 수 있습니다.",
+            "너무 빠른 추진으로 인한 실수나 오류를 주의해야 합니다.",
+            "동료들과의 갈등이나 의견 충돌에 주의가 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 결정을 빠르게 내리고 행동으로 옮길 수 있는 시기입니다.",
+            "새로운 투자 기회나 수입원을 발견할 수 있습니다.",
+            "적극적인 재정 관리가 이익을 가져올 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "충동적인 지출이나 투자로 인한 손실을 주의해야 합니다.",
+            "재정적 결정을 너무 서두르지 않도록 주의하세요.",
+            "금전 관련 갈등이나 분쟁에 휘말릴 수 있으니 조심하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "활력이 넘치고 에너지 레벨이 높아지는 시기입니다.",
+            "새로운 운동이나 건강 관리 방법을 시도해 볼 수 있습니다.",
+            "정신적 스트레스를 신체 활동으로 해소할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 활동이나 무리한 운동으로 인한 부상을 조심하세요.",
+            "스트레스나 불안으로 인한 건강 문제가 발생할 수 있습니다.",
+            "충분한 휴식과 균형 잡힌 생활이 필요한 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 열정과 집중력이 높아지는 시기입니다.",
+            "새로운 학습 방법을 적극적으로 시도해 볼 수 있습니다.",
+            "빠른 이해력과 분석력으로 학업 성과를 얻을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 조급함이나 과도한 스트레스를 주의하세요.",
+            "깊이 있는 이해 없이 표면적인 학습에 그칠 수 있습니다.",
+            "학업 관련 갈등이나 경쟁에서 균형을 잃지 않도록 주의하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구와의 활발한 교류와 새로운 경험을 공유할 수 있습니다.",
+            "직설적이고 솔직한 대화로 친구 관계가 더욱 돈독해질 수 있습니다.",
+            "공동의 목표를 향해 함께 노력하는 과정에서 우정이 깊어집니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구와의 의견 충돌이나 갈등이 발생할 수 있습니다.",
+            "성급한 판단이나 말로 인해 친구 관계가 손상될 수 있습니다.",
+            "경쟁심이나 질투심으로 인한 문제를 주의해야 합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 활발한 소통과 새로운 활동을 시도할 수 있습니다.",
+            "가족 문제에 대해 직접적이고 효과적인 해결책을 찾을 수 있습니다.",
+            "가족 구성원들과 함께 새로운 목표를 설정하고 추진할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 언쟁이나 갈등이 심화될 수 있습니다.",
+            "성급한 판단이나 행동으로 가족 관계에 문제가 생길 수 있습니다.",
+            "가족 구성원의 감정을 고려하지 않은 언행을 주의해야 합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "열정적이고 진취적인 태도로 새로운 도전을 시도할 수 있습니다.",
+            "빠른 사고와 행동력으로 목표를 달성할 수 있는 시기입니다.",
+            "지적인 호기심과 탐구심이 높아져 새로운 발견을 할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "충동적인 행동이나 성급한 판단으로 인한 문제를 주의해야 합니다.",
+            "과도한 공격성이나 고집으로 인한 갈등을 조심하세요.",
+            "균형 잡힌 시각과 신중한 접근이 필요한 시기입니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

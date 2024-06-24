@@ -1,0 +1,182 @@
+{
+  "cardId": 52,
+  "cardName": "쓰리 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "heartbreak과 실연의 아픔을 나타냅니다.",
+            "관계의 종말이나 배신으로 인한 고통을 겪을 수 있습니다.",
+            "감정적 상처를 치유하는 시간이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과거의 상처에서 회복되기 시작합니다.",
+            "감정적 고통이 서서히 해소되는 시기입니다.",
+            "용서와 화해의 가능성이 열립니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서의 실망이나 좌절을 경험할 수 있습니다.",
+            "프로젝트의 실패나 해고의 가능성이 있습니다.",
+            "어려운 상황을 통해 성장할 수 있는 기회를 찾으세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 어려움이 점차 해소됩니다.",
+            "과거의 실패에서 교훈을 얻고 앞으로 나아갈 때입니다.",
+            "새로운 직업적 기회가 찾아올 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 손실이나 예상치 못한 지출이 있을 수 있습니다.",
+            "금전적 스트레스나 걱정이 증가할 수 있습니다.",
+            "어려운 재정 상황을 극복하기 위한 계획이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 어려움이 점차 해소되기 시작합니다.",
+            "과거의 금전적 실수에서 배우고 더 나은 결정을 내릴 수 있습니다.",
+            "재정 회복의 징후가 보이기 시작합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "스트레스나 우울감으로 인한 건강 문제가 발생할 수 있습니다.",
+            "심장이나 순환계 문제에 주의를 기울이세요.",
+            "정신 건강 관리가 특히 중요한 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 문제가 점차 개선되기 시작합니다.",
+            "정신적, 육체적 회복의 조짐이 보입니다.",
+            "과거의 건강 문제를 극복하고 새로운 건강 습관을 형성할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서의 실패나 좌절을 경험할 수 있습니다.",
+            "학습 과정에서 어려움이나 장애물을 만날 수 있습니다.",
+            "실패를 통해 배우고 성장하는 기회로 삼으세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업적 어려움이 점차 해소되기 시작합니다.",
+            "과거의 실패에서 교훈을 얻고 새로운 학습 전략을 개발할 수 있습니다.",
+            "학업에 대한 긍정적인 태도를 되찾을 수 있는 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서 실망이나 배신을 경험할 수 있습니다.",
+            "오해나 갈등으로 인해 친구와 멀어질 수 있습니다.",
+            "진정한 친구와 그렇지 않은 사람을 구별하는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 갈등이 해소되기 시작합니다.",
+            "과거의 상처를 치유하고 관계를 회복할 수 있는 기회가 옵니다.",
+            "새로운 우정이 시작되거나 기존의 관계가 더욱 깊어질 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 갈등이나 불화가 발생할 수 있습니다.",
+            "가족 구성원의 상실이나 이별을 경험할 수 있습니다.",
+            "가족 관계의 아픔을 치유하는 과정이 필요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 갈등이 해소되기 시작합니다.",
+            "과거의 가족 문제를 극복하고 화해할 수 있는 기회가 옵니다.",
+            "가족 관계가 회복되고 더욱 강해질 수 있는 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "심각한 실망이나 상실감을 경험할 수 있습니다.",
+            "고통스러운 경험을 통해 성장할 수 있는 기회입니다.",
+            "감정을 솔직히 표현하고 처리하는 것이 중요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "고통이 서서히 해소되고 치유가 시작됩니다.",
+            "과거의 아픔을 받아들이고 앞으로 나아갈 수 있는 시기입니다.",
+            "새로운 시작과 희망이 보이기 시작합니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "cardId": 64,
+  "cardName": "에이스 오브 펜타클",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "안정적이고 실질적인 사랑의 시작을 의미합니다.",
+            "물질적 안정을 바탕으로 한 관계가 형성될 수 있습니다.",
+            "신뢰와 안정감이 관계의 기반이 될 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "물질적인 면에 지나치게 집중하여 관계의 정서적 측면을 간과할 수 있습니다.",
+            "관계에서 안정을 찾기 어려울 수 있습니다.",
+            "현실적인 문제로 인해 사랑이 지연되거나 방해받을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 직업이나 사업 기회의 시작을 의미합니다.",
+            "안정적이고 수익성 있는 프로젝트를 시작할 수 있습니다.",
+            "실질적인 성과와 물질적 보상을 얻을 수 있는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직업이나 사업 기회를 놓치거나 지연될 수 있습니다.",
+            "재정적 불안정이나 불확실성이 커질 수 있습니다.",
+            "일에 대한 열정이나 동기가 부족해질 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 재정적 기회나 투자 기회가 생길 수 있습니다.",
+            "안정적인 수입원이 생기거나 재정 상태가 개선될 수 있습니다.",
+            "물질적 풍요와 안정을 경험할 수 있는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 기회를 놓치거나 잘못된 투자를 할 수 있습니다.",
+            "금전적 손실이나 재정적 불안정을 경험할 수 있습니다.",
+            "물질적인 것에 지나치게 집착하여 균형을 잃을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신체적 건강과 활력이 향상될 수 있는 시기입니다.",
+            "건강한 생활 습관을 시작하기에 좋은 때입니다.",
+            "건강 관리에 투자하여 장기적인 이익을 얻을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리를 소홀히 하여 문제가 생길 수 있습니다.",
+            "건강에 대한 과도한 걱정이나 집착이 생길 수 있습니다.",
+            "건강 개선을 위한 노력이 지연되거나 방해받을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 학습이나 기술 습득의 기회가 생길 수 있습니다.",
+            "실용적이고 실질적인 지식을 얻을 수 있는 시기입니다.",
+            "학업에 대한 투자가 장기적으로 큰 보상을 가져올 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학습 기회를 놓치거나 학업 진전이 지연될 수 있습니다.",
+            "실용적인 지식보다는 이론에만 치중할 수 있습니다.",
+            "학업에 대한 동기부여가 부족해질 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "신뢰할 수 있는 새로운 친구를 사귈 수 있습니다.",
+            "친구 관계에서 안정감과 실질적인 도움을 주고받을 수 있습니다.",
+            "공동의 목표나 프로젝트로 친구 관계가 더욱 돈독해질 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서 물질적인 면에 지나치게 집중할 수 있습니다.",
+            "신뢰할 수 있는 친구를 만나기 어려울 수 있습니다.",
+            "친구 관계에서 안정감을 찾기 어려울 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족의 재정적 안정과 물질적 풍요가 증가할 수 있습니다.",
+            "가족 간의 실질적인 도움과 지원이 늘어날 수 있습니다.",
+            "가족과 함께하는 새로운 프로젝트나 투자가 성공할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 내 재정적 문제나 물질적 갈등이 생길 수 있습니다.",
+            "가족 간의 실질적인 도움이 부족해질 수 있습니다.",
+            "가족 관계에서 물질적인 면에 지나치게 집중할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 시작과 기회의 시기입니다.",
+            "물질적 안정과 풍요를 경험할 수 있습니다.",
+            "실용적이고 현실적인 접근이 성공을 가져올 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "기회를 놓치거나 시작이 지연될 수 있습니다.",
+            "물질적인 것에 지나치게 집착하여 균형을 잃을 수 있습니다.",
+            "현실적인 문제나 장애물로 인해 진전이 더딜 수 있습니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

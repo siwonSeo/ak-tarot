@@ -1,0 +1,182 @@
+{
+  "cardId": 56,
+  "cardName": "세븐 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서 속임수나 기만이 있을 수 있으니 주의하세요.",
+            "파트너의 행동이 의심스럽다면 솔직한 대화가 필요합니다.",
+            "자신의 감정을 숨기거나 회피하지 말고 정직하게 표현하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서의 기만이나 오해가 해소되기 시작합니다.",
+            "숨겨왔던 진실이 드러나며 관계가 정화될 수 있습니다.",
+            "과거의 실수를 인정하고 용서를 구할 수 있는 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서 경쟁자나 동료의 불공정한 행동에 주의하세요.",
+            "아이디어나 업적을 도용당하지 않도록 조심하세요.",
+            "윤리적 딜레마에 직면할 수 있으니 신중하게 행동하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 부정직한 행위가 밝혀지고 해결될 수 있습니다.",
+            "과거의 실수를 인정하고 개선의 기회로 삼으세요.",
+            "정직하고 투명한 업무 환경을 만들어갈 수 있는 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "금전적 사기나 불법적인 제안에 주의하세요.",
+            "재정 관련 서류를 꼼꼼히 확인하고 의심스러운 거래는 피하세요.",
+            "단기적 이익에 현혹되지 말고 장기적인 안정성을 고려하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "금전적 문제의 진실이 밝혀지고 해결될 수 있습니다.",
+            "과거의 재정적 실수를 인정하고 개선할 기회가 옵니다.",
+            "정직하고 투명한 재정 관리의 중요성을 깨달을 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 관련 정보를 속이거나 숨기지 마세요.",
+            "불법적이거나 검증되지 않은 치료법에 주의하세요.",
+            "스트레스나 불안이 건강에 영향을 줄 수 있으니 마음의 평화를 찾으세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "숨겨왔던 건강 문제를 인정하고 적절한 치료를 받을 수 있습니다.",
+            "건강에 대한 잘못된 인식이나 습관을 개선할 기회가 옵니다.",
+            "정직한 자기 관리와 의료진과의 솔직한 소통이 중요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서 부정행위의 유혹을 경계하세요.",
+            "다른 사람의 아이디어나 작업을 무단으로 사용하지 마세요.",
+            "지름길을 찾기보다는 정직하게 노력하는 것이 장기적으로 이롭습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서의 부정직한 행위를 인정하고 개선할 기회가 옵니다.",
+            "진실된 학습 태도의 중요성을 깨달을 수 있습니다.",
+            "과거의 실수를 교훈 삼아 더 성실하고 정직한 학습자가 될 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계에서 기만이나 배신에 주의하세요.",
+            "비밀이나 개인정보를 신중하게 관리하세요.",
+            "진정한 친구와 그렇지 않은 사람을 구별하는 것이 중요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 오해나 갈등이 해소될 수 있습니다.",
+            "과거의 실수를 인정하고 용서를 구할 수 있는 기회가 옵니다.",
+            "더 진실되고 신뢰할 수 있는 우정을 만들어갈 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 비밀이나 기만이 문제가 될 수 있습니다.",
+            "가족 구성원의 행동이 의심스럽다면 솔직한 대화가 필요합니다.",
+            "가족 간의 신뢰를 지키는 것이 매우 중요한 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 오해나 갈등이 해소되기 시작합니다.",
+            "숨겨왔던 가족 문제를 해결할 기회가 올 수 있습니다.",
+            "더 솔직하고 건강한 가족 관계를 만들어갈 수 있는 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "주변 상황이나 사람들을 경계해야 할 필요가 있습니다.",
+            "중요한 정보나 자산을 잘 보호하세요.",
+            "윤리적 결정이 필요한 상황에 직면할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "숨겨진 진실이 드러나고 문제가 해결되기 시작합니다.",
+            "과거의 실수를 인정하고 개선할 수 있는 기회가 옵니다.",
+            "더 정직하고 투명한 삶을 살아갈 수 있는 전환점이 될 수 있습니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

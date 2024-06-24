@@ -1,0 +1,182 @@
+{
+  "cardId": 53,
+  "cardName": "포 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계에서 휴식과 재충전이 필요한 시기입니다.",
+            "감정적 스트레스로부터 회복하는 시간을 가지세요.",
+            "내면의 평화를 찾고 자기 성찰을 하는 것이 도움이 됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "휴식기가 끝나고 관계에 다시 활력을 불어넣을 때입니다.",
+            "고립에서 벗어나 소통을 재개할 필요가 있습니다.",
+            "새로운 관계의 시작이나 기존 관계의 재활성화가 가능합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장에서의 스트레스를 관리하고 휴식을 취할 때입니다.",
+            "업무에서 잠시 물러나 재충전의 시간을 가지세요.",
+            "새로운 아이디어를 얻기 위해 명상이나 휴가가 도움이 될 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "휴식 후 일에 복귀할 준비가 되었습니다.",
+            "새로운 에너지로 프로젝트나 업무에 임할 수 있습니다.",
+            "그동안 미뤄둔 업무를 재개할 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 결정을 서두르지 말고 신중히 고민하세요.",
+            "현재의 재정 상태를 검토하고 계획을 재정비할 시기입니다.",
+            "불필요한 지출을 줄이고 비상금을 모으는 것이 좋습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 활동을 재개할 시기가 왔습니다.",
+            "새로운 투자나 재정 계획을 실행에 옮길 수 있습니다.",
+            "그동안 미뤄둔 재정 관련 결정을 내릴 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "충분한 휴식과 회복이 필요한 시기입니다.",
+            "스트레스 관리와 정신 건강에 집중하세요.",
+            "명상, 요가 등 마음을 안정시키는 활동이 도움이 됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "회복기가 끝나고 활동을 재개할 시기입니다.",
+            "새로운 건강 루틴을 시작하기 좋은 때입니다.",
+            "그동안 미뤄둔 건강검진이나 치료를 받아보세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업에서 잠시 휴식을 취하고 재충전할 시기입니다.",
+            "배운 내용을 정리하고 복습하는 시간을 가지세요.",
+            "효율적인 학습을 위해 마음의 평화를 찾는 것이 중요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "휴식 후 학업에 복귀할 준비가 되었습니다.",
+            "새로운 학습 주제나 프로젝트를 시작하기 좋은 시기입니다.",
+            "그동안 미뤄둔 공부나 과제를 재개하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "사회적 활동을 줄이고 개인적인 시간을 가지세요.",
+            "친구 관계를 재평가하고 진정한 우정을 찾을 시기입니다.",
+            "혼자만의 시간을 통해 자아를 찾고 성찰하세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "사회적 고립에서 벗어나 친구 관계를 재개할 시기입니다.",
+            "새로운 인연을 만들거나 오래된 친구와 재회할 수 있습니다.",
+            "적극적으로 사회활동에 참여하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 갈등 후 휴식과 화해의 시간이 필요합니다.",
+            "가족 구성원 각자의 개인 시간을 존중하세요.",
+            "가족 관계를 재정립하고 평화로운 분위기를 만드세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 소통을 재개할 시기입니다.",
+            "오랫동안 미뤄둔 가족 모임이나 활동을 계획해보세요.",
+            "가족 간의 유대를 강화하고 새로운 관계를 만들어갈 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "전반적으로 휴식과 재충전이 필요한 시기입니다.",
+            "내면의 평화를 찾고 자기 성찰의 시간을 가지세요.",
+            "스트레스 관리와 마음의 안정이 중요합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "휴식기가 끝나고 새로운 활동을 시작할 때입니다.",
+            "그동안 미뤄둔 일들을 재개하고 새로운 도전을 시작하세요.",
+            "내적 성찰을 바탕으로 외부 세계와 다시 연결될 시기입니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

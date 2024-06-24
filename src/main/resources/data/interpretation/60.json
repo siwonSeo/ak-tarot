@@ -1,0 +1,182 @@
+{
+  "cardId": 60,
+  "cardName": "페이지 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 관계의 시작이나 관계에 대한 새로운 시각을 의미합니다.",
+            "솔직하고 직접적인 의사소통이 관계에 도움이 될 수 있습니다.",
+            "지적인 매력이 돋보이는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계에서 미숙한 행동이나 의사소통의 문제가 있을 수 있습니다.",
+            "감정적인 불안정으로 인해 관계에 어려움을 겪을 수 있습니다.",
+            "상대방의 말을 잘 듣고 이해하려는 노력이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 아이디어나 프로젝트를 시작할 좋은 시기입니다.",
+            "학습과 지식 습득에 열정을 가지고 임하세요.",
+            "열정과 호기심을 바탕으로 한 도전이 성공으로 이어질 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "일에 대한 집중력이 부족하거나 준비가 미흡할 수 있습니다.",
+            "성급한 판단이나 결정을 주의해야 합니다.",
+            "더 많은 학습과 경험이 필요한 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 재정적 기회나 아이디어가 생길 수 있습니다.",
+            "금융 지식을 쌓는 데 좋은 시기입니다.",
+            "신중하고 분석적인 접근이 재정적 이득을 가져올 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에 있어 신중함이 부족할 수 있습니다.",
+            "불필요한 지출이나 재정적 실수를 주의해야 합니다.",
+            "금전 관리에 대한 더 많은 학습과 경험이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강에 대한 새로운 정보나 접근법을 찾을 수 있습니다.",
+            "정신적 건강과 지적 활동이 중요한 시기입니다.",
+            "건강한 라이프스타일에 대한 학습과 실천이 도움이 됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 관리에 대한 지식이 부족하거나 실천이 미흡할 수 있습니다.",
+            "스트레스나 불안으로 인한 건강 문제를 주의해야 합니다.",
+            "건강에 대해 더 신중하고 체계적인 접근이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학습에 대한 열정과 호기심이 높아지는 시기입니다.",
+            "새로운 학습 방법이나 분야에 도전해 보세요.",
+            "지적 성장과 발전의 기회가 많이 주어집니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 집중력이 부족하거나 방향성을 잃을 수 있습니다.",
+            "피상적인 지식 습득에 그치지 않도록 주의하세요.",
+            "체계적이고 깊이 있는 학습 계획이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 친구를 사귀거나 지적인 교류를 나눌 수 있습니다.",
+            "솔직하고 열린 대화가 우정을 돈독하게 만들 수 있습니다.",
+            "공동의 관심사나 학습을 통해 친구 관계가 발전할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구와의 의사소통에 문제가 생길 수 있습니다.",
+            "불필요한 논쟁이나 오해를 주의해야 합니다.",
+            "친구 관계에서 더 많은 이해와 배려가 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족과의 새로운 소통 방식을 시도해 볼 수 있습니다.",
+            "가족 간의 지적인 교류와 대화가 증가할 수 있습니다.",
+            "가족 관계에 대한 새로운 통찰을 얻을 수 있는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 간의 의사소통에 어려움이 있을 수 있습니다.",
+            "가족 관계에서 미숙한 행동이나 판단을 주의해야 합니다.",
+            "가족 구성원 간의 이해와 존중이 더욱 필요한 시기입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "새로운 아이디어와 정보에 대한 열린 마음이 중요합니다.",
+            "지적 호기심을 바탕으로 한 도전과 탐구가 유익할 수 있습니다.",
+            "솔직하고 직접적인 의사소통이 도움이 될 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "성급한 판단이나 미숙한 행동을 주의해야 합니다.",
+            "더 깊이 있는 학습과 경험이 필요한 시기입니다.",
+            "타인의 의견을 경청하고 이해하려는 노력이 필요합니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

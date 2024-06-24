@@ -1,0 +1,182 @@
+{
+  "cardId": 55,
+  "cardName": "식스 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "관계의 어려움을 극복하고 새로운 단계로 나아갑니다.",
+            "과거의 아픔을 뒤로하고 치유의 여정을 시작합니다.",
+            "함께 변화를 받아들이고 성장하는 시기입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "관계의 변화나 전환을 미루고 있을 수 있습니다.",
+            "과거에 집착하여 앞으로 나아가지 못하고 있습니다.",
+            "필요한 변화를 피하지 말고 직면해야 합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "직장이나 경력에서 새로운 기회를 찾아 나서는 시기입니다.",
+            "현재의 어려움을 극복하고 더 나은 환경으로 이동할 수 있습니다.",
+            "변화를 두려워하지 말고 받아들이세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "직장에서의 필요한 변화를 미루고 있을 수 있습니다.",
+            "현재 상황에 안주하여 성장의 기회를 놓치고 있습니다.",
+            "변화의 필요성을 인식하고 행동으로 옮겨야 할 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "재정적 어려움을 극복하고 안정을 찾아가는 시기입니다.",
+            "새로운 재정 계획이나 투자 기회가 찾아올 수 있습니다.",
+            "과거의 재정 문제를 해결하고 앞으로 나아갈 때입니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 변화를 두려워하여 필요한 결정을 미루고 있습니다.",
+            "과거의 재정 습관에 집착하여 개선의 기회를 놓치고 있습니다.",
+            "재정 상황을 개선하기 위해 적극적인 행동이 필요합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "건강 문제가 서서히 개선되고 회복의 조짐이 보입니다.",
+            "새로운 치료법이나 건강 관리 방식을 시도해볼 좋은 시기입니다.",
+            "마음의 안정을 찾아 전반적인 건강이 향상됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "건강 개선을 위한 필요한 변화를 미루고 있습니다.",
+            "과거의 건강 문제에 집착하여 현재의 개선 기회를 놓치고 있습니다.",
+            "건강을 위해 새로운 접근법을 시도해야 할 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "학업의 어려움을 극복하고 새로운 지식의 영역으로 나아갑니다.",
+            "새로운 학습 방법이나 환경 변화가 도움이 될 수 있습니다.",
+            "과거의 학습 패턴을 벗어나 성장의 기회를 찾으세요."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에서 필요한 변화를 미루고 있을 수 있습니다.",
+            "익숙한 학습 방식에 안주하여 발전의 기회를 놓치고 있습니다.",
+            "새로운 학습 접근법을 시도하고 변화를 받아들여야 할 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "친구 관계의 어려움을 극복하고 새로운 단계로 발전합니다.",
+            "과거의 갈등을 해소하고 더 깊은 우정을 쌓을 수 있습니다.",
+            "새로운 환경에서 의미 있는 친구 관계를 형성할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계의 필요한 변화를 미루고 있을 수 있습니다.",
+            "과거의 우정에 집착하여 새로운 관계 형성을 어려워하고 있습니다.",
+            "친구 관계의 변화를 두려워하지 말고 받아들여야 할 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 관계의 어려움을 극복하고 새로운 시작을 맞이합니다.",
+            "가족과 함께 변화를 받아들이고 성장하는 시기입니다.",
+            "과거의 가족 문제를 해결하고 화합을 이루어갑니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계의 필요한 변화를 미루고 있을 수 있습니다.",
+            "과거의 가족 문제에 집착하여 현재의 관계 개선을 방해하고 있습니다.",
+            "가족 간의 변화를 두려워하지 말고 함께 나아가야 할 때입니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "어려움을 극복하고 새로운 단계로 나아가는 시기입니다.",
+            "과거의 문제를 해결하고 앞으로 전진할 수 있습니다.",
+            "변화를 두려워하지 말고 받아들이세요. 더 나은 미래가 기다리고 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "필요한 변화나 전환을 미루고 있을 수 있습니다.",
+            "과거에 집착하여 현재의 기회를 놓치고 있습니다.",
+            "변화의 필요성을 인식하고 용기를 내어 앞으로 나아가야 할 때입니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

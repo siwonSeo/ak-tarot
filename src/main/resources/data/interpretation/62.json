@@ -1,0 +1,182 @@
+{
+  "cardId": 62,
+  "cardName": "퀸 오브 소드",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "명확하고 직접적인 의사소통이 관계를 개선시킬 수 있습니다.",
+            "지적인 매력과 통찰력이 파트너를 끌어들일 수 있습니다.",
+            "감정과 이성의 균형을 잘 맞추어 관계를 발전시킬 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지나치게 비판적이거나 냉담한 태도로 관계에 어려움이 생길 수 있습니다.",
+            "감정 표현의 어려움으로 인해 오해가 생길 수 있습니다.",
+            "과거의 상처로 인한 불신이 현재 관계에 영향을 줄 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "분석적 사고와 명확한 의사소통 능력이 업무에 도움이 됩니다.",
+            "리더십을 발휘하여 팀을 효과적으로 이끌 수 있습니다.",
+            "정확한 판단력과 결단력으로 중요한 결정을 내릴 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지나치게 비판적인 태도로 동료들과 갈등이 생길 수 있습니다.",
+            "감정적 스트레스로 인해 업무 효율이 떨어질 수 있습니다.",
+            "과도한 완벽주의로 인해 진행이 지연될 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "냉철한 판단력으로 현명한 재정 결정을 내릴 수 있습니다.",
+            "지출을 효과적으로 관리하고 예산을 잘 세울 수 있습니다.",
+            "재정적 독립성과 안정성을 추구하는 데 도움이 됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에 있어 지나치게 냉정하거나 인색해질 수 있습니다.",
+            "금전 문제로 인한 갈등이나 스트레스가 증가할 수 있습니다.",
+            "재정적 불안감으로 인해 과도하게 걱정할 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "정신적 건강과 신체적 건강의 균형을 잘 유지할 수 있습니다.",
+            "건강 문제에 대해 명확하게 이해하고 대처할 수 있습니다.",
+            "스트레스 관리와 자기 관리 능력이 향상됩니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 스트레스나 불안으로 인한 건강 문제를 주의해야 합니다.",
+            "감정적 스트레스가 신체 건강에 영향을 줄 수 있습니다.",
+            "건강 문제를 지나치게 걱정하거나 무시하지 않도록 주의하세요."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "분석적 사고와 집중력이 높아져 학습 효율이 증가합니다.",
+            "비판적 사고를 통해 깊이 있는 이해를 할 수 있습니다.",
+            "명확한 학습 목표 설정과 계획 수립이 가능합니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "과도한 자기비판으로 인해 학습 의욕이 저하될 수 있습니다.",
+            "지나친 완벽주의로 인해 학습 진도가 더뎌질 수 있습니다.",
+            "학업 스트레스로 인한 정서적 불안정을 주의해야 합니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "솔직하고 명확한 의사소통으로 친구 관계가 개선될 수 있습니다.",
+            "지적인 대화와 조언으로 친구들에게 도움을 줄 수 있습니다.",
+            "공정하고 객관적인 태도로 신뢰받는 친구가 될 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지나치게 비판적인 태도로 친구 관계가 악화될 수 있습니다.",
+            "감정 표현의 어려움으로 인해 오해가 생길 수 있습니다.",
+            "과거의 상처로 인해 새로운 친구 관계를 맺기 어려울 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족 간의 명확한 의사소통으로 문제를 해결할 수 있습니다.",
+            "가족 구성원들에게 현명한 조언과 지지를 제공할 수 있습니다.",
+            "가족 내에서 공정하고 객관적인 중재자 역할을 할 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족에 대해 지나치게 비판적이거나 냉담해질 수 있습니다.",
+            "가족 간의 감정적 유대감 형성에 어려움을 겪을 수 있습니다.",
+            "과거의 가족 문제가 현재의 관계에 영향을 줄 수 있습니다."
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "명확한 판단력과 통찰력으로 문제를 해결할 수 있습니다.",
+            "지적 능력과 논리적 사고가 크게 향상되는 시기입니다.",
+            "정직하고 직설적인 의사소통으로 신뢰를 얻을 수 있습니다."
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "지나치게 비판적이거나 냉정한 태도로 인간관계에 어려움을 겪을 수 있습니다.",
+            "감정과 이성의 균형을 잃지 않도록 주의해야 합니다.",
+            "과거의 상처나 트라우마를 극복하는 것이 중요한 시기입니다."
+          ]
+        }
+      ]
+    }
+  ]
+}

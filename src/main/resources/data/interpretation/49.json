@@ -1,0 +1,182 @@
+{
+  "cardId": 49,
+  "cardName": "킹 오브 컵",
+  "categories": [
+    {
+      "categoryCode": "A",
+      "categoryName": "사랑",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감정적으로 성숙하고 안정된 관계",
+            "깊은 이해와 지지를 주는 파트너",
+            "사랑에 대한 지혜로운 접근"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정 표현의 어려움",
+            "관계에서의 통제욕구",
+            "비현실적인 로맨틱한 기대"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "B",
+      "categoryName": "커리어",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감성 지능을 활용한 리더십",
+            "창의적이고 직관적인 문제 해결 능력",
+            "동료들에 대한 정서적 지원과 멘토링"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정 조절의 어려움으로 인한 업무 차질",
+            "과도한 권위주의적 태도",
+            "비즈니스 관계에서의 신뢰 상실"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "C",
+      "categoryName": "금전",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감정과 이성의 균형을 통한 재정 관리",
+            "예술이나 창의적 분야에서의 재정적 성공",
+            "관대하고 지혜로운 재정 결정"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "재정적 결정에서의 감정적 편향",
+            "과도한 물질주의나 인색함",
+            "재정 관리에 대한 무관심"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "D",
+      "categoryName": "건강",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "정서적, 신체적 건강의 조화",
+            "스트레스 관리 능력",
+            "건강에 대한 지혜로운 접근"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정적 스트레스로 인한 건강 문제",
+            "건강 관리에 대한 무관심",
+            "중독이나 과도한 음주 위험"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "E",
+      "categoryName": "공부",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감성과 지성의 균형 잡힌 학습",
+            "창의적이고 직관적인 문제 해결 능력",
+            "학문적 지혜와 통찰력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "학업에 대한 감정적 압박",
+            "지식의 실천적 적용 부족",
+            "학업과 관련된 권위주의적 태도"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "F",
+      "categoryName": "친구",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "깊이 있고 지지적인 우정",
+            "감정적으로 성숙한 조언자 역할",
+            "친구 관계에서의 지혜로운 리더십"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "친구 관계에서의 감정 조절 어려움",
+            "과도한 통제욕이나 조언",
+            "친구에 대한 과도한 의존"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "G",
+      "categoryName": "가족",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "가족에 대한 지혜롭고 사랑 넘치는 리더십",
+            "안정적이고 지지적인 가정 환경 조성",
+            "가족 간의 깊은 정서적 유대"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "가족 관계에서의 감정 표현 어려움",
+            "가부장적이거나 통제적인 태도",
+            "가족 구성원 간의 감정적 거리"
+          ]
+        }
+      ]
+    },
+    {
+      "categoryCode": "Z",
+      "categoryName": "기타",
+      "interpretations": [
+        {
+          "isReversed": false,
+          "interpretationContents": [
+            "감정적 성숙함과 지혜",
+            "창의성과 직관력의 조화",
+            "타인에 대한 깊은 이해와 공감 능력"
+          ]
+        },
+        {
+          "isReversed": true,
+          "interpretationContents": [
+            "감정 표현이나 조절의 어려움",
+            "현실과 이상 사이의 괴리",
+            "권위주의적 태도나 감정적 조작"
+          ]
+        }
+      ]
+    }
+  ]
+}

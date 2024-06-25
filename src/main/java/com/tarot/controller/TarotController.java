@@ -25,7 +25,19 @@ public class TarotController {
     public String index(Model model) {
 //        model.addAttribute("cards", tarotService.getTarotCards());
         model.addAttribute("categories", tarotService.getCardCategories());
-        return "index";
+        return "main";
+    }
+
+    @GetMapping("/card/selected")
+    public String selected(Model model,
+             @RequestParam(name="cardCount") int cardCount
+            ,@RequestParam(name="isReverseOn") Boolean isReverseOn //역방향 활성화 여부
+            ,@RequestParam(name="categoryCode") Character categoryCode
+    ) {
+//        model.addAttribute("cards", tarotService.getTarotCards());
+
+        model.addAttribute("cards", tarotService.getTaroCardInterpretationsByRandom(cardCount,isReverseOn,categoryCode));
+        return "selected";
     }
 
     /*

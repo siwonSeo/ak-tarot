@@ -1,0 +1,89 @@
+[
+  {
+    "cardId": 1,
+    "cardNumber": 1,
+    "cardNumberName": "1",
+    "cardType": "Major",
+    "cardName": "마법사 (The Magician)",
+    "keywords": [
+      {
+        "keywordId": 8,
+        "isReversed": false,
+        "keyword": "능력"
+      },
+      {
+        "keywordId": 11,
+        "isReversed": false,
+        "keyword": "의사소통"
+      },
+      {
+        "keywordId": 9,
+        "isReversed": false,
+        "keyword": "자신감"
+      },
+      {
+        "keywordId": 10,
+        "isReversed": false,
+        "keyword": "창의력"
+      }
+    ]
+  },
+  {
+    "cardId": 2,
+    "cardNumber": 2,
+    "cardNumberName": "2",
+    "cardType": "Major",
+    "cardName": "여사제 (The High Priestess)",
+    "keywords": [
+      {
+        "keywordId": 15,
+        "isReversed": false,
+        "keyword": "내면의 지혜"
+      },
+      {
+        "keywordId": 16,
+        "isReversed": false,
+        "keyword": "신비"
+      },
+      {
+        "keywordId": 17,
+        "isReversed": false,
+        "keyword": "이해"
+      },
+      {
+        "keywordId": 14,
+        "isReversed": false,
+        "keyword": "직관"
+      }
+    ]
+  },
+  {
+    "cardId": 3,
+    "cardNumber": 3,
+    "cardNumberName": "3",
+    "cardType": "Major",
+    "cardName": "여황제 (The Empress)",
+    "keywords": [
+      {
+        "keywordId": 23,
+        "isReversed": false,
+        "keyword": "배려"
+      },
+      {
+        "keywordId": 21,
+        "isReversed": false,
+        "keyword": "애정"
+      },
+      {
+        "keywordId": 22,
+        "isReversed": false,
+        "keyword": "자연"
+      },
+      {
+        "keywordId": 20,
+        "isReversed": false,
+        "keyword": "풍요"
+      }
+    ]
+  }
+]

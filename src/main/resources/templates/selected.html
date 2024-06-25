@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타로 카드 상세 정보</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .cards-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .card {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .card:last-child {
+            border-bottom: none;
+        }
+        .card-image {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .card-image.reverse {
+            transform: rotateY(180deg);
+        }
+        .card-info {
+            flex: 1;
+        }
+        .card-info h2 {
+            margin-top: 0;
+        }
+        .keywords {
+            list-style-type: none;
+            padding: 0;
+        }
+        .keywords li {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<!--
+<div class="cards-container">
+    <div th:each="card : ${cards}" class="card">
+        <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="타로 카드 이미지" class="card-image">
+        <div class="card-info">
+            <h2 th:text="${card.name}" class="card-image" th:classappend="${card.isReverse} ? 'reverse'">카드 이름</h2>
+            <ul class="keywords">
+                <li th:each="keyword : ${card.keywords}" th:text="${keyword}">키워드</li>
+            </ul>
+        </div>
+    </div>
+
+    <a href="/tarot-list" class="back-button">목록으로 돌아가기</a>
+</div>
+-->
+</body>
+</html>

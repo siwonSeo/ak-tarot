@@ -91,18 +91,17 @@
         e.preventDefault(); // 폼의 기본 제출 동작을 막습니다.
 
         // 선택된 값들을 가져옵니다.
-        const topic = document.querySelector('input[name="category"]:checked')?.value;
-        const count = document.querySelector('input[name="cardCount"]:checked')?.value;
-        const reverse = document.querySelector('input[name="isReverseOn"]:checked')?.value;
+        const categoryCode = document.querySelector('input[name="category"]:checked')?.value;
+        const cardCount = document.querySelector('input[name="cardCount"]:checked')?.value;
+        const isReverseOn = document.querySelector('input[name="isReverseOn"]:checked')?.value;
 
         // 모든 항목이 선택되었는지 확인
-        if (!topic || !count || !reverse) {
+        if (!categoryCode || !cardCount || !isReverseOn) {
             alert('모든 항목을 선택해주세요.');
             return;
         }
 
-        // 새 페이지로 이동합니다. URL을 적절히 수정해주세요.
-        window.location.href = `/tarot-reading?topic=${topic}&count=${count}&reverse=${reverse}`;
+        window.location.href = `/card/selected?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
     });
 </script>
 </body>

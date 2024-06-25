@@ -5,14 +5,12 @@ import com.tarot.dto.ResponseTarotCard;
 import com.tarot.dto.ResponseTarotCardInterpretation;
 import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
-import jakarta.annotation.Nullable;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -21,10 +19,12 @@ import java.util.List;
 @Controller
 public class TarotController {
     private final TarotService tarotService;
+//    private final AnthropicApiService anthropicApiService;
 
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("cards", tarotService.getTarotCards());
+//        model.addAttribute("cards", tarotService.getTarotCards());
+        model.addAttribute("categories", tarotService.getCardCategories());
         return "index";
     }
 
@@ -61,4 +61,13 @@ public class TarotController {
     ) {
         return new ResponseEntity<>(tarotService.getTaroCardInterpretationsByRandom(cardCount, isReverseOn, categoryCode), HttpStatus.OK);
     }
+
+    /*
+    @PostMapping("/api/test")
+    public ResponseEntity<String> apiTest(@RequestBody String prompt
+    ) {
+        return new ResponseEntity<>(anthropicApiService.sendRequest(prompt), HttpStatus.OK);
+    }
+
+     */
 }

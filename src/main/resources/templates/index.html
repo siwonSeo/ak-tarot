@@ -1,53 +1,109 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Index Page</title>
-</head>
-
-<script  th:inline="javascript">
-    var autoplayVideoInterval = setInterval("autoplayVideo()",100);
-
-    function autoplayVideo(){
-        var promise = document.querySelector('.video').play();
-        if (promise !== undefined){
-            promise.then(_=>{
-            clearInterval(autoplayVideoInterval);
-        }).catch(error =>{
-        });
+    <meta charset="UTF-8">
+    <title>타로를 뽑아보세요.</title>
+    <style>
+        .section {
+            margin-bottom: 20px;
         }
-    }
-
-</script>
-
+        .option-group {
+            display: flex;
+            gap: 10px;
+        }
+        .option {
+            border: 1px solid #ccc;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .option input[type="radio"] {
+            display: none;
+        }
+        .option.selected {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
 <body>
-<h1>타로카드를 뽑아 볼까요!</h1>
-<div>
-    <video class="video" width="500" height="400" playsinline controls autoplay loop>
-        <source type="video/mp4" th:src="@{/mp4/tarot.mp4}" />
-    </video>
-</div>
-<ul>
-    <li><a th:href="@{/interpretation/1}">1장</a></li>
-    <li><a th:href="@{/interpretation/3}">3장</a></li>
-    <li><a th:href="@{/interpretation/5}">5장</a></li>
-</ul>
-<table>
-    <thead>
-    <tr>
-        <th>카드명</th>
-        <th></th>
-    </tr>
-    </thead>
-    <tbody>
+<h1>타로를 뽑아보세요.!</h1>
 
+<form id="tarotSelectionForm" th:action="@{/submit-tarot-selection}" method="post">
+    <div class="section">
+        <h2>상담주제 선택</h2>
+        <div class="option-group">
+            <th:block th:each="category : ${categories}">
+                <label class="option">
+                    <input type="radio" th:name="category" th:value="${category.categoryCode}" th:text="${category.categoryName}">
+                </label>
+            </th:block>
+        </div>
+    </div>
 
-    <!--
-    <tr th:each="card : ${cards}">
-        <td th:text="${card.cardName}"></td>
-        <td><img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/></td>
-    </tr>
-    -->
-    </tbody>
-</table>
+    <div class="section">
+        <h2>카드 선택</h2>
+        <div class="option-group">
+            <label class="option">
+                <input type="radio" th:name="cardCount" th:value="1" th:text="1장">
+            </label>
+            <label class="option">
+                <input type="radio" th:name="cardCount" th:value="3" th:text="3장">
+            </label>
+            <label class="option">
+                <input type="radio" th:name="cardCount" th:value="5" th:text="5장">
+            </label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>역방향 포함 여부</h2>
+        <div class="option-group">
+            <label class="option">
+                <input type="radio" th:name="isReverseOn" th:value="true" th:text="ON">
+            </label>
+            <label class="option">
+                <input type="radio" th:name="isReverseOn" th:value="false" th:text="OFF">
+            </label>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>상담 실행 버튼</h2>
+        <button type="submit" id="startConsultation">상담 시작</button>
+    </div>
+</form>
+
+<script>
+    document.querySelectorAll('.option').forEach(option => {
+        option.addEventListener('click', function(e) {
+            const radio = this.querySelector('input[type="radio"]');
+            const group = this.closest('.option-group');
+
+            group.querySelectorAll('.option').forEach(opt => opt.classList.remove('selected'));
+            this.classList.add('selected');
+            radio.checked = true;
+
+            // 이벤트 버블링 방지
+            e.preventDefault();
+        });
+    });
+
+    document.getElementById('tarotSelectionForm').addEventListener('submit', function(e) {
+        e.preventDefault(); // 폼의 기본 제출 동작을 막습니다.
+
+        // 선택된 값들을 가져옵니다.
+        const topic = document.querySelector('input[name="category"]:checked')?.value;
+        const count = document.querySelector('input[name="cardCount"]:checked')?.value;
+        const reverse = document.querySelector('input[name="isReverseOn"]:checked')?.value;
+
+        // 모든 항목이 선택되었는지 확인
+        if (!topic || !count || !reverse) {
+            alert('모든 항목을 선택해주세요.');
+            return;
+        }
+
+        // 새 페이지로 이동합니다. URL을 적절히 수정해주세요.
+        window.location.href = `/tarot-reading?topic=${topic}&count=${count}&reverse=${reverse}`;
+    });
+</script>
 </body>
 </html>

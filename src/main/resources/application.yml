@@ -8,6 +8,13 @@ server:
       force-response: true
 
 spring:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
+    thymeleaf:
+      cache: false
   datasource:
 #    driver-class-name: org.h2.Driver
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -36,6 +43,16 @@ spring:
     init:
       mode: always
       encoding: UTF-8
+
+
+    #    prefix: classpath:/templates/
+#    prefix: file:src/main/resources/templates/
+#    suffix: .html
+#  devtools:
+#    restart:
+#      enabled: true
+#    livereload:
+#      enabled: true
 jwt:
   secret: and0dGVzdGp3dHRlc3Rqd3R0ZXN0and0dGVzdGp3dHRlc3Q=
   accessToken:
@@ -51,21 +68,3 @@ springdoc:
     disable-swagger-default-url: true
     display-request-duration: true
     operations-sorter: alpha
-
-  thymeleaf:
-    cache: false
-#    prefix: classpath:/templates/
-#    prefix: file:src/main/resources/templates/
-#    suffix: .html
-#    mode: HTML5
-#    encoding: UTF-8
-#    content-type: text/html
-#    template-resolver-order: 1
-#    check-template: true
-#    check-template-location: true
-
-    devtools:
-      restart:
-        enabled: true
-      livereload:
-        enabled: true

@@ -2,6 +2,7 @@ package com.tarot.service;
 
 import com.tarot.dto.RequestTarotCard;
 import com.tarot.dto.ResponseTarotCard;
+import com.tarot.dto.ResponseTarotCardCategory;
 import com.tarot.dto.ResponseTarotCardInterpretation;
 import com.tarot.entity.TarotCard;
 import com.tarot.entity.TarotCardCategory;
@@ -61,6 +62,10 @@ public class TarotService {
 
     public List<TarotCard> getTarotCards(){
         return tarotCardRepository.findAll();
+    }
+
+    public List<ResponseTarotCardCategory> getCardCategories(){
+        return tarotCardCategoryRepository.findAll().stream().map(t->new ResponseTarotCardCategory(t.getCategoryCode(), t.getCategoryName())).toList();
     }
 
     public List<ResponseTarotCard> getTaroCardKeyWords(List<RequestTarotCard.TarotCardSearch> params){

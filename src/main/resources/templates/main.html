@@ -22,10 +22,28 @@
         .option.selected {
             background-color: #e0e0e0;
         }
+
+        /* 기존 스타일 유지 */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .tarot-button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
     </style>
 </head>
 <body>
-<h1>타로를 뽑아보세요.!</h1>
+<div class="header">
+    <h1>타로를 뽑아보세요.!</h1>
+    <button class="tarot-button" onclick="location.href='/card/intro'">타로 화면</button>
+</div>
 
 <form id="tarotSelectionForm" th:action="@{/submit-tarot-selection}" method="post">
     <div class="section">

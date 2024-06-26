@@ -1,9 +1,6 @@
 package com.tarot.service;
 
-import com.tarot.dto.RequestTarotCard;
-import com.tarot.dto.ResponseTarotCard;
-import com.tarot.dto.ResponseTarotCardCategory;
-import com.tarot.dto.ResponseTarotCardInterpretation;
+import com.tarot.dto.*;
 import com.tarot.entity.TarotCard;
 import com.tarot.entity.TarotCardCategory;
 import com.tarot.entity.TarotCardInterpretation;
@@ -64,6 +61,10 @@ public class TarotService {
         return tarotCardRepository.findAll();
     }
 
+    public List<ResponseTarotCardIntro> getTaroCardsIntro(){
+        return tarotCardRepository.findTaroCardsIntro();
+    }
+
     public List<ResponseTarotCardCategory> getCardCategories(){
         return tarotCardCategoryRepository.findAll().stream().map(t->new ResponseTarotCardCategory(t.getCategoryCode(), t.getCategoryName())).toList();
     }
@@ -77,7 +78,26 @@ public class TarotService {
     }
 
     //임의로 카드를 뽑는다(카드 갯수만큼)
+    public List<ResponseTarotCardConsult> getTaroCardConsultsByRandom(int cardCount , Boolean isReverseOn
+            , Character categoryCode){
+        List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
+        System.out.println(params);
+        List<ResponseTarotCardConsult> result = tarotCardRepository.findTaroCardConsults(params);
+        System.out.println("result:"+result);
+        return result;
+    }
+
+    //임의로 카드를 뽑는다(카드 갯수만큼)
     public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount , Boolean isReverseOn
+            , Character categoryCode){
+        List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
+        System.out.println(params);
+        List<ResponseTarotCardInterpretation> result = tarotCardRepository.findTaroCardInterpretations(params);
+        System.out.println("result:"+result);
+        return result;
+    }
+
+    private List<RequestTarotCard.TarotCardSearch> getRandomCards(int cardCount , Boolean isReverseOn
             , Character categoryCode){
         Random random = new Random();
         Set<Integer> cardSet=new HashSet<>();
@@ -92,11 +112,9 @@ public class TarotService {
             }
         }
 
-        List<RequestTarotCard.TarotCardSearch> params = cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(
+        return cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(
                 c, (isReverseOn != null && isReverseOn) ? random.nextBoolean() : true, categoryCode)
         ).toList();
-        System.out.println(params);
-        return tarotCardRepository.findTaroCardInterpretations(params);
     }
 
     private void saveTarotCard() throws IOException, ParseException {

@@ -1,8 +1,6 @@
 package com.tarot.repository;
 
-import com.tarot.dto.RequestTarotCard;
-import com.tarot.dto.ResponseTarotCard;
-import com.tarot.dto.ResponseTarotCardInterpretation;
+import com.tarot.dto.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -11,4 +9,6 @@ import java.util.List;
 public interface TarotCardRepositoryCustom {
     List<ResponseTarotCard> findTaroCardKewords(List<RequestTarotCard.TarotCardSearch> params);
     List<ResponseTarotCardInterpretation> findTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params);
+    List<ResponseTarotCardConsult> findTaroCardConsults(List<RequestTarotCard.TarotCardSearch> params);
+    List<ResponseTarotCardIntro> findTaroCardsIntro();
 }

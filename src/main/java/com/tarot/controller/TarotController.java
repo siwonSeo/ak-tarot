@@ -3,6 +3,7 @@ package com.tarot.controller;
 import com.tarot.dto.RequestTarotCard;
 import com.tarot.dto.ResponseTarotCard;
 import com.tarot.dto.ResponseTarotCardInterpretation;
+import com.tarot.dto.ResponseTarotCardIntro;
 import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
 import lombok.RequiredArgsConstructor;
@@ -36,10 +37,25 @@ public class TarotController {
     ) {
 //        model.addAttribute("cards", tarotService.getTarotCards());
 
-        model.addAttribute("cards", tarotService.getTaroCardInterpretationsByRandom(cardCount,isReverseOn,categoryCode));
+        model.addAttribute("cards", tarotService.getTaroCardConsultsByRandom(cardCount,isReverseOn,categoryCode));
         return "selected";
     }
 
+    @GetMapping("/card/intro")
+    public String intro(Model model) {
+//        model.addAttribute("cards", tarotService.getTarotCards());
+        model.addAttribute("cardGroups", tarotService.getTaroCardsIntro());
+        return "intro";
+    }
+
+    /*
+    @GetMapping("/card/intro")
+    public ResponseEntity<List<ResponseTarotCardIntro>> intro() {
+//        model.addAttribute("cards", tarotService.getTarotCards());
+        return new ResponseEntity<>(tarotService.getTaroCardsIntro(), HttpStatus.OK);
+    }
+
+     */
     /*
     @GetMapping("/interpretation/{cardCount}")
     public String interpretation(Model model, @RequestParam int cardCount) {

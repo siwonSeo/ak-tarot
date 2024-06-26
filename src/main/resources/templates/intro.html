@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>타로 카드 목록</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .card-group {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        .card {
+            width: 14%;
+            margin: 4px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            background-color: white;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .card img {
+            width: 100%;
+            height: 350px; /* 이미지 높이 고정 */
+            object-fit: cover; /* 이미지 비율 유지 */
+            border-radius: 5px;
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navigation button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .navigation button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<div th:each="cardGroup : ${cardGroups}" class="card-group">
+    <h2 th:text="${cardGroup.cardType}">Card Type</h2>
+    <div class="card-row">
+        <div th:each="card, iterStat : ${cardGroup.keywords}" class="card">
+            <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/>
+            <p th:text="${card.cardName}">Card Name</p>
+            <p th:text="${card.cardNumberName}">Card Number Name</p>
+            <!-- 7개마다 새로운 줄 시작 -->
+            <div th:if="${iterStat.count % 7 == 0 and !iterStat.last}" class="w-100"></div>
+        </div>
+    </div>
+</div>
+
+<div class="navigation">
+    <button onclick="location.href='/'">타로 메인</button>
+</div>
+</body>
+</html>

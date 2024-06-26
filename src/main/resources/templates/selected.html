@@ -42,11 +42,11 @@
         .card-info h2 {
             margin-top: 0;
         }
-        .keywords {
+        .interpretations {
             list-style-type: none;
             padding: 0;
         }
-        .keywords li {
+        .interpretations li {
             margin-bottom: 5px;
             font-weight: bold;
         }
@@ -62,20 +62,17 @@
     </style>
 </head>
 <body>
-<!--
 <div class="cards-container">
     <div th:each="card : ${cards}" class="card">
         <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="타로 카드 이미지" class="card-image">
         <div class="card-info">
-            <h2 th:text="${card.name}" class="card-image" th:classappend="${card.isReverse} ? 'reverse'">카드 이름</h2>
-            <ul class="keywords">
-                <li th:each="keyword : ${card.keywords}" th:text="${keyword}">키워드</li>
+            <h2 th:text="|${card.cardName}|" class="card-image" th:classappend="${card.isReversed} ? 'reverse'">카드 이름</h2>
+            <ul class="interpretations">
+                <li th:each="interpretation : ${card.interpretations}" th:text="${interpretation}">해설</li>
             </ul>
         </div>
     </div>
-
     <a href="/tarot-list" class="back-button">목록으로 돌아가기</a>
 </div>
--->
 </body>
 </html>

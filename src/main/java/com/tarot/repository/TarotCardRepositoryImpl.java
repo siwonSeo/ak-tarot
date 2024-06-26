@@ -31,14 +31,35 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
     QTarotCardInterpretation tarotCardInterpretation = QTarotCardInterpretation.tarotCardInterpretation;
 
     @Override
+    public List<ResponseTarotCardIntro> findTaroCardsIntro(){
+        JPAQuery<TarotCard> query =
+            queryFactory.selectFrom(tarotCard)
+            ;
+        return query.transform(groupBy(tarotCard.cardType)
+                    .list(
+                        constructor(
+                                ResponseTarotCardIntro.class,
+                                tarotCard.cardType,
+                                list(constructor(ResponseTarotCardIntro.CardInfo.class
+                                        ,tarotCard.cardId
+                                        ,tarotCard.cardNumber
+                                        ,tarotCard.cardNumberName
+                                        ,tarotCard.cardName)
+                                )
+                        )
+                    )
+                );
+    }
+
+    @Override
     public List<ResponseTarotCard> findTaroCardKewords(List<RequestTarotCard.TarotCardSearch> params){
         JPAQuery<TarotCardKeyWord> query =
-            queryFactory.selectFrom(tarotCardKeyWord)
-                    .join(tarotCardKeyWord.tarotCard,tarotCard)
-                    .where(eqCardKeyWords(params))
-            ;
+                queryFactory.selectFrom(tarotCardKeyWord)
+                        .join(tarotCardKeyWord.tarotCard,tarotCard)
+                        .where(eqCardKeyWords(params))
+                ;
         return query.transform(groupBy(tarotCardKeyWord.cardId)
-                    .list(
+                .list(
                         constructor(
                                 ResponseTarotCard.class,
                                 tarotCard.cardId,
@@ -52,8 +73,34 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
                                         ,tarotCardKeyWord.keyword)
                                 )
                         )
-                    )
-                );
+                )
+        );
+    }
+
+    @Override
+    public List<ResponseTarotCardConsult> findTaroCardConsults(List<RequestTarotCard.TarotCardSearch> params){
+        JPAQuery<TarotCardInterpretation> query =
+                queryFactory.selectFrom(tarotCardInterpretation)
+                        .join(tarotCardInterpretation.tarotCard,tarotCard)
+                        .join(tarotCardCategory).on(tarotCardCategory.categoryCode.eq(tarotCardInterpretation.categoryCode))
+                        .where(eqCardConsult(params))
+                ;
+        return query.transform(groupBy(tarotCardInterpretation.cardId)
+                .list(
+                        constructor(
+                                ResponseTarotCardConsult.class,
+                                tarotCardInterpretation.cardId,
+                                tarotCard.cardNumber,
+                                tarotCard.cardNumberName,
+                                tarotCard.cardType,
+                                tarotCard.cardName,
+                                tarotCardInterpretation.isReversed,
+                                list(constructor(String.class
+                                        ,tarotCardInterpretation.content)
+                                )
+                        )
+                )
+        );
     }
 
     @Override
@@ -159,6 +206,12 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
 
     }
 
+    private BooleanExpression eqCardConsult(List<RequestTarotCard.TarotCardSearch> params){
+        return params.stream()
+                .map(p->tarotCardInterpretation.cardId.eq(p.cardId()).and(tarotCardInterpretation.isReversed.eq(p.isReversed())).and(tarotCardInterpretation.categoryCode.eq(p.categoryCode())))
+                .reduce(BooleanExpression::or)
+                .orElseGet(tarotCardInterpretation.cardId::isNull);
+    }
 
     private BooleanExpression eqCardKeyWords(List<RequestTarotCard.TarotCardSearch> params){
         return params.stream()

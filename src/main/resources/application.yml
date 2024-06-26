@@ -23,7 +23,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     #    url: 'jdbc:h2:mem:test;MODE=MySQL'
 #    url: 'jdbc:h2:~/data/tarot;MODE=MySQL'
-    url: 'jdbc:mysql://localhost:3306/tarot?useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul'
+    url: 'jdbc:mysql://localhost:3306/tarot?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul'
     username: root
     password: sasa
   h2:
@@ -35,7 +35,7 @@ spring:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL8Dialect
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
     properties:
       hibernate:
 #        dialect: org.hibernate.dialect.MySQLDialect

@@ -48,6 +48,11 @@ public class TarotController {
         return "intro";
     }
 
+    @GetMapping("/card/{cardID}}")
+    public ResponseEntity<List<ResponseTarotCard>> getTaroCard(@PathVariable("cardId") int cardId){
+        return new ResponseEntity<>(tarotService.getTaroCard(cardId), HttpStatus.OK);
+    }
+
     /*
     @GetMapping("/card/intro")
     public ResponseEntity<List<ResponseTarotCardIntro>> intro() {

@@ -31,24 +31,29 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
     QTarotCardInterpretation tarotCardInterpretation = QTarotCardInterpretation.tarotCardInterpretation;
 
     @Override
-    public List<ResponseTarotCardIntro> findTaroCardsIntro(){
-        JPAQuery<TarotCard> query =
-            queryFactory.selectFrom(tarotCard)
-            ;
-        return query.transform(groupBy(tarotCard.cardType)
-                    .list(
+    public ResponseTarotCard findTaroCardByCardId(int cardId){
+        JPAQuery<TarotCardKeyWord> query =
+                queryFactory.selectFrom(tarotCardKeyWord)
+                        .join(tarotCardKeyWord.tarotCard,tarotCard)
+                        .where(tarotCard.cardId.eq(cardId))
+                ;
+        return query.transform(groupBy(tarotCardKeyWord.cardId)
+                .list(
                         constructor(
-                                ResponseTarotCardIntro.class,
+                                ResponseTarotCard.class,
+                                tarotCard.cardId,
+                                tarotCard.cardNumber,
+                                tarotCard.cardNumberName,
                                 tarotCard.cardType,
-                                list(constructor(ResponseTarotCardIntro.CardInfo.class
-                                        ,tarotCard.cardId
-                                        ,tarotCard.cardNumber
-                                        ,tarotCard.cardNumberName
-                                        ,tarotCard.cardName)
+                                tarotCard.cardName,
+                                list(constructor(ResponseTarotCard.KeywordInfo.class
+                                        ,tarotCardKeyWord.keywordId
+                                        ,tarotCardKeyWord.isReversed
+                                        ,tarotCardKeyWord.keyword)
                                 )
                         )
-                    )
-                );
+                )
+        );
     }
 
     @Override
@@ -76,6 +81,29 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
                 )
         );
     }
+
+    @Override
+    public List<ResponseTarotCardIntro> findTaroCardsIntro(){
+        JPAQuery<TarotCard> query =
+            queryFactory.selectFrom(tarotCard)
+            ;
+        return query.transform(groupBy(tarotCard.cardType)
+                    .list(
+                        constructor(
+                                ResponseTarotCardIntro.class,
+                                tarotCard.cardType,
+                                list(constructor(ResponseTarotCardIntro.CardInfo.class
+                                        ,tarotCard.cardId
+                                        ,tarotCard.cardNumber
+                                        ,tarotCard.cardNumberName
+                                        ,tarotCard.cardName)
+                                )
+                        )
+                    )
+                );
+    }
+
+
 
     @Override
     public List<ResponseTarotCardConsult> findTaroCardConsults(List<RequestTarotCard.TarotCardSearch> params){

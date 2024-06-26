@@ -61,6 +61,10 @@ public class TarotService {
         return tarotCardRepository.findAll();
     }
 
+    public ResponseTarotCard getTaroCard(int cardId){
+        return tarotCardRepository.findTaroCardByCardId(cardId);
+    }
+
     public List<ResponseTarotCardIntro> getTaroCardsIntro(){
         return tarotCardRepository.findTaroCardsIntro();
     }

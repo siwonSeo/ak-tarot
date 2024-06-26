@@ -9,38 +9,85 @@
     <script th:src="@{/js/common.js}"></script>
     <style>
         .section {
-            margin-bottom: 20px;
-        }
-        .option-group {
-            display: flex;
-            gap: 10px;
-        }
-        .option {
-            border: 1px solid #ccc;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .option input[type="radio"] {
-            display: none;
-        }
-        .option.selected {
-            background-color: #e0e0e0;
-        }
-
-        /* 기존 스타일 유지 */
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .tarot-button {
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            font-size: 16px;
-        }
+           margin-bottom: 30px;
+           background-color: #fff;
+           padding: 20px;
+           border-radius: 8px;
+           box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+       }
+       .section h2 {
+           margin-top: 0;
+           color: #2c3e50;
+           border-bottom: 2px solid #3498db;
+           padding-bottom: 10px;
+       }
+       .option-group {
+           display: flex;
+           gap: 10px;
+           flex-wrap: wrap;
+       }
+       .option {
+           border: 2px solid #3498db;
+           border-radius: 20px;
+           padding: 10px 20px;
+           cursor: pointer;
+           transition: all 0.3s ease;
+       }
+       .option input[type="radio"] {
+           display: none;
+       }
+       .option.selected {
+           background-color: #3498db;
+           color: white;
+       }
+       <!--
+       .header {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           margin-bottom: 30px;
+           background-color: #3498db;
+           padding: 20px;
+           border-radius: 8px;
+           color: white;
+       }
+       -->
+       .header h1 {
+           margin: 0;
+           font-size: 28px;
+       }
+       .tarot-button {
+           padding: 10px 20px;
+           background-color: white;
+           color: #3498db;
+           border: none;
+           border-radius: 20px;
+           cursor: pointer;
+           font-size: 16px;
+           font-weight: bold;
+           transition: all 0.3s ease;
+       }
+       .tarot-button:hover {
+           background-color: #f0f0f0;
+           transform: translateY(-2px);
+       }
+       #startConsultation {
+           display: block;
+           width: 100%;
+           padding: 15px;
+           background-color: #2ecc71;
+           color: white;
+           border: none;
+           border-radius: 25px;
+           font-size: 18px;
+           font-weight: bold;
+           cursor: pointer;
+           transition: all 0.3s ease;
+       }
+       #startConsultation:hover {
+           background-color: #27ae60;
+           transform: translateY(-2px);
+       }
     </style>
 </head>
 <body>
@@ -52,7 +99,7 @@
     </div>
     <form id="tarotSelectionForm" th:action="@{/submit-tarot-selection}" method="post">
         <div class="section">
-            <h2>상담주제 선택</h2>
+            <h2>타로주제 선택</h2>
             <div class="option-group">
                 <th:block th:each="category : ${categories}">
                     <label class="option">
@@ -90,8 +137,8 @@
         </div>
 
         <div class="section">
-            <h2>상담 실행 버튼</h2>
-            <button type="submit" id="startConsultation">상담 시작</button>
+            <h2>타로 실행 버튼</h2>
+            <button type="submit" id="startConsultation">타로 시작</button>
         </div>
     </form>
 </div>

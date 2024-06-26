@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <title>타로 카드 목록</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
         .card-group {
             margin-bottom: 20px;
             background-color: white;
@@ -157,23 +151,27 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+
+
     </style>
 </head>
 <body>
-<div th:each="cardGroup : ${cardGroups}" class="card-group">
-    <h2 th:text="${cardGroup.cardType}">Card Type</h2>
-    <div class="card-row">
-        <div th:each="card, iterStat : ${cardGroup.keywords}" class="card" th:attr="data-card-id=${card.cardId}">
-            <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/>
-            <p th:text="${card.cardName}">Card Name</p>
-            <div th:if="${iterStat.count % 7 == 0 and !iterStat.last}" class="w-100"></div>
+<!--<div th:insert="fragments/header :: header"></div>-->
+<div class="content-wrapper">
+    <div th:insert="fragments/header :: header"></div>
+    <div th:each="cardGroup : ${cardGroups}" class="card-group">
+        <h2 th:text="${cardGroup.cardType}">Card Type</h2>
+        <div class="card-row">
+            <div th:each="card, iterStat : ${cardGroup.keywords}" class="card" th:attr="data-card-id=${card.cardId}">
+                <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/>
+                <p th:text="${card.cardName}">Card Name</p>
+                <div th:if="${iterStat.count % 7 == 0 and !iterStat.last}" class="w-100"></div>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="navigation">
-    <button onclick="location.href='/'">타로 메인</button>
-</div>
 
 <div id="cardModal" class="modal">
     <div class="modal-content">

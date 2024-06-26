@@ -117,7 +117,7 @@ public class TarotService {
         }
 
         return cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(
-                c, (isReverseOn != null && isReverseOn) ? random.nextBoolean() : true, categoryCode)
+                c, (isReverseOn != null && isReverseOn) ? random.nextBoolean() : false, categoryCode)
         ).toList();
     }
 

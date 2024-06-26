@@ -10,22 +10,17 @@
         body {
             font-family: Arial, sans-serif;
             margin: 0;
-            padding: 0;
+            padding: 20px;
             background-color: #f0f0f0;
         }
         .content-wrapper {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-
 
 
         .title {
@@ -98,13 +93,6 @@
             background-color: #2980b9;
         }
 
-        /* header 시작 */
-        .header {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #f8f8f8;
-            border-bottom: 1px solid #e7e7e7;
-        }
         .logo {
             font-size: 24px;
             font-weight: bold;
@@ -151,3 +139,25 @@
         }
 
         /* footer 끝 */
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #e7e7e7;
+        }
+
+        .main-button {
+            padding: 12px 40px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            min-width: 200px;
+        }
+
+        .main-button:hover {
+            background-color: #0056b3;
+        }

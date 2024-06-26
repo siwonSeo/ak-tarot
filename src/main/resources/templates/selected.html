@@ -4,75 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>타로 카드 상세 정보</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
-        }
-        .cards-container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .card {
-            display: flex;
-            margin-bottom: 30px;
-            border-bottom: 1px solid #eee;
-            padding-bottom: 20px;
-        }
-        .card:last-child {
-            border-bottom: none;
-        }
-        .card-image {
-            width: 200px;
-            height: auto;
-            margin-right: 20px;
-        }
-        .card-image.reverse {
-            transform: rotateY(180deg);
-        }
-        .card-info {
-            flex: 1;
-        }
-        .card-info h2 {
-            margin-top: 0;
-        }
-        .interpretations {
-            list-style-type: none;
-            padding: 0;
-        }
-        .interpretations li {
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .back-button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-        }
-    </style>
+    <!-- Common CSS -->
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <!-- Common JavaScript -->
+    <script th:src="@{/js/common.js}"></script>
 </head>
 <body>
-<div class="cards-container">
+<!--<div th:insert="fragments/header :: header"></div>-->
+<div class="content-wrapper">
+    <h1 class="title">타로 카드 해석 결과</h1>
     <div th:each="card : ${cards}" class="card">
-        <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="타로 카드 이미지" class="card-image">
+        <div class="card-image-container">
+            <img th:src="@{'/img/' + ${card.cardId} + '.jpg'}" alt="타로 카드 이미지" class="card-image" th:classappend="${card.isReversed} ? 'reverse'">
+        </div>
         <div class="card-info">
-            <h2 th:text="|${card.cardName}|" class="card-image" th:classappend="${card.isReversed} ? 'reverse'">카드 이름</h2>
+            <h2 th:text="${card.cardName + (card.isReversed ? ' (역방향)' : ' (정방향)')}">카드 이름</h2>
             <ul class="interpretations">
                 <li th:each="interpretation : ${card.interpretations}" th:text="${interpretation}">해설</li>
             </ul>
         </div>
     </div>
-    <a href="/tarot-list" class="back-button">목록으로 돌아가기</a>
+    <a href="/" class="back-button">목록으로 돌아가기</a>
 </div>
+<!--<div th:replace="fragments/footer :: footer"></div>-->
 </body>
 </html>

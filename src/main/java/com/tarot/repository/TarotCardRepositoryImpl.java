@@ -12,10 +12,7 @@ import com.tarot.entity.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 import static com.querydsl.core.group.GroupBy.*;
 import static com.querydsl.core.group.GroupBy.groupBy;
@@ -31,29 +28,53 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
     QTarotCardInterpretation tarotCardInterpretation = QTarotCardInterpretation.tarotCardInterpretation;
 
     @Override
-    public ResponseTarotCard findTaroCardByCardId(int cardId){
-        JPAQuery<TarotCardKeyWord> query =
-                queryFactory.selectFrom(tarotCardKeyWord)
-                        .join(tarotCardKeyWord.tarotCard,tarotCard)
-                        .where(tarotCard.cardId.eq(cardId))
-                ;
-        return query.transform(groupBy(tarotCardKeyWord.cardId)
-                .list(
-                        constructor(
-                                ResponseTarotCard.class,
-                                tarotCard.cardId,
-                                tarotCard.cardNumber,
-                                tarotCard.cardNumberName,
-                                tarotCard.cardType,
-                                tarotCard.cardName,
-                                list(constructor(ResponseTarotCard.KeywordInfo.class
-                                        ,tarotCardKeyWord.keywordId
-                                        ,tarotCardKeyWord.isReversed
-                                        ,tarotCardKeyWord.keyword)
-                                )
-                        )
-                )
+    public ResponseTarotCardKeyword findTaroCardByCardId(int reqCardId){
+        List<Tuple> results = queryFactory
+                .select(tarotCard.cardId,
+                        tarotCard.cardNumber,
+                        tarotCard.cardNumberName,
+                        tarotCard.cardType,
+                        tarotCard.cardName,
+                        tarotCardKeyWord.keywordId,
+                        tarotCardKeyWord.isReversed,
+                        tarotCardKeyWord.keyword
+                ).from(tarotCardKeyWord)
+                .join(tarotCardKeyWord.tarotCard,tarotCard)
+                .where(tarotCard.cardId.eq(reqCardId))
+                .fetch();
+
+        Tuple tupleMain = results.getFirst();
+        ResponseTarotCardKeyword card = new ResponseTarotCardKeyword(
+                tupleMain.get(tarotCard.cardId),
+                tupleMain.get(tarotCard.cardNumber),
+                tupleMain.get(tarotCard.cardNumberName),
+                tupleMain.get(tarotCard.cardType),
+                tupleMain.get(tarotCard.cardName),
+                new ArrayList<>(),
+                new ArrayList<>()
         );
+
+        for (Tuple tuple : results) {
+            Integer keywordId = tuple.get(tarotCardKeyWord.keywordId);
+            Boolean isReversed = tuple.get(tarotCardKeyWord.isReversed);
+            String keyword = tuple.get(tarotCardKeyWord.keyword);
+
+            ResponseTarotCardKeyword.KeywordInfo newCategory = new ResponseTarotCardKeyword.KeywordInfo(
+                    keywordId,
+                    keyword
+            );
+
+            if(!isReversed){
+                card.forwardKeywords().add(newCategory);
+            }else{
+                card.reverseKeywords().add(newCategory);
+            }
+        }
+
+        card.forwardKeywords().sort(Comparator.comparing(ResponseTarotCardKeyword.KeywordInfo::keywordId));
+        card.reverseKeywords().sort(Comparator.comparing(ResponseTarotCardKeyword.KeywordInfo::keywordId));
+
+        return card;
     }
 
     @Override

@@ -61,7 +61,7 @@ public class TarotService {
         return tarotCardRepository.findAll();
     }
 
-    public ResponseTarotCard getTaroCard(int cardId){
+    public ResponseTarotCardKeyword getTaroCard(int cardId){
         return tarotCardRepository.findTaroCardByCardId(cardId);
     }
 

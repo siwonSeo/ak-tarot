@@ -1,9 +1,6 @@
 package com.tarot.controller;
 
-import com.tarot.dto.RequestTarotCard;
-import com.tarot.dto.ResponseTarotCard;
-import com.tarot.dto.ResponseTarotCardInterpretation;
-import com.tarot.dto.ResponseTarotCardIntro;
+import com.tarot.dto.*;
 import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
 import lombok.RequiredArgsConstructor;
@@ -48,8 +45,8 @@ public class TarotController {
         return "intro";
     }
 
-    @GetMapping("/card/{cardID}}")
-    public ResponseEntity<List<ResponseTarotCard>> getTaroCard(@PathVariable("cardId") int cardId){
+    @GetMapping("/card/{cardId}")
+    public ResponseEntity<ResponseTarotCardKeyword> getTaroCard(@PathVariable("cardId") int cardId){
         return new ResponseEntity<>(tarotService.getTaroCard(cardId), HttpStatus.OK);
     }
 

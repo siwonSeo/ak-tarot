@@ -31,6 +31,7 @@
             text-align: center;
             transition: transform 0.3s ease;
             background-color: white;
+            cursor: pointer;
         }
         .card:hover {
             transform: translateY(-5px);
@@ -38,8 +39,8 @@
         }
         .card img {
             width: 100%;
-            height: 350px; /* 이미지 높이 고정 */
-            object-fit: cover; /* 이미지 비율 유지 */
+            height: 350px;
+            object-fit: cover;
             border-radius: 5px;
         }
         .navigation {
@@ -59,17 +60,112 @@
         .navigation button:hover {
             background-color: #0056b3;
         }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modal-body {
+            margin-top: 20px;
+        }
+        .keyword-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .keyword {
+            background-color: #e9ecef;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .loading {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            height: 2em;
+            width: 2em;
+            overflow: show;
+            margin: auto;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .loading:before {
+            content: '';
+            display: block;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.3);
+        }
+
+        .loading:not(:required) {
+            font: 0/0 a;
+            color: transparent;
+            text-shadow: none;
+            background-color: transparent;
+            border: 0;
+        }
+
+        .loading:not(:required):after {
+            content: '';
+            display: block;
+            font-size: 10px;
+            width: 1em;
+            height: 1em;
+            margin-top: -0.5em;
+            animation: spinner 1500ms infinite linear;
+            border-radius: 0.5em;
+            box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+        }
+
+        @keyframes spinner {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
 <div th:each="cardGroup : ${cardGroups}" class="card-group">
     <h2 th:text="${cardGroup.cardType}">Card Type</h2>
     <div class="card-row">
-        <div th:each="card, iterStat : ${cardGroup.keywords}" class="card">
+        <div th:each="card, iterStat : ${cardGroup.keywords}" class="card" th:attr="data-card-id=${card.cardId}">
             <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/>
             <p th:text="${card.cardName}">Card Name</p>
-            <p th:text="${card.cardNumberName}">Card Number Name</p>
-            <!-- 7개마다 새로운 줄 시작 -->
             <div th:if="${iterStat.count % 7 == 0 and !iterStat.last}" class="w-100"></div>
         </div>
     </div>
@@ -78,5 +174,116 @@
 <div class="navigation">
     <button onclick="location.href='/'">타로 메인</button>
 </div>
+
+<div id="cardModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="modalCardName"></h2>
+        <div class="modal-body">
+            <p><strong>카드 번호:</strong> <span id="modalCardNumber"></span></p>
+            <p><strong>카드 타입:</strong> <span id="modalCardType"></span></p>
+            <h3>정방향 키워드</h3>
+            <div id="modalForwardKeywords" class="keyword-list"></div>
+            <h3>역방향 키워드</h3>
+            <div id="modalReverseKeywords" class="keyword-list"></div>
+        </div>
+    </div>
+</div>
+<div class="loading">Loading&#8230;</div>
+<script>
+    // 카드 데이터 (실제로는 서버에서 가져와야 합니다)
+    const cardData = {
+        "1": {
+            "cardId": 1,
+            "cardNumber": 1,
+            "cardNumberName": "1",
+            "cardType": "Major",
+            "cardName": "마법사 (The Magician)",
+            "forwardKeywords": [
+                {"keywordId": 8, "keyword": "능력"},
+                {"keywordId": 9, "keyword": "자신감"},
+                {"keywordId": 10, "keyword": "창의력"},
+                {"keywordId": 11, "keyword": "의사소통"}
+            ],
+            "reverseKeywords": [
+                {"keywordId": 12, "keyword": "사기"},
+                {"keywordId": 13, "keyword": "기만"}
+            ]
+        }
+        // 다른 카드 데이터도 여기에 추가...
+    };
+
+    const modal = document.getElementById("cardModal");
+    const closeBtn = document.getElementsByClassName("close")[0];
+    const loadingIndicator = document.querySelector('.loading');
+
+    // 모든 카드에 클릭 이벤트 리스너 추가
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', function() {
+            const cardId = this.getAttribute('data-card-id');
+            showCardDetails(cardId);
+        });
+    });
+
+    async function getCardDetail(cardId) {
+        loadingIndicator.style.display = 'block';
+        try {
+            const response = await fetch(`/card/${cardId}`);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return await response.json();
+        } catch (error) {
+            console.error('Error fetching card details:', error);
+            alert('카드 정보를 가져오는 데 실패했습니다.');
+            return null;
+        } finally {
+            loadingIndicator.style.display = 'none';
+        }
+    }
+
+    async function showCardDetails(cardId) {
+        const card = await getCardDetail(cardId);
+        if (!card) return;
+
+        document.getElementById("modalCardName").textContent = card.cardName;
+        document.getElementById("modalCardNumber").textContent = card.cardNumberName;
+        document.getElementById("modalCardType").textContent = card.cardType;
+
+        const forwardKeywordsContainer = document.getElementById("modalForwardKeywords");
+        const reverseKeywordsContainer = document.getElementById("modalReverseKeywords");
+
+        forwardKeywordsContainer.innerHTML = '';
+        reverseKeywordsContainer.innerHTML = '';
+
+        card.forwardKeywords.forEach(kw => {
+            const keywordElem = document.createElement('span');
+            keywordElem.className = 'keyword';
+            keywordElem.textContent = kw.keyword;
+            forwardKeywordsContainer.appendChild(keywordElem);
+        });
+
+        card.reverseKeywords.forEach(kw => {
+            const keywordElem = document.createElement('span');
+            keywordElem.className = 'keyword';
+            keywordElem.textContent = kw.keyword;
+            reverseKeywordsContainer.appendChild(keywordElem);
+        });
+
+        modal.style.display = "block";
+    }
+
+    if (closeBtn) {
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>

@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>타로를 뽑아보세요.</title>
+    <!-- Common CSS -->
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <!-- Common JavaScript -->
+    <script th:src="@{/js/common.js}"></script>
     <style>
         .section {
             margin-bottom: 20px;
@@ -40,56 +44,57 @@
     </style>
 </head>
 <body>
-<div class="header">
-    <h1>타로를 뽑아보세요.!</h1>
-    <button class="tarot-button" onclick="location.href='/card/intro'">타로 화면</button>
-</div>
+<!--<div th:insert="fragments/header :: header"></div>-->
+<div class="content-wrapper">
+    <div class="header">
+        <h1>타로를 뽑아보세요.!</h1>
+        <button class="tarot-button" onclick="location.href='/card/intro'">타로 화면</button>
+    </div>
+    <form id="tarotSelectionForm" th:action="@{/submit-tarot-selection}" method="post">
+        <div class="section">
+            <h2>상담주제 선택</h2>
+            <div class="option-group">
+                <th:block th:each="category : ${categories}">
+                    <label class="option">
+                        <input type="radio" th:name="category" th:value="${category.categoryCode}" th:text="${category.categoryName}">
+                    </label>
+                </th:block>
+            </div>
+        </div>
 
-<form id="tarotSelectionForm" th:action="@{/submit-tarot-selection}" method="post">
-    <div class="section">
-        <h2>상담주제 선택</h2>
-        <div class="option-group">
-            <th:block th:each="category : ${categories}">
+        <div class="section">
+            <h2>카드 선택</h2>
+            <div class="option-group">
                 <label class="option">
-                    <input type="radio" th:name="category" th:value="${category.categoryCode}" th:text="${category.categoryName}">
+                    <input type="radio" th:name="cardCount" th:value="1" th:text="1장">
                 </label>
-            </th:block>
+                <label class="option">
+                    <input type="radio" th:name="cardCount" th:value="3" th:text="3장">
+                </label>
+                <label class="option">
+                    <input type="radio" th:name="cardCount" th:value="5" th:text="5장">
+                </label>
+            </div>
         </div>
-    </div>
 
-    <div class="section">
-        <h2>카드 선택</h2>
-        <div class="option-group">
-            <label class="option">
-                <input type="radio" th:name="cardCount" th:value="1" th:text="1장">
-            </label>
-            <label class="option">
-                <input type="radio" th:name="cardCount" th:value="3" th:text="3장">
-            </label>
-            <label class="option">
-                <input type="radio" th:name="cardCount" th:value="5" th:text="5장">
-            </label>
+        <div class="section">
+            <h2>역방향 포함 여부</h2>
+            <div class="option-group">
+                <label class="option">
+                    <input type="radio" th:name="isReverseOn" th:value="true" th:text="ON">
+                </label>
+                <label class="option">
+                    <input type="radio" th:name="isReverseOn" th:value="false" th:text="OFF">
+                </label>
+            </div>
         </div>
-    </div>
 
-    <div class="section">
-        <h2>역방향 포함 여부</h2>
-        <div class="option-group">
-            <label class="option">
-                <input type="radio" th:name="isReverseOn" th:value="true" th:text="ON">
-            </label>
-            <label class="option">
-                <input type="radio" th:name="isReverseOn" th:value="false" th:text="OFF">
-            </label>
+        <div class="section">
+            <h2>상담 실행 버튼</h2>
+            <button type="submit" id="startConsultation">상담 시작</button>
         </div>
-    </div>
-
-    <div class="section">
-        <h2>상담 실행 버튼</h2>
-        <button type="submit" id="startConsultation">상담 시작</button>
-    </div>
-</form>
-
+    </form>
+</div>
 <script>
     document.querySelectorAll('.option').forEach(option => {
         option.addEventListener('click', function(e) {
@@ -122,5 +127,6 @@
         window.location.href = `/card/selected?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
     });
 </script>
+<!--<div th:replace="fragments/footer :: footer"></div>-->
 </body>
 </html>

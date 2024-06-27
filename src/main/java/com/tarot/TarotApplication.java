@@ -1,5 +1,6 @@
 package com.tarot;
 
+import com.tarot.service.TarotDataService;
 import com.tarot.service.TarotService;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
@@ -12,13 +13,13 @@ import java.io.IOException;
 @RequiredArgsConstructor
 @SpringBootApplication
 public class TarotApplication {
-	private final TarotService tarotService;
+	private final TarotDataService tarotDataService;
 	public static void main(String[] args) {
 		SpringApplication.run(TarotApplication.class, args);
 	}
 
 //	@PostConstruct
 	private void init() throws IOException, ParseException {
-		tarotService.setDefaultData();
+		tarotDataService.setDefaultData();
 	}
 }

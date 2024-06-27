@@ -38,8 +38,14 @@
                 </label>
                 -->
                 <th:block th:each="readingMethod : ${readingMethods}">
-                    <label class="option">
+                    <label class="option tooltip">
                         <input type="radio" th:name="cardCount" th:value="${readingMethod.cardCount}" th:text="${readingMethod.cardCount+'장'}">
+                        <span class="tooltiptext">
+                            <th:block th:each="method : ${readingMethod.methods}">
+                                <strong th:text="${method.methodName}"></strong>
+                                <span th:text="${method.description}"></span>
+                            </th:block>
+                        </span>
                     </label>
                 </th:block>
 
@@ -65,36 +71,48 @@
     </form>
 </div>
 <script>
-    document.querySelectorAll('.option').forEach(option => {
-        option.addEventListener('click', function(e) {
-            const radio = this.querySelector('input[type="radio"]');
-            const group = this.closest('.option-group');
+    document.querySelectorAll('.tooltip').forEach(tooltip => {
+        tooltip.addEventListener('mousemove', function(e) {
+            const tooltiptext = this.querySelector('.tooltiptext');
+            const rect = this.getBoundingClientRect();
+            const offsetX = e.clientX - rect.left;
+            const offsetY = e.clientY - rect.top;
 
-            group.querySelectorAll('.option').forEach(opt => opt.classList.remove('selected'));
-            this.classList.add('selected');
-            radio.checked = true;
-
-            // 이벤트 버블링 방지
-            e.preventDefault();
+            tooltiptext.style.left = offsetX + 'px';
+            tooltiptext.style.top = (offsetY - tooltiptext.offsetHeight - 10) + 'px';
         });
     });
 
-    document.getElementById('tarotSelectionForm').addEventListener('submit', function(e) {
-        e.preventDefault(); // 폼의 기본 제출 동작을 막습니다.
+        document.querySelectorAll('.option').forEach(option => {
+            option.addEventListener('click', function(e) {
+                const radio = this.querySelector('input[type="radio"]');
+                const group = this.closest('.option-group');
 
-        // 선택된 값들을 가져옵니다.
-        const categoryCode = document.querySelector('input[name="category"]:checked')?.value;
-        const cardCount = document.querySelector('input[name="cardCount"]:checked')?.value;
-        const isReverseOn = document.querySelector('input[name="isReverseOn"]:checked')?.value;
+                group.querySelectorAll('.option').forEach(opt => opt.classList.remove('selected'));
+                this.classList.add('selected');
+                radio.checked = true;
 
-        // 모든 항목이 선택되었는지 확인
-        if (!categoryCode || !cardCount || !isReverseOn) {
-            alert('모든 항목을 선택해주세요.');
-            return;
-        }
+                // 이벤트 버블링 방지
+                e.preventDefault();
+            });
+        });
 
-        window.location.href = `/card/selected?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
-    });
+        document.getElementById('tarotSelectionForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // 폼의 기본 제출 동작을 막습니다.
+
+            // 선택된 값들을 가져옵니다.
+            const categoryCode = document.querySelector('input[name="category"]:checked')?.value;
+            const cardCount = document.querySelector('input[name="cardCount"]:checked')?.value;
+            const isReverseOn = document.querySelector('input[name="isReverseOn"]:checked')?.value;
+
+            // 모든 항목이 선택되었는지 확인
+            if (!categoryCode || !cardCount || !isReverseOn) {
+                alert('모든 항목을 선택해주세요.');
+                return;
+            }
+
+            window.location.href = `/card/selected?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
+        });
 </script>
 <!--<div th:replace="fragments/footer :: footer"></div>-->
 </body>

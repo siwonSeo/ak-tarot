@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>타로 카드 목록</title>
+    <!-- Common CSS -->
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <!-- Common JavaScript -->
+    <script th:src="@{/js/common.js}"></script>
     <style>
         .card-group {
             margin-bottom: 20px;
@@ -157,7 +161,6 @@
     </style>
 </head>
 <body>
-<!--<div th:insert="fragments/header :: header"></div>-->
 <div class="content-wrapper">
     <div th:insert="fragments/header :: header"></div>
     <div th:each="cardGroup : ${cardGroups}" class="card-group">

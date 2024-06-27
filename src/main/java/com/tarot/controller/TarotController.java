@@ -26,6 +26,7 @@ public class TarotController {
     public String index(Model model) {
 //        model.addAttribute("cards", tarotService.getTarotCards());
         model.addAttribute("categories", tarotService.getCardCategories());
+        model.addAttribute("readingMethods", tarotService.getTaroCardReadingMethod());
         return "main";
     }
 

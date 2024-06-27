@@ -6,10 +6,9 @@
     <!-- Common CSS -->
 </head>
 <body>
-<header th:fragment="header" class="header">
-    <div class="navigation">
-        <button class="main-button" onclick="location.href='/'">타로 메인</button>
-    </div>
-</header>
+<div th:fragment="header" class="header">
+    <h1>타로를 뽑아보세요.!</h1>
+    <button class="tarot-button" onclick="location.href='/card/intro'">타로 화면</button>
+</div>
 </body>
 </html>

@@ -91,12 +91,8 @@
     </style>
 </head>
 <body>
-<!--<div th:insert="fragments/header :: header"></div>-->
 <div class="content-wrapper">
-    <div class="header">
-        <h1>타로를 뽑아보세요.!</h1>
-        <button class="tarot-button" onclick="location.href='/card/intro'">타로 화면</button>
-    </div>
+    <div th:insert="fragments/header :: header"></div>
     <form id="tarotSelectionForm" th:action="@{/submit-tarot-selection}" method="post">
         <div class="section">
             <h2>타로주제 선택</h2>
@@ -112,6 +108,7 @@
         <div class="section">
             <h2>카드 선택</h2>
             <div class="option-group">
+                <!--
                 <label class="option">
                     <input type="radio" th:name="cardCount" th:value="1" th:text="1장">
                 </label>
@@ -121,6 +118,13 @@
                 <label class="option">
                     <input type="radio" th:name="cardCount" th:value="5" th:text="5장">
                 </label>
+                -->
+                <th:block th:each="readingMethod : ${readingMethods}">
+                    <label class="option">
+                        <input type="radio" th:name="cardCount" th:value="${readingMethod.cardCount}" th:text="${readingMethod.cardCount+'장'}">
+                    </label>
+                </th:block>
+
             </div>
         </div>
 

@@ -25,6 +25,9 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
     QTarotCardCategory tarotCardCategory = QTarotCardCategory.tarotCardCategory;
     QTarotCardInterpretation tarotCardInterpretation = QTarotCardInterpretation.tarotCardInterpretation;
 
+    QTarotCardReadingMethod tarotCardReadingMethod = QTarotCardReadingMethod.tarotCardReadingMethod;
+    QTarotCardReadingMethodPosition tarotCardReadingMethodPosition = QTarotCardReadingMethodPosition.tarotCardReadingMethodPosition;
+
     @Override
     public ResponseTarotCardKeyword findTaroCardByCardId(int reqCardId){
         List<Tuple> results = queryFactory
@@ -73,6 +76,27 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
         card.reverseKeywords().sort(Comparator.comparing(ResponseTarotCardKeyword.KeywordInfo::keywordId));
 
         return card;
+    }
+
+    @Override
+    public List<ResponseTarotCardReadingMethod> findTaroCardReadingMethod(){
+        return queryFactory.selectFrom(tarotCardReadingMethod)
+                .orderBy(tarotCardReadingMethod.cardCount.asc(), tarotCardReadingMethod.methodOrder.asc())
+                .transform(groupBy(tarotCardReadingMethod.cardCount)
+                .list(
+                        constructor(
+                                ResponseTarotCardReadingMethod.class,
+                                tarotCardReadingMethod.cardCount,
+                                list(constructor(ResponseTarotCardReadingMethod.ReadingMethod.class
+                                        ,tarotCardReadingMethod.methodId
+                                        ,tarotCardReadingMethod.methodName
+                                        ,tarotCardReadingMethod.methodOrder
+                                        ,tarotCardReadingMethod.description
+                                    )
+                                )
+                        )
+                )
+        );
     }
 
     @Override

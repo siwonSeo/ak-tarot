@@ -24,13 +24,20 @@ public class TarotService {
     public List<TarotCard> getTarotCards(){
         return tarotCardRepository.findAll();
     }
-    public List<ResponseTarotCardReadingMethod> getTaroCardReadingMethod(){
-        return tarotCardRepository.findTaroCardReadingMethod();
+    public ResponseTarotCardReadingMethod getTaroCardReadingMethod(int cardCount){
+        return tarotCardRepository.findTaroCardReadingMethod(cardCount);
     }
 
-    public List<ResponseTarotCardReading> getTaroCardReading(){
-        System.out.println("kkk:"+tarotCardRepository.findTaroCardReading());
-        return tarotCardRepository.findTaroCardReading();
+    public List<ResponseTarotCardReadingMethod> getTaroCardReadingMethods(){
+        return tarotCardRepository.findTaroCardReadingMethods();
+    }
+
+    public ResponseTarotCardReading getTaroCardReading(int cardCount){
+        return tarotCardRepository.findTaroCardReading(cardCount);
+    }
+
+    public List<ResponseTarotCardReading> getTaroCardReadings(){
+        return tarotCardRepository.findTaroCardReadings();
     }
 
     public ResponseTarotCardKeyword getTaroCard(int cardId){
@@ -39,6 +46,10 @@ public class TarotService {
 
     public List<ResponseTarotCardIntro> getTaroCardsIntro(){
         return tarotCardRepository.findTaroCardsIntro();
+    }
+
+    public ResponseTarotCardCategory getCardCategorie(Character categoryCode){
+        return tarotCardCategoryRepository.findById(categoryCode).map(t->new ResponseTarotCardCategory(t.getCategoryCode(), t.getCategoryName())).get();
     }
 
     public List<ResponseTarotCardCategory> getCardCategories(){

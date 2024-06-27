@@ -10,8 +10,10 @@ import java.util.List;
 public interface TarotCardRepositoryCustom {
     ResponseTarotCardKeyword findTaroCardByCardId(int cardId);
 
-    List<ResponseTarotCardReading> findTaroCardReading();
-    List<ResponseTarotCardReadingMethod> findTaroCardReadingMethod();
+    ResponseTarotCardReading findTaroCardReading(int cardCount);
+    List<ResponseTarotCardReading> findTaroCardReadings();
+    ResponseTarotCardReadingMethod findTaroCardReadingMethod(int cardCount);
+    List<ResponseTarotCardReadingMethod> findTaroCardReadingMethods();
     List<ResponseTarotCard> findTaroCardKewords(List<RequestTarotCard.TarotCardSearch> params);
     List<ResponseTarotCardInterpretation> findTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params);
     List<ResponseTarotCardConsult> findTaroCardConsults(List<RequestTarotCard.TarotCardSearch> params);

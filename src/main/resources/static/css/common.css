@@ -432,3 +432,32 @@
         display: block;
         margin-bottom: 10px;
     }
+
+
+    .reading-info {
+        margin-top: 40px;
+        padding: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+    }
+    .reading-method {
+        margin-bottom: 20px;
+    }
+    .method-name {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .method-description {
+        color: #666;
+        margin-bottom: 10px;
+    }
+    .positions-name {
+        font-weight: 600;
+        color: #444;
+        padding: 5px 10px;
+        background-color: #e6f2ff;
+        border-left: 3px solid #007bff;
+        border-radius: 0 5px 5px 0;
+    }

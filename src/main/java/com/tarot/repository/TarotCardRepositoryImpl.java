@@ -1,9 +1,8 @@
 package com.tarot.repository;
 
 import com.querydsl.core.Tuple;
-import com.querydsl.core.types.Expression;
 import com.querydsl.core.types.dsl.BooleanExpression;
-import com.querydsl.core.types.dsl.Expressions;
+import com.querydsl.core.types.dsl.StringExpression;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.tarot.dto.request.RequestTarotCard;
@@ -15,9 +14,12 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static com.querydsl.core.group.GroupBy.*;
 import static com.querydsl.core.group.GroupBy.groupBy;
+import static com.querydsl.core.group.GroupBy.list;
 import static com.querydsl.core.types.Projections.constructor;
+
+import com.querydsl.core.types.dsl.StringTemplate;
+import com.querydsl.core.types.dsl.Expressions;
 
 @RequiredArgsConstructor
 @Repository
@@ -81,74 +83,113 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
         return card;
     }
 
-    Expression<String> positionsExpression = Expressions.stringTemplate(
-            "GROUP_CONCAT({0} ORDER BY {1} SEPARATOR ', ')",
-            tarotCardReadingMethodPosition.positionName,
-            tarotCardReadingMethodPosition.positionOrder
-    ).as("positionsName");
+    @Override
+    public ResponseTarotCardReading findTaroCardReading(int cardCount){
+        return this.getTarotCardReadings(this.tarotCardReading(cardCount)).getFirst();
+    }
 
     @Override
-    public List<ResponseTarotCardReading> findTaroCardReading(){
-        List<Tuple> results = queryFactory
+    public List<ResponseTarotCardReading> findTaroCardReadings(){
+        return this.getTarotCardReadings(this.tarotCardReadings()).stream()
+                .sorted(Comparator.comparing(ResponseTarotCardReading::cardCount))
+                .map(reading -> new ResponseTarotCardReading(
+                        reading.cardCount(),
+                        reading.methods().stream()
+                                .sorted(Comparator.comparing(ResponseTarotCardReading.ReadingMethod::methodId)
+                                        .thenComparing(ResponseTarotCardReading.ReadingMethod::methodOrder))
+                                .collect(Collectors.toList())
+                ))
+                .toList();
+    }
+
+    private List<ResponseTarotCardReading> getTarotCardReadings(BooleanExpression be){
+        StringExpression groupConcatExpression = Expressions.stringTemplate("group_concat({0})",
+                tarotCardReadingMethodPosition.positionName
+        ).as("positionsName");
+        return queryFactory
                 .select(tarotCardReadingMethod.cardCount,
                         tarotCardReadingMethod.methodId,
                         tarotCardReadingMethod.methodName,
                         tarotCardReadingMethod.methodOrder,
                         tarotCardReadingMethod.description,
-                        positionsExpression
+                        groupConcatExpression
                 )
                 .from(tarotCardReadingMethodPosition)
                 .join(tarotCardReadingMethodPosition.method, tarotCardReadingMethod)
-                .groupBy(tarotCardReadingMethod.methodId)
-                .orderBy(tarotCardReadingMethod.cardCount.asc(),
-                        tarotCardReadingMethod.methodOrder.asc(),
-                        tarotCardReadingMethodPosition.positionOrder.asc())
-                .fetch();
-
-        Map<Integer, List<ResponseTarotCardReading.ReadingMethod>> methodsByCardCount = new HashMap<>();
-
-        for (Tuple row : results) {
-            Integer cardCount = row.get(tarotCardReadingMethod.cardCount);
-            Integer methodId = row.get(tarotCardReadingMethod.methodId);
-            String methodName = row.get(tarotCardReadingMethod.methodName);
-            Integer methodOrder = row.get(tarotCardReadingMethod.methodOrder);
-            String description = row.get(tarotCardReadingMethod.description);
-            String positionsName = row.get(positionsExpression);
-
-            ResponseTarotCardReading.ReadingMethod readingMethod =
-                    new ResponseTarotCardReading.ReadingMethod(methodId, methodName, methodOrder, description, positionsName);
-
-            methodsByCardCount
-                    .computeIfAbsent(cardCount, k -> new ArrayList<>())
-                    .add(readingMethod);
-        }
-
-        List<ResponseTarotCardReading> responseList = methodsByCardCount.entrySet().stream()
-                .map(entry -> new ResponseTarotCardReading(entry.getKey(), entry.getValue()))
+                .where(be)
+                .groupBy(
+                        tarotCardReadingMethod.cardCount,
+                        tarotCardReadingMethod.methodId,
+                        tarotCardReadingMethod.methodName,
+                        tarotCardReadingMethod.methodOrder,
+                        tarotCardReadingMethod.description
+                )
+                .transform(groupBy(tarotCardReadingMethod.cardCount)
+                        .list(
+                                constructor(
+                                        ResponseTarotCardReading.class,
+                                        tarotCardReadingMethod.cardCount,
+                                        list(constructor(ResponseTarotCardReading.ReadingMethod.class
+                                                        ,tarotCardReadingMethod.methodId
+                                                        ,tarotCardReadingMethod.methodName
+                                                        ,tarotCardReadingMethod.methodOrder
+                                                        ,tarotCardReadingMethod.description
+                                                        ,groupConcatExpression
+                                                )
+                                        )
+                                )
+                        )).stream()
                 .sorted(Comparator.comparing(ResponseTarotCardReading::cardCount))
-                .collect(Collectors.toList());
+                .map(reading -> new ResponseTarotCardReading(
+                        reading.cardCount(),
+                        reading.methods().stream()
+                                .sorted(Comparator.comparing(ResponseTarotCardReading.ReadingMethod::methodId)
+                                        .thenComparing(ResponseTarotCardReading.ReadingMethod::methodOrder))
+                                .collect(Collectors.toList())
+                ))
+                .toList();
+    }
 
-        return responseList;
+    private BooleanExpression tarotCardReading(int cardCount){
+        return tarotCardReadingMethod.cardCount.eq(cardCount);
+    }
+
+    private BooleanExpression tarotCardReadings(){
+        return null;
+    }
+
+
+
+
+    @Override
+    public ResponseTarotCardReadingMethod findTaroCardReadingMethod(int cardCount){
+        JPAQuery<TarotCardReadingMethod> query = queryFactory.selectFrom(tarotCardReadingMethod)
+                .where(tarotCardReadingMethod.cardCount.eq(cardCount));
+        return this.getTarotCardReadingMethodTransform(query).getFirst();
     }
 
     @Override
-    public List<ResponseTarotCardReadingMethod> findTaroCardReadingMethod(){
-        return queryFactory.selectFrom(tarotCardReadingMethod)
-                .orderBy(tarotCardReadingMethod.cardCount.asc(), tarotCardReadingMethod.methodOrder.asc())
-                .transform(groupBy(tarotCardReadingMethod.cardCount)
+    public List<ResponseTarotCardReadingMethod> findTaroCardReadingMethods(){
+        JPAQuery<TarotCardReadingMethod> query = queryFactory.selectFrom(tarotCardReadingMethod)
+                .orderBy(tarotCardReadingMethod.cardCount.asc(), tarotCardReadingMethod.methodOrder.asc());
+        return this.getTarotCardReadingMethodTransform(query);
+    }
+
+    private List<ResponseTarotCardReadingMethod> getTarotCardReadingMethodTransform(JPAQuery<TarotCardReadingMethod> query){
+        return query.transform(groupBy(tarotCardReadingMethod.cardCount)
                 .list(
                         constructor(
                                 ResponseTarotCardReadingMethod.class,
                                 tarotCardReadingMethod.cardCount,
                                 list(constructor(ResponseTarotCardReadingMethod.ReadingMethod.class
-                                        ,tarotCardReadingMethod.methodId
-                                        ,tarotCardReadingMethod.methodName
-                                        ,tarotCardReadingMethod.methodOrder
-                                        ,tarotCardReadingMethod.description
-                                    )
+                                                ,tarotCardReadingMethod.methodId
+                                                ,tarotCardReadingMethod.methodName
+                                                ,tarotCardReadingMethod.methodOrder
+                                                ,tarotCardReadingMethod.description
+                                        )
                                 )
                         )
-                )
+            )
         );
     }
 
@@ -229,36 +270,6 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
 
     @Override
     public List<ResponseTarotCardInterpretation> findTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params) {
-        /*
-        JPAQuery<TarotCardInterpretation> query = queryFactory.selectFrom(tarotCardInterpretation)
-                .join(tarotCardInterpretation.tarotCard,tarotCard)
-                .join(tarotCardCategory).on(tarotCardCategory.categoryCode.eq(tarotCardInterpretation.categoryCode))
-                .where(eqCardInterpretations(params))
-                ;
-
-        return query.transform(groupBy(tarotCardInterpretation.cardId)
-                    .list(
-                        Projections.constructor(ResponseTarotCardInterpretation.class,
-                        tarotCard.cardId,
-                        tarotCard.cardNumber,
-                        tarotCard.cardNumberName,
-                        tarotCard.cardType,
-                        tarotCard.cardName,
-                        GroupBy.list(Projections.constructor(ResponseTarotCardInterpretation.Category.class
-                                ,tarotCardInterpretation.categoryCode
-                                ,tarotCardCategory.categoryName
-                                ,GroupBy.list(Projections.constructor(ResponseTarotCardInterpretation.Category.Interpretation.class
-                                    ,tarotCardInterpretation.isReversed
-                                    ,GroupBy.list(tarotCardInterpretation.content)
-                                ))
-                            ))
-
-                        )
-                    )
-                );
-        //중첩 list가 오류남.. java.lang.ClassCastException: Cannot cast java.lang.Boolean to java.util.List
-         */
-
         List<Tuple> results = queryFactory
                 .select(tarotCard.cardId,
                         tarotCard.cardNumber,

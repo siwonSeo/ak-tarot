@@ -4,6 +4,7 @@ import com.tarot.dto.request.RequestTarotCard;
 import com.tarot.dto.response.ResponseTarotCard;
 import com.tarot.dto.response.ResponseTarotCardInterpretation;
 import com.tarot.dto.response.ResponseTarotCardKeyword;
+import com.tarot.dto.response.ResponseTarotCardReading;
 import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
 import lombok.RequiredArgsConstructor;
@@ -26,7 +27,7 @@ public class TarotController {
     public String index(Model model) {
 //        model.addAttribute("cards", tarotService.getTarotCards());
         model.addAttribute("categories", tarotService.getCardCategories());
-        model.addAttribute("readingMethods", tarotService.getTaroCardReadingMethod());
+        model.addAttribute("readingMethods", tarotService.getTaroCardReadingMethods());
         return "main";
     }
 
@@ -36,6 +37,9 @@ public class TarotController {
             ,@RequestParam(name="isReverseOn") Boolean isReverseOn //역방향 활성화 여부
             ,@RequestParam(name="categoryCode") Character categoryCode
     ) {
+        model.addAttribute("isReverseOn", isReverseOn);
+        model.addAttribute("category", tarotService.getCardCategorie(categoryCode));
+        model.addAttribute("reading", tarotService.getTaroCardReading(cardCount));
         model.addAttribute("cards", tarotService.getTaroCardConsultsByRandom(cardCount,isReverseOn,categoryCode));
         return "selected";
     }
@@ -48,8 +52,13 @@ public class TarotController {
 
     @GetMapping("/reading")
     public String reading(Model model) {
-        model.addAttribute("readings", tarotService.getTaroCardReading());
+        model.addAttribute("readings", tarotService.getTaroCardReadings());
         return "reading";
+    }
+
+    @GetMapping("/readingTest")
+    public ResponseEntity<ResponseTarotCardReading> readingTest(Model model) {
+        return new ResponseEntity<>(tarotService.getTaroCardReading(3), HttpStatus.OK);
     }
 
     @GetMapping("/card/{cardId}")

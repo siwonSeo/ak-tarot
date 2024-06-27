@@ -28,6 +28,11 @@ public class TarotService {
         return tarotCardRepository.findTaroCardReadingMethod();
     }
 
+    public List<ResponseTarotCardReading> getTaroCardReading(){
+        System.out.println("kkk:"+tarotCardRepository.findTaroCardReading());
+        return tarotCardRepository.findTaroCardReading();
+    }
+
     public ResponseTarotCardKeyword getTaroCard(int cardId){
         return tarotCardRepository.findTaroCardByCardId(cardId);
     }

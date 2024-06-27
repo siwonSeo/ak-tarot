@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>타로 리딩 방법</title>
+    <!-- Common CSS -->
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <!-- Common JavaScript -->
+    <script th:src="@{/js/common.js}"></script>
+    <style>
+        .reading-methods {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .reading-method {
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .method-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .method-description {
+            margin-bottom: 10px;
+            color: #666;
+        }
+        .positions-name {
+            font-style: italic;
+            color: #888;
+        }
+        .card-count {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+<div class="content-wrapper">
+    <div th:insert="fragments/header :: header"></div>
+
+    <div class="reading-content">
+        <h1>타로 리딩 방법</h1>
+
+        <div class="reading-methods">
+            <div th:each="method : ${readings.methods()}" class="reading-method">
+                <div class="method-name" th:text="${method.methodName()}"></div>
+                <div class="method-description" th:text="${method.description()}"></div>
+                <div class="positions-name" th:text="'포지션: ' + ${method.positionsName()}"></div>
+                <div class="card-count" th:text="'필요한 카드 수: ' + ${responseTarotCardReading.cardCount()}"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

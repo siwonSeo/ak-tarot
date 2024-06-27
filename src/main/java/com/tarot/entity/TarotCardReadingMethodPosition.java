@@ -48,6 +48,6 @@ public class TarotCardReadingMethodPosition {
   }
 
   @ManyToOne
-  @JoinColumn(name = "method_id", nullable = false, insertable = false, updatable = false)
+  @JoinColumn(name = "method_id", referencedColumnName = "method_id", insertable = false, updatable = false)
   private TarotCardReadingMethod method;
 }

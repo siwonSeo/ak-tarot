@@ -36,17 +36,20 @@ public class TarotController {
             ,@RequestParam(name="isReverseOn") Boolean isReverseOn //역방향 활성화 여부
             ,@RequestParam(name="categoryCode") Character categoryCode
     ) {
-//        model.addAttribute("cards", tarotService.getTarotCards());
-
         model.addAttribute("cards", tarotService.getTaroCardConsultsByRandom(cardCount,isReverseOn,categoryCode));
         return "selected";
     }
 
     @GetMapping("/card/intro")
     public String intro(Model model) {
-//        model.addAttribute("cards", tarotService.getTarotCards());
         model.addAttribute("cardGroups", tarotService.getTaroCardsIntro());
         return "intro";
+    }
+
+    @GetMapping("/reading")
+    public String reading(Model model) {
+        model.addAttribute("readings", tarotService.getTaroCardReading());
+        return "reading";
     }
 
     @GetMapping("/card/{cardId}")

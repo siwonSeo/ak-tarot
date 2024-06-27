@@ -9,79 +9,7 @@
     <!-- Common JavaScript -->
     <script th:src="@{/js/common.js}"></script>
 <style>
-    .card {
-        background-color: white;
-        border-radius: 15px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        overflow: hidden;
-        margin-bottom: 50px;
-        display: flex;
-        align-items: stretch;
-    }
 
-    /* 카드 내용 레이아웃 */
-    .card-content {
-        display: flex;
-        align-items: flex-start;
-        width: 100%;
-    }
-
-    /* 카드 이미지 컨테이너 */
-    .card-image-container {
-        width: 200px;
-        height: 350px;
-        flex-shrink: 0;
-        margin-right: 30px;
-        overflow: hidden;
-        border-radius: 10px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-
-    /* 카드 이미지 */
-    .card-image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.5s ease;
-    }
-
-    .card-image.reverse {
-        transform: rotate(180deg);
-    }
-
-    /* 카드 정보 영역 */
-    .card-info {
-        flex: 1;
-        padding: 20px;
-        max-height: 350px; /* 이미지 높이와 동일 */
-        overflow-y: auto;
-    }
-
-    .card-info h2 {
-        margin-top: 0;
-        margin-bottom: 20px;
-        color: #2c3e50;
-        font-size: 24px;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 10px;
-    }
-
-    /* 해석 목록 */
-    .interpretations {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    .interpretations li {
-        margin-bottom: 15px;
-        font-weight: normal;
-        line-height: 1.6;
-        background-color: #f1f8ff;
-        padding: 15px 20px;
-        border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        font-size: 16px;
-    }
 
 </style>
 
@@ -90,11 +18,11 @@
 <div class="content-wrapper">
     <div th:insert="fragments/header :: header"></div>
     <h1 class="title">타로 카드 해석 결과</h1>
-    <div th:each="card : ${cards}" class="card">
-        <div class="card-image-container">
-            <img th:src="@{'/img/' + ${card.cardId} + '.jpg'}" alt="타로 카드 이미지" class="card-image" th:classappend="${card.isReversed} ? 'reverse'">
+    <div th:each="card : ${cards}" class="selected-card">
+        <div class="selected-card-image-container">
+            <img th:src="@{'/img/' + ${card.cardId} + '.jpg'}" alt="타로 카드 이미지" class="selected-card-image" th:classappend="${card.isReversed} ? 'reverse'">
         </div>
-        <div class="card-info">
+        <div class="selected-card-info">
             <h2 th:text="${card.cardName + (card.isReversed ? ' (역방향)' : ' (정방향)')}">카드 이름</h2>
             <ul class="interpretations">
                 <li th:each="interpretation : ${card.interpretations}" th:text="${interpretation}">해설</li>

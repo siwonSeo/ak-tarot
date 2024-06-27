@@ -15,7 +15,7 @@
         <h2 th:text="${cardGroup.cardType}">Card Type</h2>
         <div class="card-row">
             <div th:each="card, iterStat : ${cardGroup.keywords}" class="card" th:attr="data-card-id=${card.cardId}">
-                <img th:src="'/img/' + ${card.cardId} + '.jpg'" alt="카드이미지"/>
+                <img th:src="'/img/tarot/' + ${card.cardId} + '.jpg'" alt="카드이미지"/>
                 <p th:text="${card.cardName}">Card Name</p>
                 <div th:if="${iterStat.count % 7 == 0 and !iterStat.last}" class="w-100"></div>
             </div>

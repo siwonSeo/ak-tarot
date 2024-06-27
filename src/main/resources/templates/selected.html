@@ -29,7 +29,7 @@
 
     <div th:each="card : ${cards}" class="selected-card">
         <div class="selected-card-image-container">
-            <img th:src="@{'/img/' + ${card.cardId} + '.jpg'}" alt="타로 카드 이미지" class="selected-card-image" th:classappend="${card.isReversed} ? 'reverse'">
+            <img th:src="@{'/img/tarot/' + ${card.cardId} + '.jpg'}" alt="타로 카드 이미지" class="selected-card-image" th:classappend="${card.isReversed} ? 'reverse'">
         </div>
         <div class="selected-card-info">
             <h2 th:text="${card.cardName + (card.isReversed ? ' (역방향)' : ' (정방향)')}">카드 이름</h2>

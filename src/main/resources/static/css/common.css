@@ -434,30 +434,69 @@
     }
 
 
-    .reading-info {
+    .reading-content {
         margin-top: 40px;
-        padding: 20px;
-        background-color: #f0f0f0;
-        border-radius: 10px;
     }
+
+    .reading-methods {
+        display: flex;
+        flex-direction: column;
+        gap: 30px; /* method-details 간의 간격 증가 */
+    }
+
     .reading-method {
-        margin-bottom: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
     }
-    .method-name {
+
+    .card-count-highlight {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
         font-size: 1.2em;
         font-weight: bold;
-        color: #333;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 3px solid #2980b9;
+    }
+
+    .method-details {
+        padding: 20px;
+    }
+
+    .method-item {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .method-item:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .method-name {
+        font-size: 1.3em;
+        font-weight: bold;
+        color: #2c3e50;
         margin-bottom: 10px;
     }
+
     .method-description {
-        color: #666;
-        margin-bottom: 10px;
+        color: #555;
+        line-height: 1.6;
+        margin-bottom: 15px;
     }
+
     .positions-name {
         font-weight: 600;
         color: #444;
-        padding: 5px 10px;
+        padding: 10px 15px;
         background-color: #e6f2ff;
-        border-left: 3px solid #007bff;
+        border-left: 4px solid #3498db;
         border-radius: 0 5px 5px 0;
     }

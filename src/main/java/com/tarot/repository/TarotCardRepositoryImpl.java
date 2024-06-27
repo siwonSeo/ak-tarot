@@ -1,13 +1,11 @@
 package com.tarot.repository;
 
 import com.querydsl.core.Tuple;
-import com.querydsl.core.group.GroupBy;
-import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.BooleanExpression;
-import com.querydsl.jpa.JPAExpressions;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.tarot.dto.*;
+import com.tarot.dto.request.RequestTarotCard;
+import com.tarot.dto.response.*;
 import com.tarot.entity.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;

@@ -1,4 +1,4 @@
-package com.tarot.dto;
+package com.tarot.dto.request;
 
 import org.springframework.lang.Nullable;
 

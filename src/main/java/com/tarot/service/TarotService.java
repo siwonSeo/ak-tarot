@@ -1,28 +1,15 @@
 package com.tarot.service;
 
-import com.tarot.dto.*;
+import com.tarot.dto.request.RequestTarotCard;
+import com.tarot.dto.response.*;
 import com.tarot.entity.TarotCard;
-import com.tarot.entity.TarotCardCategory;
-import com.tarot.entity.TarotCardInterpretation;
-import com.tarot.entity.TarotCardKeyWord;
 import com.tarot.repository.TarotCardCategoryRepository;
 import com.tarot.repository.TarotCardInterpretationRepository;
 import com.tarot.repository.TarotCardKeyWordRepository;
 import com.tarot.repository.TarotCardRepository;
-import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
 
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.Reader;
-import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 @RequiredArgsConstructor

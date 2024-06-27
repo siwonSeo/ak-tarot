@@ -1,6 +1,9 @@
 package com.tarot.controller;
 
-import com.tarot.dto.*;
+import com.tarot.dto.request.RequestTarotCard;
+import com.tarot.dto.response.ResponseTarotCard;
+import com.tarot.dto.response.ResponseTarotCardInterpretation;
+import com.tarot.dto.response.ResponseTarotCardKeyword;
 import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
 import lombok.RequiredArgsConstructor;

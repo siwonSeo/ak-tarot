@@ -1,6 +1,7 @@
 package com.tarot.repository;
 
-import com.tarot.dto.*;
+import com.tarot.dto.request.RequestTarotCard;
+import com.tarot.dto.response.*;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

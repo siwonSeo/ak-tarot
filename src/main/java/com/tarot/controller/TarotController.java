@@ -31,7 +31,7 @@ public class TarotController {
         return "main";
     }
 
-    @GetMapping("/card/selected_auto")
+    @GetMapping("/card/select/auto")
     public String auto(Model model,
                        @RequestParam(name = "cardCount") int cardCount
             , @RequestParam(name = "isReverseOn") Boolean isReverseOn //역방향 활성화 여부
@@ -41,11 +41,11 @@ public class TarotController {
         model.addAttribute("category", tarotService.getCardCategorie(categoryCode));
         model.addAttribute("reading", tarotService.getTaroCardReading(cardCount));
         model.addAttribute("cards", tarotService.getTaroCardConsultsByRandom(cardCount, isReverseOn, categoryCode));
-        return "selected_auto";
+        return "selected";
     }
 
     //수동선택
-    @GetMapping("/card/select")
+    @GetMapping("/card/select/self")
     public String select(Model model,
                          @RequestParam(name = "cardCount") int cardCount
             , @RequestParam(name = "isReverseOn") Boolean isReverseOn //역방향 활성화 여부
@@ -54,7 +54,7 @@ public class TarotController {
         model.addAttribute("cardCount", cardCount);
         model.addAttribute("isReverseOn", isReverseOn);
         model.addAttribute("categoryCode", categoryCode);
-        model.addAttribute("cards", tarotService.getTarotCards());
+        model.addAttribute("cards", tarotService.getTarotCardsRandom());
         return "select";
     }
 
@@ -68,11 +68,6 @@ public class TarotController {
     public String reading(Model model) {
         model.addAttribute("readings", tarotService.getTaroCardReadings());
         return "reading";
-    }
-
-    @GetMapping("/readingTest")
-    public ResponseEntity<ResponseTarotCardReading> readingTest(Model model) {
-        return new ResponseEntity<>(tarotService.getTaroCardReading(3), HttpStatus.OK);
     }
 
     @GetMapping("/card/{cardId}")
@@ -96,11 +91,6 @@ public class TarotController {
     }
 
      */
-
-    @GetMapping("/cards")
-    public ResponseEntity<List<TarotCard>> getTaroCards() {
-        return new ResponseEntity<>(tarotService.getTarotCards(), HttpStatus.OK);
-    }
 
     @PostMapping("/card/keyword/search")
     public ResponseEntity<List<ResponseTarotCard>> getTaroCardKeyWords(@RequestBody RequestTarotCard param) {

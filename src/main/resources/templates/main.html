@@ -126,10 +126,10 @@
                 return;
             }
 
-            if(isAuto === true){
-                window.location.href = `/card/selected_auto?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
+            if(isAuto === 'true'){
+                window.location.href = `/card/select/auto?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
             }else{
-                window.location.href = `/card/select?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
+                window.location.href = `/card/select/self?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
             }
         });
 </script>

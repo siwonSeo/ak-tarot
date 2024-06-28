@@ -9,6 +9,7 @@ import java.util.List;
 @Repository
 public interface TarotCardRepositoryCustom {
     ResponseTarotCardKeyword findTaroCardByCardId(int cardId);
+    List<ResponseTarotCardRandom> findTaroCardRandom();
 
     ResponseTarotCardReading findTaroCardReading(int cardCount);
     List<ResponseTarotCardReading> findTaroCardReadings();

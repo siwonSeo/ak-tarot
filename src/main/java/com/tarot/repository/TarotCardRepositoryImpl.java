@@ -1,8 +1,8 @@
 package com.tarot.repository;
 
 import com.querydsl.core.Tuple;
-import com.querydsl.core.types.dsl.BooleanExpression;
-import com.querydsl.core.types.dsl.StringExpression;
+import com.querydsl.core.types.dsl.*;
+import com.querydsl.core.types.dsl.StringTemplate;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import com.tarot.dto.request.RequestTarotCard;
@@ -17,9 +17,6 @@ import java.util.stream.Collectors;
 import static com.querydsl.core.group.GroupBy.groupBy;
 import static com.querydsl.core.group.GroupBy.list;
 import static com.querydsl.core.types.Projections.constructor;
-
-import com.querydsl.core.types.dsl.StringTemplate;
-import com.querydsl.core.types.dsl.Expressions;
 
 @RequiredArgsConstructor
 @Repository
@@ -81,6 +78,18 @@ public class TarotCardRepositoryImpl implements TarotCardRepositoryCustom{
         card.reverseKeywords().sort(Comparator.comparing(ResponseTarotCardKeyword.KeywordInfo::keywordId));
 
         return card;
+    }
+
+    @Override
+    public List<ResponseTarotCardRandom> findTaroCardRandom(){
+        return queryFactory.select(
+                constructor(ResponseTarotCardRandom.class
+                    , tarotCard.cardId
+                    , Expressions.booleanTemplate("rand() < 0.5")
+                )
+            )
+            .from(tarotCard)
+            .orderBy(Expressions.stringTemplate("rand()").asc()).fetch();
     }
 
     @Override

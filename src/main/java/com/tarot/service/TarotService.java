@@ -21,8 +21,8 @@ public class TarotService {
     private final TarotCardCategoryRepository tarotCardCategoryRepository;
     private final TarotCardInterpretationRepository tarotCardInterpretationRepository;
 
-    public List<TarotCard> getTarotCards(){
-        return tarotCardRepository.findAll();
+    public List<ResponseTarotCardRandom> getTarotCardsRandom(){
+        return tarotCardRepository.findTaroCardRandom();
     }
     public ResponseTarotCardReadingMethod getTaroCardReadingMethod(int cardCount){
         return tarotCardRepository.findTaroCardReadingMethod(cardCount);

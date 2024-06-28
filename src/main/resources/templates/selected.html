@@ -12,32 +12,7 @@
 <body>
 <div class="content-wrapper">
     <div th:insert="fragments/header :: header"></div>
-    <h1 class="title">타로 카드 해석 결과</h1>
-    <!-- 새로 추가된 reading 정보 섹션 -->
-    <div class="reading-info">
-        <h2 th:text="'리딩 방법'">리딩 방법</h2>
-        <h2 th:text="'선택한 카드: ' + ${reading.cardCount} + '장'"></h2>
-        <h2 th:text="'선택한 주제: ' + ${category.categoryName}"></h2>
-        <h2 th:if="${isReverseOn}">역방향 포함</h2>
-        <h2 th:unless="${isReverseOn}">정방향만</h2>
-        <div th:each="method : ${reading.methods}" class="reading-method">
-            <div class="method-name" th:text="${method.methodName}">리딩 방법 이름</div>
-            <div class="method-description" th:text="${method.description}">리딩 방법 설명</div>
-            <div class="positions-name" th:text="'카드 의미 순서: ' + ${method.positionsName}">카드 의미 순서</div>
-        </div>
-    </div>
-
-    <div th:each="card : ${cards}" class="selected-card">
-        <div class="selected-card-image-container">
-            <img th:src="@{'/img/tarot/' + ${card.cardId} + '.jpg'}" alt="타로 카드 이미지" class="selected-card-image" th:classappend="${card.isReversed} ? 'reverse'">
-        </div>
-        <div class="selected-card-info">
-            <h2 th:text="${card.cardName + (card.isReversed ? ' (역방향)' : ' (정방향)')}">카드 이름</h2>
-            <ul class="interpretations">
-                <li th:each="interpretation : ${card.interpretations}" th:text="${interpretation}">해설</li>
-            </ul>
-        </div>
-    </div>
+    <th:block th:replace="~{/interpretation_include}"></th:block>
     <a href="/" class="back-button">목록으로 돌아가기</a>
 </div>
 <!--<div th:replace="fragments/footer :: footer"></div>-->

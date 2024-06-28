@@ -1,6 +1,7 @@
 package com.tarot.controller;
 
 import com.tarot.dto.request.RequestTarotCard;
+import com.tarot.dto.request.RequestTarotCardSelect;
 import com.tarot.dto.response.ResponseTarotCard;
 import com.tarot.dto.response.ResponseTarotCardInterpretation;
 import com.tarot.dto.response.ResponseTarotCardKeyword;
@@ -31,7 +32,7 @@ public class TarotController {
         return "main";
     }
 
-    @GetMapping("/card/select/auto")
+    @GetMapping("/card/select/auto/result")
     public String auto(Model model,
                        @RequestParam(name = "cardCount") int cardCount
             , @RequestParam(name = "isReverseOn") Boolean isReverseOn //역방향 활성화 여부
@@ -56,6 +57,16 @@ public class TarotController {
         model.addAttribute("categoryCode", categoryCode);
         model.addAttribute("cards", tarotService.getTarotCardsRandom());
         return "select";
+    }
+
+    @PostMapping("/card/select/self/result")
+    public String selfResult(Model model, @RequestBody  RequestTarotCardSelect requestTarotCardSelect
+    ) {
+        model.addAttribute("isReverseOn", requestTarotCardSelect.isReverseOn());
+        model.addAttribute("category", tarotService.getCardCategorie(requestTarotCardSelect.categoryCode()));
+        model.addAttribute("reading", tarotService.getTaroCardReading(requestTarotCardSelect.cardCount()));
+        model.addAttribute("cards", tarotService.getTaroCardConsultsBySelf(requestTarotCardSelect.searchCards()));
+        return "selected";
     }
 
     @GetMapping("/card/intro")

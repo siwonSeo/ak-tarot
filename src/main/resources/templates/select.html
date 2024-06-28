@@ -7,31 +7,113 @@
     <link rel="stylesheet" th:href="@{/css/common.css}">
     <!-- Common JavaScript -->
     <script th:src="@{/js/common.js}"></script>
+    <style>
+        .tarot-selection-deck {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            perspective: 1000px;
+        }
+        .tarot-selection-row {
+            display: flex;
+            justify-content: center;
+            height: 160px;
+            width: 100%;
+            max-width: 600px; /* 카드들이 너무 넓게 퍼지지 않도록 */
+        }
+        .tarot-selection-card {
+            width: 80px;
+            height: 140px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: absolute;
+            transform-style: preserve-3d;
+        }
+        .tarot-selection-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .tarot-selection-card.selected {
+            transform: translateY(-20px) rotateX(20deg);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .tarot-selection-card::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border: 4px solid transparent;
+            transition: all 0.3s ease;
+            border-radius: 10px;
+        }
+        .tarot-selection-card.selected::after {
+            border-color: #3498db;
+        }
+        .selection-info {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .tarot-selection-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .tarot-selection-button:disabled {
+            background-color: #bdc3c7;
+            cursor: not-allowed;
+        }
+    </style>
 </head>
 <body>
 <div class="content-wrapper">
     <div th:insert="fragments/header :: header"></div>
-    <form id="tarotSelectionForm" th:action="@{/card/selected}" method="post">
-        <div class="tarot-selection-deck">
-            <div class="tarot-selection-row">
-                <div th:each="card, iterStat : ${cards}" class="tarot-selection-card"
-                     th:attr="data-card-id=${card.cardId}">
-                    <img th:src="'/img/common/tarot_backward.jpg'" alt="카드 뒷면 이미지"/>
-                    <input type="checkbox" th:name="'selectedCards'" th:value="${card.cardId}" style="display: none;"/>
-                    <div th:if="${iterStat.count % 11 == 0 and !iterStat.last}" class="tarot-selection-break"></div>
-                </div>
-            </div>
+    <form id="tarotSelectionForm" th:action="@{/card/select/self/result}" method="post" enctype="application/json">
+        <div class="selection-info">
+            선택한 카드: <span id="selectedCount">0</span> / <span id="maxCount" th:text="${cardCount}"></span>
         </div>
-        <input type="hidden" name="categoryCode" th:value="${categoryCode}"/>
-        <input type="hidden" name="isReverseOn" th:value="${isReverseOn}"/>
-        <button type="submit" id="startTarotSelection" class="tarot-selection-button">타로 선택 완료</button>
+        <div class="tarot-selection-deck">
+            <!-- Three rows of cards -->
+            <th:block th:each="row : ${#numbers.sequence(0, 2)}">
+                <div class="tarot-selection-row">
+                    <div th:each="card, iterStat : ${cards.subList(row * (cards.size() / 3), (row + 1) * (cards.size() / 3))}"
+                         class="tarot-selection-card"
+                         th:style="'left: ' + ${iterStat.index * 40} + 'px;'"
+                         th:attr="data-card-id=${card.cardId}, data-is-reversed=${card.isReversed}">
+                        <img th:src="'/img/common/tarot_backward.jpg'" alt="카드 뒷면 이미지"/>
+                        <input type="checkbox" th:name="'selectedCards'" th:value="${card.cardId}" style="display: none;"/>
+                    </div>
+                </div>
+            </th:block>
+        </div>
+        <input type="hidden" id="cardCount" name="cardCount" th:value="${cardCount}"/>
+        <input type="hidden" id="categoryCode" name="categoryCode" th:value="${categoryCode}"/>
+        <input type="hidden" id="isReverseOn" name="isReverseOn" th:value="${isReverseOn}"/>
+        <input type="hidden" id="searchCards" name="searchCards">
+        <button type="submit" id="startTarotSelection" class="tarot-selection-button" disabled>타로 선택 완료</button>
     </form>
 </div>
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         const form = document.getElementById('tarotSelectionForm');
         const cards = document.querySelectorAll('.tarot-selection-card');
-        const maxSelections = [[${cardCount}]]; // Thymeleaf 변수
+        const maxSelections = [[${cardCount}]];
+        const selectedCountElement = document.getElementById('selectedCount');
+        const submitButton = document.getElementById('startTarotSelection');
         let selectedCards = 0;
 
         cards.forEach(card => {
@@ -46,32 +128,49 @@
                     checkbox.checked = false;
                     selectedCards--;
                 }
+                selectedCountElement.textContent = selectedCards;
+                submitButton.disabled = selectedCards !== maxSelections;
             });
         });
 
         form.addEventListener('submit', function(e) {
             e.preventDefault();
             if (selectedCards === maxSelections) {
-                // 폼 제출
+                // 폼을 직접 제출합니다.
+                const selectedCardData = Array.from(cards)
+                    .filter(card => card.classList.contains('selected'))
+                    .map(card => ({
+                        cardId: card.dataset.cardId,
+                        categoryCode: '[[${categoryCode}]]',
+                        isReversed: card.dataset.isReversed === 'true'
+                    }));
+<!--                document.getElementById('searchCards').value = JSON.stringify(selectedCardData);-->
+
+
+
+                const formData = {
+                    cardCount: document.getElementById('cardCount').value,
+                    categoryCode: document.getElementById('categoryCode').value,
+                    isReverseOn: document.getElementById('isReverseOn').value,
+                    searchCards: selectedCardData
+                };
+
+                // 숨겨진 입력 필드를 만들어 JSON 데이터를 설정
+                const jsonDataInput = document.createElement('input');
+                jsonDataInput.setAttribute('type', 'hidden');
+                jsonDataInput.setAttribute('name', 'requestTarotCardSelect');
+                jsonDataInput.setAttribute('value', JSON.stringify(formData));
+                document.getElementById('startTarotSelection').appendChild(jsonDataInput);
+
+                // 폼을 서버로 제출
+<!--                document.getElementById('startTarotSelection').submit();-->
                 this.submit();
             } else {
                 alert(`${maxSelections}장의 카드를 선택해주세요.`);
             }
         });
+
     });
-        document.getElementById('tarotSelectionForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // 폼의 기본 제출 동작을 막습니다.
-
-            let categoryCode = [[${categoryCode}]];
-            let cardCount = [[${cardCount}]];
-            let isReverseOn = [[${isReverseOn}]];
-
-            <!--cardCount만큼 체그한지 체크로직 추가해줘-->
-
-            <!--아래 경로에 post로 파라미터를 보내고 싶어-->
-            window.location.href = `/card/selected`;
-        });
 </script>
-<!--<div th:replace="fragments/footer :: footer"></div>-->
 </body>
 </html>

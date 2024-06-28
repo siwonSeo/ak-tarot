@@ -64,13 +64,17 @@ public class TarotService {
         return tarotCardRepository.findTaroCardInterpretations(params);
     }
 
+    //수동으로로 카드를 뽑는다(카드 갯수만큼)
+    public List<ResponseTarotCardConsult> getTaroCardConsultsBySelf(List<RequestTarotCard.TarotCardSearch> params){
+        List<ResponseTarotCardConsult> result = tarotCardRepository.findTaroCardConsults(params);
+        return result;
+    }
+
     //임의로 카드를 뽑는다(카드 갯수만큼)
     public List<ResponseTarotCardConsult> getTaroCardConsultsByRandom(int cardCount , Boolean isReverseOn
             , Character categoryCode){
         List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
-        System.out.println(params);
         List<ResponseTarotCardConsult> result = tarotCardRepository.findTaroCardConsults(params);
-        System.out.println("result:"+result);
         return result;
     }
 

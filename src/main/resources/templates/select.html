@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>타로를 뽑아보세요.</title>
+    <!-- Common CSS -->
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <!-- Common JavaScript -->
+    <script th:src="@{/js/common.js}"></script>
+</head>
+<body>
+<div class="content-wrapper">
+    <div th:insert="fragments/header :: header"></div>
+    <form id="tarotSelectionForm" th:action="@{/card/selected}" method="post">
+        <div class="tarot-selection-deck">
+            <div class="tarot-selection-row">
+                <div th:each="card, iterStat : ${cards}" class="tarot-selection-card"
+                     th:attr="data-card-id=${card.cardId}">
+                    <img th:src="'/img/common/tarot_backward.jpg'" alt="카드 뒷면 이미지"/>
+                    <input type="checkbox" th:name="'selectedCards'" th:value="${card.cardId}" style="display: none;"/>
+                    <div th:if="${iterStat.count % 11 == 0 and !iterStat.last}" class="tarot-selection-break"></div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name="categoryCode" th:value="${categoryCode}"/>
+        <input type="hidden" name="isReverseOn" th:value="${isReverseOn}"/>
+        <button type="submit" id="startTarotSelection" class="tarot-selection-button">타로 선택 완료</button>
+    </form>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('tarotSelectionForm');
+        const cards = document.querySelectorAll('.tarot-selection-card');
+        const maxSelections = [[${cardCount}]]; // Thymeleaf 변수
+        let selectedCards = 0;
+
+        cards.forEach(card => {
+            card.addEventListener('click', function() {
+                const checkbox = this.querySelector('input[type="checkbox"]');
+                if (!this.classList.contains('selected') && selectedCards < maxSelections) {
+                    this.classList.add('selected');
+                    checkbox.checked = true;
+                    selectedCards++;
+                } else if (this.classList.contains('selected')) {
+                    this.classList.remove('selected');
+                    checkbox.checked = false;
+                    selectedCards--;
+                }
+            });
+        });
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            if (selectedCards === maxSelections) {
+                // 폼 제출
+                this.submit();
+            } else {
+                alert(`${maxSelections}장의 카드를 선택해주세요.`);
+            }
+        });
+    });
+        document.getElementById('tarotSelectionForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // 폼의 기본 제출 동작을 막습니다.
+
+            let categoryCode = [[${categoryCode}]];
+            let cardCount = [[${cardCount}]];
+            let isReverseOn = [[${isReverseOn}]];
+
+            <!--cardCount만큼 체그한지 체크로직 추가해줘-->
+
+            <!--아래 경로에 post로 파라미터를 보내고 싶어-->
+            window.location.href = `/card/selected`;
+        });
+</script>
+<!--<div th:replace="fragments/footer :: footer"></div>-->
+</body>
+</html>

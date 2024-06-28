@@ -17,7 +17,8 @@
             <div class="option-group">
                 <th:block th:each="category : ${categories}">
                     <label class="option">
-                        <input type="radio" th:name="category" th:value="${category.categoryCode}" th:text="${category.categoryName}">
+                        <input type="radio" th:name="category" th:value="${category.categoryCode}"
+                               th:text="${category.categoryName}">
                     </label>
                 </th:block>
             </div>
@@ -39,7 +40,8 @@
                 -->
                 <th:block th:each="readingMethod : ${readingMethods}">
                     <label class="option tooltip">
-                        <input type="radio" th:name="cardCount" th:value="${readingMethod.cardCount}" th:text="${readingMethod.cardCount+'장'}">
+                        <input type="radio" th:name="cardCount" th:value="${readingMethod.cardCount}"
+                               th:text="${readingMethod.cardCount+'장'}">
                         <span class="tooltiptext">
                             <th:block th:each="method : ${readingMethod.methods}">
                                 <strong th:text="${method.methodName}"></strong>
@@ -60,6 +62,18 @@
                 </label>
                 <label class="option">
                     <input type="radio" th:name="isReverseOn" th:value="false" th:text="OFF">
+                </label>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>자동/수동</h2>
+            <div class="option-group">
+                <label class="option">
+                    <input type="radio" th:name="isAuto" th:value="true" th:text="자동">
+                </label>
+                <label class="option">
+                    <input type="radio" th:name="isAuto" th:value="false" th:text="수동">
                 </label>
             </div>
         </div>
@@ -104,14 +118,19 @@
             const categoryCode = document.querySelector('input[name="category"]:checked')?.value;
             const cardCount = document.querySelector('input[name="cardCount"]:checked')?.value;
             const isReverseOn = document.querySelector('input[name="isReverseOn"]:checked')?.value;
+            const isAuto = document.querySelector('input[name="isAuto"]:checked')?.value;
 
             // 모든 항목이 선택되었는지 확인
-            if (!categoryCode || !cardCount || !isReverseOn) {
+            if (!categoryCode || !cardCount || !isReverseOn || !isAuto) {
                 alert('모든 항목을 선택해주세요.');
                 return;
             }
 
-            window.location.href = `/card/selected?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
+            if(isAuto === true){
+                window.location.href = `/card/selected_auto?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
+            }else{
+                window.location.href = `/card/select?categoryCode=${categoryCode}&cardCount=${cardCount}&isReverseOn=${isReverseOn}`;
+            }
         });
 </script>
 <!--<div th:replace="fragments/footer :: footer"></div>-->

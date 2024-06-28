@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타로 카드 상세 정보</title>
+    <!-- Common CSS -->
+    <link rel="stylesheet" th:href="@{/css/common.css}">
+    <!-- Common JavaScript -->
+    <script th:src="@{/js/common.js}"></script>
+</head>
+<body>
+<div class="content-wrapper">
+    <div th:insert="fragments/header :: header"></div>
+    <th:block th:replace="~{/interpretation_include}"></th:block>
+</div>
+<!--<div th:replace="fragments/footer :: footer"></div>-->
+</body>
+</html>

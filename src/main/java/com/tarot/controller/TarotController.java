@@ -31,17 +31,31 @@ public class TarotController {
         return "main";
     }
 
-    @GetMapping("/card/selected")
-    public String selected(Model model,
-             @RequestParam(name="cardCount") int cardCount
-            ,@RequestParam(name="isReverseOn") Boolean isReverseOn //역방향 활성화 여부
-            ,@RequestParam(name="categoryCode") Character categoryCode
+    @GetMapping("/card/selected_auto")
+    public String auto(Model model,
+                       @RequestParam(name = "cardCount") int cardCount
+            , @RequestParam(name = "isReverseOn") Boolean isReverseOn //역방향 활성화 여부
+            , @RequestParam(name = "categoryCode") Character categoryCode
     ) {
         model.addAttribute("isReverseOn", isReverseOn);
         model.addAttribute("category", tarotService.getCardCategorie(categoryCode));
         model.addAttribute("reading", tarotService.getTaroCardReading(cardCount));
-        model.addAttribute("cards", tarotService.getTaroCardConsultsByRandom(cardCount,isReverseOn,categoryCode));
-        return "selected";
+        model.addAttribute("cards", tarotService.getTaroCardConsultsByRandom(cardCount, isReverseOn, categoryCode));
+        return "selected_auto";
+    }
+
+    //수동선택
+    @GetMapping("/card/select")
+    public String select(Model model,
+                         @RequestParam(name = "cardCount") int cardCount
+            , @RequestParam(name = "isReverseOn") Boolean isReverseOn //역방향 활성화 여부
+            , @RequestParam(name = "categoryCode") Character categoryCode
+    ) {
+        model.addAttribute("cardCount", cardCount);
+        model.addAttribute("isReverseOn", isReverseOn);
+        model.addAttribute("categoryCode", categoryCode);
+        model.addAttribute("cards", tarotService.getTarotCards());
+        return "select";
     }
 
     @GetMapping("/card/intro")
@@ -62,7 +76,7 @@ public class TarotController {
     }
 
     @GetMapping("/card/{cardId}")
-    public ResponseEntity<ResponseTarotCardKeyword> getTaroCard(@PathVariable("cardId") int cardId){
+    public ResponseEntity<ResponseTarotCardKeyword> getTaroCard(@PathVariable("cardId") int cardId) {
         return new ResponseEntity<>(tarotService.getTaroCard(cardId), HttpStatus.OK);
     }
 
@@ -84,25 +98,25 @@ public class TarotController {
      */
 
     @GetMapping("/cards")
-    public ResponseEntity<List<TarotCard>> getTaroCards(){
+    public ResponseEntity<List<TarotCard>> getTaroCards() {
         return new ResponseEntity<>(tarotService.getTarotCards(), HttpStatus.OK);
     }
 
     @PostMapping("/card/keyword/search")
-    public ResponseEntity<List<ResponseTarotCard>> getTaroCardKeyWords(@RequestBody RequestTarotCard param){
+    public ResponseEntity<List<ResponseTarotCard>> getTaroCardKeyWords(@RequestBody RequestTarotCard param) {
         return new ResponseEntity<>(tarotService.getTaroCardKeyWords(param.searchCards()), HttpStatus.OK);
     }
 
     @PostMapping("/card/interpretation/search")
-    public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(@RequestBody RequestTarotCard param){
+    public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(@RequestBody RequestTarotCard param) {
         return new ResponseEntity<>(tarotService.getTaroCardInterpretations(param.searchCards()), HttpStatus.OK);
     }
 
     @GetMapping("/card/interpretation/{cardCount}")
     public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(
-             @PathVariable("cardCount") int cardCount
-            ,@RequestParam(name="isReverseOn", required = false) Boolean isReverseOn //역방향 활성화 여부
-            ,@RequestParam(name="categoryCode", required = false) Character categoryCode
+            @PathVariable("cardCount") int cardCount
+            , @RequestParam(name = "isReverseOn", required = false) Boolean isReverseOn //역방향 활성화 여부
+            , @RequestParam(name = "categoryCode", required = false) Character categoryCode
 
     ) {
         return new ResponseEntity<>(tarotService.getTaroCardInterpretationsByRandom(cardCount, isReverseOn, categoryCode), HttpStatus.OK);

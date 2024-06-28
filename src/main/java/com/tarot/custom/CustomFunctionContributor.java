@@ -10,5 +10,8 @@ public class CustomFunctionContributor implements FunctionContributor {
     public void contributeFunctions(FunctionContributions functionContributions) {
         functionContributions.getFunctionRegistry()
                 .register("group_concat", new StandardSQLFunction("group_concat", StandardBasicTypes.STRING));
+
+        functionContributions.getFunctionRegistry()
+                .register("rand", new StandardSQLFunction("rand", StandardBasicTypes.INTEGER));
     }
 }

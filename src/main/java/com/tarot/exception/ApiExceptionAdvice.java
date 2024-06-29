@@ -22,32 +22,29 @@ public class ApiExceptionAdvice {
         ErrorCode errorCode = ErrorCode.INPUT_UNVALID_ERROR;
         String message = e.getBindingResult().getAllErrors().stream().map(ObjectError::getDefaultMessage).collect(Collectors.joining("\n"));
         log.info("#BindException:{}", e.getMessage());
-        return getResponseEntity(errorCode.getHttpStatus(),errorCode.getCode(),message);
+        return this.getResponseEntity(errorCode.getHttpStatus(),message);
     }
 
     @ExceptionHandler({ApiException.class})
-//    @Order(Ordered.HIGHEST_PRECEDENCE)
     public ResponseEntity<ApiExceptionEntity> exceptionHandler(ApiException e) {
         log.info("#ApiException:{}", e.getMessage());
-        return getResponseEntity(e.getError());
+        return this.getResponseEntity(e.getError());
     }
 
     @ExceptionHandler({Exception.class})
-//    @Order(Ordered.LOWEST_PRECEDENCE)
     public ResponseEntity<ApiExceptionEntity> exceptionHandler(Exception e) {
         log.info("#Exception:{}", e.getMessage());
-        return getResponseEntity(ErrorCode.API_UNKNOWN_ERROR);
+        return this.getResponseEntity(ErrorCode.API_UNKNOWN_ERROR);
     }
 
     private ResponseEntity<ApiExceptionEntity> getResponseEntity(ErrorCode errorCode){
-        return getResponseEntity(errorCode.getHttpStatus(),errorCode.getCode(),errorCode.getMessage());
+        return this.getResponseEntity(errorCode.getHttpStatus(),errorCode.getMessage());
     }
 
-    private ResponseEntity<ApiExceptionEntity> getResponseEntity(HttpStatus status, String code, String message){
+    private ResponseEntity<ApiExceptionEntity> getResponseEntity(HttpStatus status, String message){
         return ResponseEntity
                 .status(status)
                 .body(ApiExceptionEntity.builder()
-                        .errorCode(code)
                         .errorMessage(message)
                         .build());
     }

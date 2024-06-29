@@ -5,12 +5,10 @@ import lombok.Getter;
 
 @Getter
 public class ApiExceptionEntity {
-    private String errorCode;
     private String errorMessage;
 
     @Builder
-    public ApiExceptionEntity(String errorCode, String errorMessage){
-        this.errorCode = errorCode;
+    public ApiExceptionEntity(String errorMessage){
         this.errorMessage = errorMessage;
     }
 }

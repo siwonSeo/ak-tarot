@@ -144,26 +144,9 @@
                         categoryCode: '[[${categoryCode}]]',
                         isReversed: card.dataset.isReversed === 'true'
                     }));
-<!--                document.getElementById('searchCards').value = JSON.stringify(selectedCardData);-->
+                document.getElementById('searchCards').value = JSON.stringify(selectedCardData);
 
 
-
-                const formData = {
-                    cardCount: document.getElementById('cardCount').value,
-                    categoryCode: document.getElementById('categoryCode').value,
-                    isReverseOn: document.getElementById('isReverseOn').value,
-                    searchCards: selectedCardData
-                };
-
-                // 숨겨진 입력 필드를 만들어 JSON 데이터를 설정
-                const jsonDataInput = document.createElement('input');
-                jsonDataInput.setAttribute('type', 'hidden');
-                jsonDataInput.setAttribute('name', 'requestTarotCardSelect');
-                jsonDataInput.setAttribute('value', JSON.stringify(formData));
-                document.getElementById('startTarotSelection').appendChild(jsonDataInput);
-
-                // 폼을 서버로 제출
-<!--                document.getElementById('startTarotSelection').submit();-->
                 this.submit();
             } else {
                 alert(`${maxSelections}장의 카드를 선택해주세요.`);

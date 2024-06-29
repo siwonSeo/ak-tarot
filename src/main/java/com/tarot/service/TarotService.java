@@ -12,6 +12,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -60,25 +62,43 @@ public class TarotService {
         return tarotCardRepository.findTaroCardKewords(params);
     }
 
-    public List<ResponseTarotCardInterpretation> getTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params){
-        return tarotCardRepository.findTaroCardInterpretations(params);
-    }
+
 
     //수동으로로 카드를 뽑는다(카드 갯수만큼)
     public List<ResponseTarotCardConsult> getTaroCardConsultsBySelf(List<RequestTarotCard.TarotCardSearch> params){
-        List<ResponseTarotCardConsult> result = tarotCardRepository.findTaroCardConsults(params);
-        return result;
+        List<ResponseTarotCardConsult> queryResults = tarotCardRepository.findTaroCardConsults(params);// 쿼리 실행 결과
+        return this.reOrderdResult(params, queryResults);
     }
 
     //임의로 카드를 뽑는다(카드 갯수만큼)
     public List<ResponseTarotCardConsult> getTaroCardConsultsByRandom(int cardCount , Boolean isReverseOn
             , Character categoryCode){
         List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
-        List<ResponseTarotCardConsult> result = tarotCardRepository.findTaroCardConsults(params);
+        List<ResponseTarotCardConsult> queryResults = tarotCardRepository.findTaroCardConsults(params);// 쿼리 실행 결과
+        return this.reOrderdResult(params, queryResults);
+    }
+
+    //입력 카드 순서와 일치하게 재정렬한다.
+    private List<ResponseTarotCardConsult> reOrderdResult(List<RequestTarotCard.TarotCardSearch> params, List<ResponseTarotCardConsult> queryResults){
+        Map<String, ResponseTarotCardConsult> resultMap = queryResults.stream()
+                .collect(Collectors.toMap(
+                        r -> r.cardId() + "-" + r.isReversed(),
+                        Function.identity()
+                ));
+
+        List<ResponseTarotCardConsult> result = params.stream()
+                .map(vo -> resultMap.get(vo.cardId() + "-" + vo.isReversed()))
+                .collect(Collectors.toList());
         return result;
     }
 
+    @Deprecated
+    public List<ResponseTarotCardInterpretation> getTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params){
+        return tarotCardRepository.findTaroCardInterpretations(params);
+    }
+
     //임의로 카드를 뽑는다(카드 갯수만큼)
+    @Deprecated
     public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount , Boolean isReverseOn
             , Character categoryCode){
         List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);

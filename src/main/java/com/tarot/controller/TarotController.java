@@ -1,5 +1,8 @@
 package com.tarot.controller;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tarot.dto.request.RequestTarotCard;
 import com.tarot.dto.request.RequestTarotCardSelect;
 import com.tarot.dto.response.ResponseTarotCard;
@@ -60,12 +63,25 @@ public class TarotController {
     }
 
     @PostMapping("/card/select/self/result")
-    public String selfResult(Model model, @RequestBody  RequestTarotCardSelect requestTarotCardSelect
-    ) {
-        model.addAttribute("isReverseOn", requestTarotCardSelect.isReverseOn());
-        model.addAttribute("category", tarotService.getCardCategorie(requestTarotCardSelect.categoryCode()));
-        model.addAttribute("reading", tarotService.getTaroCardReading(requestTarotCardSelect.cardCount()));
-        model.addAttribute("cards", tarotService.getTaroCardConsultsBySelf(requestTarotCardSelect.searchCards()));
+    public String selfResult(Model model,
+         @RequestParam("cardCount") int cardCount,
+         @RequestParam("isReverseOn") Boolean isReverseOn,
+         @RequestParam("categoryCode") Character categoryCode,
+         @RequestParam("searchCards") String searchCards)
+    {
+        ObjectMapper mapper = new ObjectMapper();
+        List<RequestTarotCard.TarotCardSearch> cardsList;
+        try {
+            cardsList = mapper.readValue(searchCards, new TypeReference<List<RequestTarotCard.TarotCardSearch>>() {});
+        } catch (JsonProcessingException e) {
+            // 에러 처리
+            return "error";
+        }
+
+        model.addAttribute("isReverseOn", isReverseOn);
+        model.addAttribute("category", tarotService.getCardCategorie(categoryCode));
+        model.addAttribute("reading", tarotService.getTaroCardReading(cardCount));
+        model.addAttribute("cards", tarotService.getTaroCardConsultsBySelf(cardsList));
         return "selected";
     }
 
@@ -109,11 +125,13 @@ public class TarotController {
     }
 
     @PostMapping("/card/interpretation/search")
+    @Deprecated
     public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(@RequestBody RequestTarotCard param) {
         return new ResponseEntity<>(tarotService.getTaroCardInterpretations(param.searchCards()), HttpStatus.OK);
     }
 
     @GetMapping("/card/interpretation/{cardCount}")
+    @Deprecated
     public ResponseEntity<List<ResponseTarotCardInterpretation>> getTaroCardInterpretations(
             @PathVariable("cardCount") int cardCount
             , @RequestParam(name = "isReverseOn", required = false) Boolean isReverseOn //역방향 활성화 여부

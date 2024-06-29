@@ -39,13 +39,25 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
-        format_sql: true
         show_sql: true
+        format_sql: true
         encoding: UTF-8
-  sql:
-    init:
-      mode: always
-      encoding: UTF-8
+
+#logging:
+#  level:
+#    org:
+#      hibernate:
+#        type:
+#          descriptor:
+#            sql: trace
+#        orm:
+#          jdbc:
+#            bind: trace
+#
+#  sql:
+#    init:
+#      mode: always
+#      encoding: UTF-8
 
 
     #    prefix: classpath:/templates/

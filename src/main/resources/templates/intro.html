@@ -40,28 +40,6 @@
 </div>
 <div class="loading">Loading&#8230;</div>
 <script>
-    // 카드 데이터 (실제로는 서버에서 가져와야 합니다)
-    const cardData = {
-        "1": {
-            "cardId": 1,
-            "cardNumber": 1,
-            "cardNumberName": "1",
-            "cardType": "Major",
-            "cardName": "마법사 (The Magician)",
-            "forwardKeywords": [
-                {"keywordId": 8, "keyword": "능력"},
-                {"keywordId": 9, "keyword": "자신감"},
-                {"keywordId": 10, "keyword": "창의력"},
-                {"keywordId": 11, "keyword": "의사소통"}
-            ],
-            "reverseKeywords": [
-                {"keywordId": 12, "keyword": "사기"},
-                {"keywordId": 13, "keyword": "기만"}
-            ]
-        }
-        // 다른 카드 데이터도 여기에 추가...
-    };
-
     const modal = document.getElementById("cardModal");
     const closeBtn = document.getElementsByClassName("close")[0];
     const loadingIndicator = document.querySelector('.loading');
@@ -77,7 +55,7 @@
     async function getCardDetail(cardId) {
         loadingIndicator.style.display = 'block';
         try {
-            const response = await fetch(`/card/${cardId}`);
+            const response = await fetch(`/api/card/${cardId}`);
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

@@ -9,12 +9,14 @@ import com.tarot.repository.TarotCardInterpretationRepository;
 import com.tarot.repository.TarotCardKeyWordRepository;
 import com.tarot.repository.TarotCardRepository;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+@Slf4j
 @RequiredArgsConstructor
 @Service
 public class TarotService {
@@ -64,22 +66,55 @@ public class TarotService {
 
 
 
-    //수동으로로 카드를 뽑는다(카드 갯수만큼)
+    //상담 정보 수동
     public List<ResponseTarotCardConsult> getTaroCardConsultsBySelf(List<RequestTarotCard.TarotCardSearch> params){
         List<ResponseTarotCardConsult> queryResults = tarotCardRepository.findTaroCardConsults(params);// 쿼리 실행 결과
-        return this.reOrderdResult(params, queryResults);
+        return this.reOrderConsult(params, queryResults);
     }
 
-    //임의로 카드를 뽑는다(카드 갯수만큼)
+    //상담 정보 자동
     public List<ResponseTarotCardConsult> getTaroCardConsultsByRandom(int cardCount , Boolean isReverseOn
             , Character categoryCode){
         List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
         List<ResponseTarotCardConsult> queryResults = tarotCardRepository.findTaroCardConsults(params);// 쿼리 실행 결과
-        return this.reOrderdResult(params, queryResults);
+        return this.reOrderConsult(params, queryResults);
     }
 
-    //입력 카드 순서와 일치하게 재정렬한다.
-    private List<ResponseTarotCardConsult> reOrderdResult(List<RequestTarotCard.TarotCardSearch> params, List<ResponseTarotCardConsult> queryResults){
+
+    //해설정보 수동
+    public List<ResponseTarotCardInterpretation> getTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params){
+        List<ResponseTarotCardInterpretation> queryResults =  tarotCardRepository.findTaroCardInterpretations(params);
+        return this.reOrderInterpretation(params, queryResults);
+    }
+
+    //해설정보 자동
+    public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount , Boolean isReverseOn
+            , Character categoryCode){
+        List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
+        List<ResponseTarotCardInterpretation> queryResults = tarotCardRepository.findTaroCardInterpretations(params);
+        return this.reOrderInterpretation(params, queryResults);
+    }
+
+    private List<RequestTarotCard.TarotCardSearch> getRandomCards(int cardCount , Boolean isReverseOn
+            , Character categoryCode){
+        Random random = new Random();
+        Set<Integer> cardSet=new HashSet<>();
+        while(true) {
+            int ranNum = random.nextInt(77);
+            cardSet.add(ranNum);
+            if(cardSet.size() == cardCount) {
+                break;
+            }
+        }
+
+        return cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(
+                c, (isReverseOn != null && isReverseOn) ? random.nextBoolean() : false, categoryCode)
+        ).toList();
+    }
+
+
+    //입력 카드 순서와 일치하게 재정렬한다.(상담)
+    private List<ResponseTarotCardConsult> reOrderConsult(List<RequestTarotCard.TarotCardSearch> params, List<ResponseTarotCardConsult> queryResults){
         Map<String, ResponseTarotCardConsult> resultMap = queryResults.stream()
                 .collect(Collectors.toMap(
                         r -> r.cardId() + "-" + r.isReversed(),
@@ -90,41 +125,19 @@ public class TarotService {
                 .map(vo -> resultMap.get(vo.cardId() + "-" + vo.isReversed()))
                 .collect(Collectors.toList());
         return result;
-    }
+    }    
+    
+    //입력 카드 순서와 일치하게 재정렬한다.(해설)
+    private List<ResponseTarotCardInterpretation> reOrderInterpretation(List<RequestTarotCard.TarotCardSearch> params, List<ResponseTarotCardInterpretation> queryResults){
+        Map<Integer, ResponseTarotCardInterpretation> resultMap = queryResults.stream()
+                .collect(Collectors.toMap(
+                        r -> r.cardId(),
+                        Function.identity()
+                ));
 
-    @Deprecated
-    public List<ResponseTarotCardInterpretation> getTaroCardInterpretations(List<RequestTarotCard.TarotCardSearch> params){
-        return tarotCardRepository.findTaroCardInterpretations(params);
-    }
-
-    //임의로 카드를 뽑는다(카드 갯수만큼)
-    @Deprecated
-    public List<ResponseTarotCardInterpretation> getTaroCardInterpretationsByRandom(int cardCount , Boolean isReverseOn
-            , Character categoryCode){
-        List<RequestTarotCard.TarotCardSearch> params = this.getRandomCards(cardCount, isReverseOn, categoryCode);
-        System.out.println(params);
-        List<ResponseTarotCardInterpretation> result = tarotCardRepository.findTaroCardInterpretations(params);
-        System.out.println("result:"+result);
+        List<ResponseTarotCardInterpretation> result = params.stream()
+                .map(vo -> resultMap.get(vo.cardId()))
+                .collect(Collectors.toList());
         return result;
-    }
-
-    private List<RequestTarotCard.TarotCardSearch> getRandomCards(int cardCount , Boolean isReverseOn
-            , Character categoryCode){
-        Random random = new Random();
-        Set<Integer> cardSet=new HashSet<>();
-        while(true) {
-            //1 ~ 45 사이의 랜덤한 숫자 얻어내기
-            int ranNum = random.nextInt(77);
-            //얻어낸 숫자를 Set 에 저장하기
-            cardSet.add(ranNum);
-            //만일 lottoSet 의 size 가 6 이면 반복문 탈출
-            if(cardSet.size() == cardCount) {
-                break;
-            }
-        }
-
-        return cardSet.stream().map(c->new RequestTarotCard.TarotCardSearch(
-                c, (isReverseOn != null && isReverseOn) ? random.nextBoolean() : false, categoryCode)
-        ).toList();
     }
 }

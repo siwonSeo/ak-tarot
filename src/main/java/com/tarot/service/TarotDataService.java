@@ -4,6 +4,7 @@ import com.tarot.entity.*;
 import com.tarot.repository.*;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -18,6 +19,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @RequiredArgsConstructor
 @Service
 public class TarotDataService {
@@ -37,7 +39,7 @@ public class TarotDataService {
         try{
             this.saveCategory();
         }catch (Exception e){
-            System.out.println("카테고리 exception:"+e.getMessage());
+            log.info("카테고리 exception:{}",e.getMessage());
         }
 
         for (TarotCard tarotCard : tarotCards) {
@@ -45,14 +47,14 @@ public class TarotDataService {
                 this.saveInterpretation(tarotCard);
 //                tarotCardInterpretationRepository.saveAll()
             }catch (Exception e){
-                System.out.println("saveInterpretation exception:"+e.getMessage());
+                log.info("saveInterpretation exception:{}",e.getMessage());
             }
         }
         //리딩방법 저장
         try{
             this.saveReading();
         }catch (Exception e){
-            System.out.println("리딩방법 exception:"+e.getMessage());
+            log.info("리딩방법 exception:{}",e.getMessage());
         }
     }
 
@@ -66,10 +68,10 @@ public class TarotDataService {
         ClassPathResource resource = new ClassPathResource("data/기초데이터.json");
         Reader reader = new FileReader(resource.getFile(), StandardCharsets.UTF_8);
         JSONArray dataArray = (JSONArray) parser.parse(reader);
-        System.out.println("dataArray:"+dataArray);
+        log.info("dataArray:{}",dataArray);
         for(Object obj : dataArray){
             JSONObject jo = (JSONObject)obj;
-            System.out.println("jo:"+jo);
+            log.info("jo:{}",jo);
             TarotCard tarotCard = tarotCardRepository.save(new TarotCard(
                             Integer.parseInt(jo.get("cardId").toString())
                             ,Integer.parseInt(jo.get("cardNumber").toString())
@@ -79,7 +81,7 @@ public class TarotDataService {
                     )
             );
 
-            System.out.println("tarotCard:"+tarotCard.getCardId());
+            log.info("tarotCard:{}",tarotCard.getCardId());
 
             JSONArray list = (JSONArray)jo.get("keywords");
             tarotCardKeyWordRepository.saveAll(
@@ -121,7 +123,7 @@ public class TarotDataService {
         JSONArray dataArray = (JSONArray)jSONObject.get("categories");
         List<TarotCardInterpretation> tarotCardCategorys = new ArrayList<>();
 
-        System.out.println("#####dataArray:"+dataArray.toString());
+        log.info("#####dataArray:{}",dataArray.toString());
 
         for(Object obj : dataArray){
             JSONObject jo = (JSONObject)obj;
@@ -135,12 +137,12 @@ public class TarotDataService {
                 JSONArray array2 = (JSONArray)jo2.get("interpretationContents");
 
                 Object oo= jo2.get("interpretationContents");
-                System.out.println("#####oo:"+oo.toString());
-                System.out.println("#####oo:"+oo.getClass());
+                log.info("#####oo:{}",oo.toString());
+                log.info("#####oo:{}",oo.getClass());
 
                 for(Object obj3 : array2){
-                    System.out.println("#####obj3:"+obj3);
-                    System.out.println("#####obj3:"+obj3.toString());
+                    log.info("#####obj3:{}",obj3);
+                    log.info("#####obj3:{}",obj3.toString());
                     tarotCardCategorys.add(new TarotCardInterpretation(
                             tarotCard.getCardId()
                             ,categoryCode
@@ -160,13 +162,13 @@ public class TarotDataService {
         Reader reader = new FileReader(resource.getFile(), StandardCharsets.UTF_8);
         JSONObject jSONObject = (JSONObject) parser.parse(reader);
         JSONArray dataArray = (JSONArray)jSONObject.get("tarotReadingByCardCount");
-        System.out.println("dataArray:"+dataArray);
+        log.info("dataArray:{}",dataArray);
         for(Object obj : dataArray){
             JSONObject jo = (JSONObject)obj;
             Integer cardCount = Integer.parseInt(jo.get("cardCount").toString());
 
             JSONArray dataArray2 = (JSONArray)jo.get("methods");
-            System.out.println("dataArray2:"+dataArray2);
+            log.info("dataArray2:{}",dataArray2);
             for(int i = 0; i < dataArray2.size(); i++){
                 Object obj2 = dataArray2.get(i);
                 JSONObject jo2 = (JSONObject)obj2;

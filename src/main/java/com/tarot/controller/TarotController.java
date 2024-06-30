@@ -4,19 +4,13 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.tarot.dto.request.RequestTarotCard;
-import com.tarot.dto.request.RequestTarotCardSelect;
-import com.tarot.dto.response.ResponseTarotCard;
-import com.tarot.dto.response.ResponseTarotCardInterpretation;
-import com.tarot.dto.response.ResponseTarotCardKeyword;
-import com.tarot.dto.response.ResponseTarotCardReading;
-import com.tarot.entity.TarotCard;
 import com.tarot.service.TarotService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -24,7 +18,6 @@ import java.util.List;
 @Controller
 public class TarotController {
     private final TarotService tarotService;
-//    private final AnthropicApiService anthropicApiService;
 
     @GetMapping("/")
     public String index(Model model) {
@@ -69,18 +62,17 @@ public class TarotController {
          @RequestParam("searchCards") String searchCards)
     {
         ObjectMapper mapper = new ObjectMapper();
-        List<RequestTarotCard.TarotCardSearch> cardsList;
+        List<RequestTarotCard.TarotCardSearch> cards;
         try {
-            cardsList = mapper.readValue(searchCards, new TypeReference<List<RequestTarotCard.TarotCardSearch>>() {});
+            cards = mapper.readValue(searchCards, new TypeReference<List<RequestTarotCard.TarotCardSearch>>() {});
         } catch (JsonProcessingException e) {
-            // 에러 처리
             return "error";
         }
 
         model.addAttribute("isReverseOn", isReverseOn);
         model.addAttribute("category", tarotService.getCardCategorie(categoryCode));
         model.addAttribute("reading", tarotService.getTaroCardReading(cardCount));
-        model.addAttribute("cards", tarotService.getTaroCardConsultsBySelf(cardsList));
+        model.addAttribute("cards", tarotService.getTaroCardConsultsBySelf(cards));
         return "selected";
     }
 

@@ -10,76 +10,50 @@ server:
 spring:
   devtools:
     livereload:
-      enabled: true
+      enabled: false
     restart:
-      enabled: true
+      enabled: false
     thymeleaf:
       cache: false
       prefix: classpath:/templates/
       suffix: .html
 
   datasource:
-#    driver-class-name: org.h2.Driver
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    #    url: 'jdbc:h2:mem:test;MODE=MySQL'
-#    url: 'jdbc:h2:~/data/tarot;MODE=MySQL'
-    url: 'jdbc:mysql://localhost:3306/tarot?useSSL=false&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul'
-    username: root
-    password: sasa
+    driver-class-name: org.h2.Driver
+    url: 'jdbc:h2:mem:test;MODE=MySQL'
+    #    url: 'jdbc:h2:~/data/test;MODE=MySQL'
+    username: sa
+    password:
   h2:
     console:
       enabled: true
       path: /h2-console
 
   jpa:
-    database: mysql
-    database-platform: org.hibernate.dialect.MySQL8Dialect
+    database: h2
+    database-platform: org.hibernate.dialect.H2Dialect
     hibernate:
-      ddl-auto: none
+      ddl-auto: create
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
-        show_sql: true
+        dialect: org.hibernate.dialect.H2Dialect
         format_sql: true
+        show_sql: true
         encoding: UTF-8
-
-#logging:
-#  level:
-#    org:
-#      hibernate:
-#        type:
-#          descriptor:
-#            sql: trace
-#        orm:
-#          jdbc:
-#            bind: trace
-#
-#  sql:
-#    init:
-#      mode: always
-#      encoding: UTF-8
-
-
-    #    prefix: classpath:/templates/
-#    prefix: file:src/main/resources/templates/
-#    suffix: .html
-#  devtools:
-#    restart:
-#      enabled: true
-#    livereload:
-#      enabled: true
-jwt:
-  secret: and0dGVzdGp3dHRlc3Rqd3R0ZXN0and0dGVzdGp3dHRlc3Q=
-  accessToken:
-    validityInMinutes: 60
+  sql:
+    init:
+      mode: always
+      encoding: UTF-8
 
 springdoc:
-  packages-to-scan: com.tarot.controller
-  paths-to-match: /**
-  default-consumes-media-type: application/json;charset=UTF-8
-  default-produces-media-type: application/json;charset=UTF-8
   swagger-ui:
+    oauth:
+      enabled: false
     path: /tarot/swagger-ui.html
     disable-swagger-default-url: true
-    display-request-duration: true
-    operations-sorter: alpha
+    api-docs:
+      enabled: true
+    show-actuator: false
+    show-login-endpoint: false
+    default-produces-media-type: application/json
+    default-consumes-media-type: application/json

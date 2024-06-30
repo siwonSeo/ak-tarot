@@ -3,7 +3,8 @@
 - spring boot (3.3.0)
 - JPA
 - Gradle
-- Mysql
+- H2
+- Swagger
 
 # AK Tarot
 - 타로 카드별 키워드 소개
@@ -26,7 +27,7 @@
 - Gradle
 
 <b>DB</b>
-- Mysql
+- H2
 
 ## 구현 절차
 타로 카드(가장 보편적인 웨이트 타로)는 총 78장으로 구성되있으며 아래와 같이 구성되있습니다.
